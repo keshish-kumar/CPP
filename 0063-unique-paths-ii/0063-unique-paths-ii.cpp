@@ -28,11 +28,11 @@ public:
                 if(obstacleGrid[i][j] != 1){
                      if(i==0&&j==0)     //base case 
                          {
-                            // if(obstacleGrid[0][0]==0)
-                            // {
-                            //     dp[i][j]=1;
-                            //     continue;
-                            // }
+                            if(obstacleGrid[0][0]==0)
+                            {
+                                dp[i][j]=1;
+                                continue;
+                            }
                         }   
                     
                     else{
