@@ -29,8 +29,28 @@ public:
         
         if(sum%2 != 0) return false;
          sum = sum/2;
-        vector<vector<int>> dp(n,vector<int>(sum+1,-1));
+//         vector<vector<int>> dp(n,vector<int>(sum+1 ,-1));
         
-        return partition(nums,sum,n-1,dp);
+//         return partition(nums,sum,n-1,dp);
+        vector<vector<bool>> dp(n+1,vector<bool>(sum+1,false));
+        
+        for(int i=0;i<=n;i++)
+            dp[i][0] = true;    // this indicates that when sum is 0 its always true
+        
+        for(int i=1;i<=n;i++){
+            for(int j=1;j<=sum;j++){
+                
+                bool pick = dp[i-1][j];
+                bool notpick = false;
+                if(j>=nums[i-1]){
+                    notpick = dp[i-1][j-nums[i-1]];
+                }
+                dp[i][j] = pick||notpick;
+            }
+        }
+        
+            
+       return dp[n][sum];     
+        
     }
 };
