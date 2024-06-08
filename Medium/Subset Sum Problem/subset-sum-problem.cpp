@@ -11,7 +11,8 @@ class Solution{
 public:
     bool subset(vector<int> arr , int sum , int n,vector<vector<int>>& dp){
         if(sum==0) return true;
-        if(n==0) return (arr[n]==sum);
+        //if(n==0) return (arr[n]==sum);
+        if(n<0) return 0;
         
         if(dp[n][sum] != -1) return dp[n][sum];
         
@@ -26,9 +27,27 @@ public:
     }
     bool isSubsetSum(vector<int>arr, int sum){
         // code here 
-        vector<vector<int>> dp(arr.size()+1,vector<int>(sum+1,-1));
+        // vector<vector<int>> dp(arr.size(),vector<int>(sum+1,-1));
         
-        return subset(arr,sum,arr.size()-1,dp);
+        // return subset(arr,sum,arr.size()-1,dp);
+        
+         vector<vector<bool>> dp(arr.size()+1,vector<bool>(sum+1,false));
+        for(int i=0;i<=arr.size();i++)
+            dp[i][0] = true;
+            
+        
+        for(int i=1;i<=arr.size();i++){
+            for(int j=1;j<=sum;j++){
+                if(arr[i-1]<=j){
+                   dp[i][j] = dp[i-1][j-arr[i-1]] || dp[i-1][j]; // taken or noot taken
+               }
+               else{
+                   dp[i][j] = dp[i-1][j];
+               }
+            }
+            
+        }
+        return dp[arr.size()][sum];
         
     }
 };
