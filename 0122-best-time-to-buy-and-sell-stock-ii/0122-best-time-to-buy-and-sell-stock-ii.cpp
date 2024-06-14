@@ -1,24 +1,28 @@
 class Solution {
 public:
-    int stocks(vector<int>& prices,int i ,  int buy){
+    int stocks(vector<int>& prices,int i ,  int buy , vector<vector<int>>& dp){
         if(i>=prices.size()) return 0;
+        if(dp[i][buy]!=-1) return dp[i][buy];
         if(buy){
-           return  max(-prices[i] + stocks(prices,i+1,0) , stocks(prices,i+1,1));
+           return dp[i][buy] =  max(-prices[i] + stocks(prices,i+1,0,dp) , stocks(prices,i+1,1,dp));
             
         }
         else{
-           return   max(prices[i]+stocks(prices,i+1,1) , stocks(prices, i+1,0));
+           return  dp[i][buy] =  max(prices[i]+stocks(prices,i+1,1,dp) , stocks(prices, i+1,0,dp));
         }
         
         
     }
     int maxProfit(vector<int>& prices) {
         
-       // return stocks(prices,0,1);
         int n = prices.size();
+        vector<vector<int>> dp(n+1,vector<int>(2,-1));
+        return stocks(prices,0,1,dp);
+        
        // vector<vector<int>> dp(n+1,vector<int>(2,0));
         
         // Now doiing it using space optimization
+        
         vector<int> curr(2,0);
         vector<int> next(2,0);
         
