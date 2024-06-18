@@ -5,16 +5,8 @@ public:
             ans.push_back(temp);
             return;
         }
-        // if(n==candidates.size()-1){
-        //     if(target==candidates[n]){
-        //         temp.push_back(candidates[n]);
-        //         ans.push_back(temp);
-        //         return;
-        //     }
-        //     else{
-        //         return;
-        //     }
-        // }
+       
+     
         if(n>=candidates.size()) return;
         
         combinations(candidates,target,ans,temp,n+1);
