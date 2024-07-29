@@ -7,30 +7,17 @@ using namespace std;
 // User function template for C++
 class Solution {
   public:
-    int rowWithMax1s(vector<vector<int> > arr) {
+    int rowWithMax1s(vector<vector<int> > &arr) {
         // code here
-        int count =0;
-        int ans =-1;
+        int j = 0;
+        while(j<arr[0].size()){
         for(int i=0;i<arr.size();i++){
-           // if(arr[i][count]==0) continue;
-            int temp=count;
-            for(int j=arr[0].size()-1 - count;j>=0;j--){
-                if(arr[i][j]==1){
-                    temp++;
-                }
-                else if(arr[i][j]==0){
-                    break;
-                }
-            }
-            if(temp>count){
-                ans = i;
-                count = temp;
-            }
-           // cout<<count<<endl;
+            if(arr[i][j]==1) return i;
+        }
+        j++;
         }
         
-        return ans;
-        
+        return -1;
     }
 };
 
