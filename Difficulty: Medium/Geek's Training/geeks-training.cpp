@@ -26,6 +26,8 @@ class Solution {
         
         vector<vector<int>> dp(n+1,vector<int>(4,-1));
         return solve(arr,0,3,dp);
+        
+        
     }
 };
 
