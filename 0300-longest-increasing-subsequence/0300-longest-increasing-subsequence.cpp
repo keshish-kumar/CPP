@@ -1,51 +1,69 @@
 class Solution {
 public:
-    int subsequence(vector<int>& nums , int n ,int prev, vector<vector<int>>& dp){
+    int solve(vector<int>& nums, int index, int prev , vector<vector<int>>& dp){
+        if(index==nums.size()) return 0;
         
-        if(n==nums.size()) return 0;
-        if(dp[n][prev+1]!= -1) return dp[n][prev+1];
-        int included = 0;
-        int notincluded =  subsequence(nums,n+1,prev,dp);
-        
-        if(prev == -1 || nums[n] > nums[prev]){
-            
-            included = 1 + subsequence(nums,n+1,n,dp);
-            
+        if(dp[index][prev+1]!=-1) return dp[index][prev+1];
+        int take =0;
+        if(prev==-1 || nums[prev]<nums[index]){
+            take =  1+ solve(nums,index+1,index,dp);
         }
+        int nottake = solve(nums,index+1,prev,dp);
         
-        
-            return dp[n][prev+1] = max(included,notincluded);
-        
+        return dp[index][prev+1] = max(take,nottake);
         
     }
-    int lengthOfLIS(vector<int>& arr) {
-        int n = arr.size();
-//         vector<vector<int>> dp(n,vector<int>(n,-1));
-//         return subsequence(nums,0,-1,dp);
+    int lengthOfLIS(vector<int>& nums) {
         
-//         vector<vector<int>> dp(n+1, vector<int>(n+1,0));
+        // vector<vector<int>> dp(nums.size()+1,vector<int>(nums.size()+1,-1));
+        // return solve(nums,0,-1,dp);
         
-//         for(int ind = n-1; ind>=0 ; ind--){
-//             for(int prev = ind-1;prev >=-1; prev--){
-//                 int len = dp[ind+1][prev+1];
-//                 if(prev == -1 || nums[ind]>nums[prev]){
-//                     len = max(len,1+dp[ind+1][ind+1]);  // ?? why [inde+1] in prev place it should be only index
-//                 }
-//                 dp[ind][prev+1] = len;
+//         vector<vector<int>> dp(nums.size()+1,vector<int>(nums.size()+1,0));
+        
+//         // vector<int> dp(nums.size()+1,0);
+        
+//         for(int index=nums.size()-1;index>=0;index--){
+//             // vector<int> temp(nusms.size(),0);
+//             for(int prev=index-1;prev>=-1;prev--){
+//                 int take = 0;
+//                if(prev==-1 || nums[prev]<nums[index]){
+//                     take =  1+ dp[index+1][index+1];
+//                     }
+//                int nottake = dp[index+1][prev+1];
+        
+//                  dp[index][prev+1] = max(take,nottake);
 //             }
 //         }
 //         return dp[0][0];
         
-         vector<int> dp(n+1,1);
-        int maxi = 1;
-        for(int i=0;i<n;i++){
-            for(int j = 0 ; j<i;j++){
-                if(arr[j] < arr[i]){
-                    dp[i] = max(1+dp[j] , dp[i]);
+        
+        // Binary search 
+        
+        // vector<int> temp;
+        // temp.push_back(nums[0]);
+        // for(int i=1;i<nums.size();i++){
+        //     if(temp.back()<nums[i])
+        //             temp.push_back(nums[i]);
+        //     else{
+        //         int index = lower_bound(temp.begin(),temp.end(),nums[i])-temp.begin();
+        //         temp[index] = nums[i];
+        //     }
+        // }
+        // return temp.size();
+
+        // this is other type of tabulation approach
+        
+        vector<int> temp(nums.size(),1);
+        for(int i=1;i<nums.size();i++){
+            int maxi = temp[i];
+            for(int j=0;j<i;j++){
+                if(nums[j]<nums[i] ){
+                    if(maxi<(temp[j]+temp[i]))
+                        maxi = temp[j]+temp[i];
                 }
             }
-            maxi = max(dp[i],maxi);
+            temp[i] = maxi;
         }
-        return maxi;
+       return *max_element(temp.begin(),temp.end());
     }
 };
