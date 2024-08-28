@@ -29,6 +29,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 ## Math
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/keshish-kumar/CPP/tree/master/0002-add-two-numbers) |
 | [0368-largest-divisible-subset](https://github.com/keshish-kumar/CPP/tree/master/0368-largest-divisible-subset) |
 ## Sorting
 |  |
@@ -66,4 +67,12 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 |  |
 | ------- |
 | [1129-longest-string-chain](https://github.com/keshish-kumar/CPP/tree/master/1129-longest-string-chain) |
+## Linked List
+|  |
+| ------- |
+| [0002-add-two-numbers](https://github.com/keshish-kumar/CPP/tree/master/0002-add-two-numbers) |
+## Recursion
+|  |
+| ------- |
+| [0002-add-two-numbers](https://github.com/keshish-kumar/CPP/tree/master/0002-add-two-numbers) |
 <!---LeetCode Topics End-->
