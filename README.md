@@ -53,6 +53,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/keshish-kumar/CPP/tree/master/0075-sort-colors) |
+| [0160-intersection-of-two-linked-lists](https://github.com/keshish-kumar/CPP/tree/master/0160-intersection-of-two-linked-lists) |
 | [0287-find-the-duplicate-number](https://github.com/keshish-kumar/CPP/tree/master/0287-find-the-duplicate-number) |
 | [1129-longest-string-chain](https://github.com/keshish-kumar/CPP/tree/master/1129-longest-string-chain) |
 ## Bit Manipulation
@@ -62,6 +63,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 ## Hash Table
 |  |
 | ------- |
+| [0160-intersection-of-two-linked-lists](https://github.com/keshish-kumar/CPP/tree/master/0160-intersection-of-two-linked-lists) |
 | [1129-longest-string-chain](https://github.com/keshish-kumar/CPP/tree/master/1129-longest-string-chain) |
 ## String
 |  |
@@ -71,6 +73,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/keshish-kumar/CPP/tree/master/0002-add-two-numbers) |
+| [0160-intersection-of-two-linked-lists](https://github.com/keshish-kumar/CPP/tree/master/0160-intersection-of-two-linked-lists) |
 ## Recursion
 |  |
 | ------- |
