@@ -47,37 +47,21 @@ struct Node {
 class Solution {
   public:
     // Function to find the length of a loop in the linked list.
-    int countNodesinLoop(struct Node *head) {
+    int countNodesinLoop(Node *head) {
         // Code here
-        // unordered_map<Node*,int> mp;
-        // Node* temp=head;
-        // int count=1;
-        // while(temp!=NULL){
-        //     if(mp.find(temp)!=mp.end()){
-        //         return count-mp[temp];
-        //     }
-        //     mp[temp]=count;
-        //     count++;
-        //     temp=temp->next;
-        // }
-        // return 0;
+        Node* slow =head;
+        Node* fast =head;
         
-        // we will use tortoise and heir method to find this
-
-        Node* temp=head;
-        Node* slow=head;
-
-        while(temp!=NULL && temp->next!=NULL){
+        while(fast!=NULL && fast->next!=NULL){
             slow=slow->next;
-            temp=temp->next->next;
-            if(slow==temp){
-                int count=1;
-                temp=temp->next;
-                while(temp!=slow){
+            fast=fast->next->next;
+            if(slow==fast){
+                int count=0;
+                while(true){
                     count++;
-                    temp=temp->next;
+                    fast=fast->next;
+                    if(fast==slow) return count;
                 }
-                return count;
             }
         }
         return 0;
