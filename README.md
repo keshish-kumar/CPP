@@ -22,6 +22,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/keshish-kumar/CPP/tree/master/0053-maximum-subarray) |
+| [0062-unique-paths](https://github.com/keshish-kumar/CPP/tree/master/0062-unique-paths) |
 | [0300-longest-increasing-subsequence](https://github.com/keshish-kumar/CPP/tree/master/0300-longest-increasing-subsequence) |
 | [0368-largest-divisible-subset](https://github.com/keshish-kumar/CPP/tree/master/0368-largest-divisible-subset) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/keshish-kumar/CPP/tree/master/0673-number-of-longest-increasing-subsequence) |
@@ -30,6 +31,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/keshish-kumar/CPP/tree/master/0002-add-two-numbers) |
+| [0062-unique-paths](https://github.com/keshish-kumar/CPP/tree/master/0062-unique-paths) |
 | [0368-largest-divisible-subset](https://github.com/keshish-kumar/CPP/tree/master/0368-largest-divisible-subset) |
 ## Sorting
 |  |
@@ -78,4 +80,8 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/keshish-kumar/CPP/tree/master/0002-add-two-numbers) |
+## Combinatorics
+|  |
+| ------- |
+| [0062-unique-paths](https://github.com/keshish-kumar/CPP/tree/master/0062-unique-paths) |
 <!---LeetCode Topics End-->
