@@ -25,9 +25,25 @@ public:
     {
         // code here
         // we have to fidnn the best optimal bracket we can do for minimal cost
-       vector<vector<int>> dp(N+1,vector<int>(N+1,-1));
-        return solve(arr,1,N-1,dp);
+    //   vector<vector<int>> dp(N+1,vector<int>(N+1,-1));
+    //     return solve(arr,1,N-1,dp);
+    
+        vector<vector<int>> dp(N+1,vector<int>(N+1));
         
+         // j should be row and i should be column
+        
+        for(int i=N-1;i>=1;i--){
+            for(int j=i+1;j<=N-1;j++){
+                int mini = INT_MAX;
+                 for(int k=i;k<=j-1;k++){
+                     int temp = dp[i][k]+dp[k+1][j]+(arr[i-1]*arr[k]*arr[j]);
+                mini = min(mini,temp);
+                }
+                dp[i][j] = mini;
+            }
+
+        }
+        return dp[1][N-1];
        
     }
 };
