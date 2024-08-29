@@ -9,25 +9,26 @@ using namespace std;
 
 class Solution{
 public:
-    int solve(int n , int arr[],  int i, int j,vector<vector<int>>& dp){
+
+    int solve(int arr[], int i, int j,vector<vector<int>>& dp){
         if(i>=j) return 0;
-        int ans = 1e9;
         if(dp[i][j]!=-1) return dp[i][j];
-        for(int k = i;k<j;k++){
-            int temp = solve(n,arr,i,k,dp)+solve(n,arr,k+1,j,dp)+arr[i-1]*arr[k]*arr[j];
-        
-            ans = min(ans,temp);
-            
+        int mini = INT_MAX;
+        for(int k=i;k<=j-1;k++){
+            int temp = solve(arr,i,k,dp)+solve(arr,k+1,j,dp)+(arr[i-1]*arr[k]*arr[j]);
+            mini = min(mini,temp);
         }
-        return dp[i][j] = ans;
         
+        return dp[i][j] = mini;
     }
-    int matrixMultiplication(int n, int arr[])
+    int matrixMultiplication(int N, int arr[])
     {
         // code here
-        vector<vector<int>> dp(n+1,vector<int>(n+1,-1));
-       return  solve(n,arr,1,n-1,dp);
-         
+        // we have to fidnn the best optimal bracket we can do for minimal cost
+       vector<vector<int>> dp(N+1,vector<int>(N+1,-1));
+        return solve(arr,1,N-1,dp);
+        
+       
     }
 };
 
