@@ -8,6 +8,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | ------- |
 | [0053-maximum-subarray](https://github.com/keshish-kumar/CPP/tree/master/0053-maximum-subarray) |
 | [0075-sort-colors](https://github.com/keshish-kumar/CPP/tree/master/0075-sort-colors) |
+| [0084-largest-rectangle-in-histogram](https://github.com/keshish-kumar/CPP/tree/master/0084-largest-rectangle-in-histogram) |
 | [0287-find-the-duplicate-number](https://github.com/keshish-kumar/CPP/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/keshish-kumar/CPP/tree/master/0300-longest-increasing-subsequence) |
 | [0312-burst-balloons](https://github.com/keshish-kumar/CPP/tree/master/0312-burst-balloons) |
@@ -100,4 +101,12 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 |  |
 | ------- |
 | [0334-increasing-triplet-subsequence](https://github.com/keshish-kumar/CPP/tree/master/0334-increasing-triplet-subsequence) |
+## Stack
+|  |
+| ------- |
+| [0084-largest-rectangle-in-histogram](https://github.com/keshish-kumar/CPP/tree/master/0084-largest-rectangle-in-histogram) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0084-largest-rectangle-in-histogram](https://github.com/keshish-kumar/CPP/tree/master/0084-largest-rectangle-in-histogram) |
 <!---LeetCode Topics End-->
