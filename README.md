@@ -14,6 +14,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0334-increasing-triplet-subsequence](https://github.com/keshish-kumar/CPP/tree/master/0334-increasing-triplet-subsequence) |
 | [0368-largest-divisible-subset](https://github.com/keshish-kumar/CPP/tree/master/0368-largest-divisible-subset) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/keshish-kumar/CPP/tree/master/0673-number-of-longest-increasing-subsequence) |
+| [1121-partition-array-for-maximum-sum](https://github.com/keshish-kumar/CPP/tree/master/1121-partition-array-for-maximum-sum) |
 | [1129-longest-string-chain](https://github.com/keshish-kumar/CPP/tree/master/1129-longest-string-chain) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/keshish-kumar/CPP/tree/master/1669-minimum-cost-to-cut-a-stick) |
 ## Binary Search
@@ -30,6 +31,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0312-burst-balloons](https://github.com/keshish-kumar/CPP/tree/master/0312-burst-balloons) |
 | [0368-largest-divisible-subset](https://github.com/keshish-kumar/CPP/tree/master/0368-largest-divisible-subset) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/keshish-kumar/CPP/tree/master/0673-number-of-longest-increasing-subsequence) |
+| [1121-partition-array-for-maximum-sum](https://github.com/keshish-kumar/CPP/tree/master/1121-partition-array-for-maximum-sum) |
 | [1129-longest-string-chain](https://github.com/keshish-kumar/CPP/tree/master/1129-longest-string-chain) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/keshish-kumar/CPP/tree/master/1669-minimum-cost-to-cut-a-stick) |
 ## Math
