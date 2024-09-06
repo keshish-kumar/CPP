@@ -83,6 +83,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 ## String
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/keshish-kumar/CPP/tree/master/0020-valid-parentheses) |
 | [0443-string-compression](https://github.com/keshish-kumar/CPP/tree/master/0443-string-compression) |
 | [1129-longest-string-chain](https://github.com/keshish-kumar/CPP/tree/master/1129-longest-string-chain) |
 | [1960-check-if-the-sentence-is-pangram](https://github.com/keshish-kumar/CPP/tree/master/1960-check-if-the-sentence-is-pangram) |
@@ -106,6 +107,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 ## Stack
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/keshish-kumar/CPP/tree/master/0020-valid-parentheses) |
 | [0084-largest-rectangle-in-histogram](https://github.com/keshish-kumar/CPP/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/keshish-kumar/CPP/tree/master/0085-maximal-rectangle) |
 ## Monotonic Stack
