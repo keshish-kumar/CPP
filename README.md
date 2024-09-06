@@ -11,6 +11,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0084-largest-rectangle-in-histogram](https://github.com/keshish-kumar/CPP/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/keshish-kumar/CPP/tree/master/0085-maximal-rectangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/keshish-kumar/CPP/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0136-single-number](https://github.com/keshish-kumar/CPP/tree/master/0136-single-number) |
 | [0287-find-the-duplicate-number](https://github.com/keshish-kumar/CPP/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/keshish-kumar/CPP/tree/master/0300-longest-increasing-subsequence) |
 | [0312-burst-balloons](https://github.com/keshish-kumar/CPP/tree/master/0312-burst-balloons) |
@@ -77,6 +78,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0136-single-number](https://github.com/keshish-kumar/CPP/tree/master/0136-single-number) |
 | [0287-find-the-duplicate-number](https://github.com/keshish-kumar/CPP/tree/master/0287-find-the-duplicate-number) |
 ## Hash Table
 |  |
