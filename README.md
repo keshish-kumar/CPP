@@ -148,6 +148,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 |  |
 | ------- |
 | [0226-invert-binary-tree](https://github.com/keshish-kumar/CPP/tree/master/0226-invert-binary-tree) |
+| [0450-delete-node-in-a-bst](https://github.com/keshish-kumar/CPP/tree/master/0450-delete-node-in-a-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/keshish-kumar/CPP/tree/master/0543-diameter-of-binary-tree) |
 ## Depth-First Search
 |  |
@@ -162,10 +163,15 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 |  |
 | ------- |
 | [0226-invert-binary-tree](https://github.com/keshish-kumar/CPP/tree/master/0226-invert-binary-tree) |
+| [0450-delete-node-in-a-bst](https://github.com/keshish-kumar/CPP/tree/master/0450-delete-node-in-a-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/keshish-kumar/CPP/tree/master/0543-diameter-of-binary-tree) |
 ## Counting
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/keshish-kumar/CPP/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/keshish-kumar/CPP/tree/master/0229-majority-element-ii) |
+## Binary Search Tree
+|  |
+| ------- |
+| [0450-delete-node-in-a-bst](https://github.com/keshish-kumar/CPP/tree/master/0450-delete-node-in-a-bst) |
 <!---LeetCode Topics End-->
