@@ -148,10 +148,12 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 |  |
 | ------- |
 | [0226-invert-binary-tree](https://github.com/keshish-kumar/CPP/tree/master/0226-invert-binary-tree) |
+| [0543-diameter-of-binary-tree](https://github.com/keshish-kumar/CPP/tree/master/0543-diameter-of-binary-tree) |
 ## Depth-First Search
 |  |
 | ------- |
 | [0226-invert-binary-tree](https://github.com/keshish-kumar/CPP/tree/master/0226-invert-binary-tree) |
+| [0543-diameter-of-binary-tree](https://github.com/keshish-kumar/CPP/tree/master/0543-diameter-of-binary-tree) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -160,6 +162,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 |  |
 | ------- |
 | [0226-invert-binary-tree](https://github.com/keshish-kumar/CPP/tree/master/0226-invert-binary-tree) |
+| [0543-diameter-of-binary-tree](https://github.com/keshish-kumar/CPP/tree/master/0543-diameter-of-binary-tree) |
 ## Counting
 |  |
 | ------- |
