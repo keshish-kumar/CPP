@@ -13,6 +13,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/keshish-kumar/CPP/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0136-single-number](https://github.com/keshish-kumar/CPP/tree/master/0136-single-number) |
 | [0169-majority-element](https://github.com/keshish-kumar/CPP/tree/master/0169-majority-element) |
+| [0229-majority-element-ii](https://github.com/keshish-kumar/CPP/tree/master/0229-majority-element-ii) |
 | [0268-missing-number](https://github.com/keshish-kumar/CPP/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/keshish-kumar/CPP/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/keshish-kumar/CPP/tree/master/0300-longest-increasing-subsequence) |
@@ -57,6 +58,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | ------- |
 | [0075-sort-colors](https://github.com/keshish-kumar/CPP/tree/master/0075-sort-colors) |
 | [0169-majority-element](https://github.com/keshish-kumar/CPP/tree/master/0169-majority-element) |
+| [0229-majority-element-ii](https://github.com/keshish-kumar/CPP/tree/master/0229-majority-element-ii) |
 | [0268-missing-number](https://github.com/keshish-kumar/CPP/tree/master/0268-missing-number) |
 | [0368-largest-divisible-subset](https://github.com/keshish-kumar/CPP/tree/master/0368-largest-divisible-subset) |
 | [1129-longest-string-chain](https://github.com/keshish-kumar/CPP/tree/master/1129-longest-string-chain) |
@@ -93,6 +95,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | ------- |
 | [0160-intersection-of-two-linked-lists](https://github.com/keshish-kumar/CPP/tree/master/0160-intersection-of-two-linked-lists) |
 | [0169-majority-element](https://github.com/keshish-kumar/CPP/tree/master/0169-majority-element) |
+| [0229-majority-element-ii](https://github.com/keshish-kumar/CPP/tree/master/0229-majority-element-ii) |
 | [0268-missing-number](https://github.com/keshish-kumar/CPP/tree/master/0268-missing-number) |
 | [1129-longest-string-chain](https://github.com/keshish-kumar/CPP/tree/master/1129-longest-string-chain) |
 | [1960-check-if-the-sentence-is-pangram](https://github.com/keshish-kumar/CPP/tree/master/1960-check-if-the-sentence-is-pangram) |
@@ -159,4 +162,5 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/keshish-kumar/CPP/tree/master/0169-majority-element) |
+| [0229-majority-element-ii](https://github.com/keshish-kumar/CPP/tree/master/0229-majority-element-ii) |
 <!---LeetCode Topics End-->
