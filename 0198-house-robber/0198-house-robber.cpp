@@ -1,27 +1,20 @@
 class Solution {
 public:
-    int profit(vector<int>& nums, int n,vector<int>& dp){
-        if(n==0) return nums[n];
-        if(n<0) return 0;
-        if(dp[n]!=-1) return dp[n];
-        int pick = nums[n]+profit(nums,n-2,dp);
-        int notpick = profit(nums,n-1,dp);
-        dp[n]  = max(pick,notpick);
-        return dp[n];
-    }
-    int rob(vector<int>& nums) {
-        int n = nums.size();
-        vector<int> dp(n,-1);
-       // return profit(nums,n-1,dp);
-        dp[0] = nums[0];
-        for(int i=1;i<n;i++){
-            int pick = nums[i];
-            if(i-2 >= 0)
-             pick += dp[i-2];
-            
-            int  notpick = dp[i-1];
-            dp[i] = max(pick,notpick);
+
+    int house(vector<int>& nums, int i,vector<int>& dp){
+        if(i>=nums.size()) return 0;
+        int maxi = 0;
+        if(dp[i]!=-1) return dp[i];
+        for(int k=i;k<nums.size();k++){
+            int temp = nums[k]+house(nums,k+2,dp);
+            maxi = max(maxi,temp);
         }
-        return dp[n-1];
+        return dp[i] = maxi;
+    }    
+
+    int rob(vector<int>& nums) {
+        // House robber
+        vector<int> dp(nums.size()+1,-1);
+        return house(nums,0,dp);
     }
 };
