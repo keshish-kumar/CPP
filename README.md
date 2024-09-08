@@ -38,6 +38,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | ------- |
 | [0053-maximum-subarray](https://github.com/keshish-kumar/CPP/tree/master/0053-maximum-subarray) |
 | [0062-unique-paths](https://github.com/keshish-kumar/CPP/tree/master/0062-unique-paths) |
+| [0070-climbing-stairs](https://github.com/keshish-kumar/CPP/tree/master/0070-climbing-stairs) |
 | [0085-maximal-rectangle](https://github.com/keshish-kumar/CPP/tree/master/0085-maximal-rectangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/keshish-kumar/CPP/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0300-longest-increasing-subsequence](https://github.com/keshish-kumar/CPP/tree/master/0300-longest-increasing-subsequence) |
@@ -52,6 +53,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | ------- |
 | [0002-add-two-numbers](https://github.com/keshish-kumar/CPP/tree/master/0002-add-two-numbers) |
 | [0062-unique-paths](https://github.com/keshish-kumar/CPP/tree/master/0062-unique-paths) |
+| [0070-climbing-stairs](https://github.com/keshish-kumar/CPP/tree/master/0070-climbing-stairs) |
 | [0268-missing-number](https://github.com/keshish-kumar/CPP/tree/master/0268-missing-number) |
 | [0368-largest-divisible-subset](https://github.com/keshish-kumar/CPP/tree/master/0368-largest-divisible-subset) |
 ## Sorting
@@ -179,4 +181,8 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | ------- |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/keshish-kumar/CPP/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0450-delete-node-in-a-bst](https://github.com/keshish-kumar/CPP/tree/master/0450-delete-node-in-a-bst) |
+## Memoization
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/keshish-kumar/CPP/tree/master/0070-climbing-stairs) |
 <!---LeetCode Topics End-->
