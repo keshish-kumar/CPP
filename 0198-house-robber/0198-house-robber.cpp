@@ -12,11 +12,16 @@ public:
 
     int rob(vector<int>& nums) {
         // House robber
-        vector<int> dp(nums.size()+1,-1);
-        return house(nums,0,dp);
-
-
-
+        vector<int> dp(nums.size()+1,0);
+        //return house(nums,0,dp);
+        dp[0] = 0;
+        dp[1] = nums[0];
+        for(int i=2;i<=nums.size();i++){
+            int steal = nums[i-1]+ dp[i-2];
+            int skip = dp[i-1];
+            dp[i] = max(steal,skip);
+        }
+        return dp[nums.size()];
         
     }
 };
