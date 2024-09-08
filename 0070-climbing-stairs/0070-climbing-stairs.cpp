@@ -7,13 +7,19 @@ public:
         return dp[i] = solve(n,i+1,dp)+solve(n,i+2,dp);
     }
     int climbStairs(int n) {
-        vector<int> dp(n+1,0);
+        //vector<int> dp(n+1,0);
         //return solve(n,0,dp);
-        dp[0] = 1;
-        dp[1] = 1;
+        // dp[0] = 1;
+        // dp[1] = 1;
+        int num1 = 1;
+        int num2 = 1;
         for(int i=2;i<=n;i++){
-            dp[i]=dp[i-1]+dp[i-2];
+            //dp[i]=dp[i-1]+dp[i-2];
+            int temp = num1+ num2;
+            num1 = num2;
+            num2=temp;
         }
-        return dp[n];
+        //return dp[n];
+        return num2;
     }
 };
