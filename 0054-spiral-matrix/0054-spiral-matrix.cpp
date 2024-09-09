@@ -8,23 +8,23 @@ public:
 
         while(rowup<=rowdown && colleft<=colright){
             
-            if(colleft<=colright){
+           
             // prints the upper row;
             for(int i=colleft;i<=colright;i++){
                 ans.push_back(matrix[rowup][i]);
             }
             // reduce the boundary of upper row
             rowup++;
-            }
+            
 
-            if(rowup<=rowdown){
+            
             // print the colright
             for(int i=rowup;i<=rowdown;i++){
                 ans.push_back(matrix[i][colright]);
             }
             // reduce the colright
             colright--;
-            }
+            
             
             if(rowup<=rowdown){
             
