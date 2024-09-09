@@ -13,7 +13,7 @@ class Solution {
 public:
     void flatten(TreeNode* root) {
         stack<TreeNode* > st;
-        st.push(NULL);
+        //st.push(NULL);
         TreeNode* temp = root;
 
         while(temp!=NULL){
