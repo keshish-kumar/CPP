@@ -143,6 +143,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0020-valid-parentheses](https://github.com/keshish-kumar/CPP/tree/master/0020-valid-parentheses) |
 | [0084-largest-rectangle-in-histogram](https://github.com/keshish-kumar/CPP/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/keshish-kumar/CPP/tree/master/0085-maximal-rectangle) |
+| [0155-min-stack](https://github.com/keshish-kumar/CPP/tree/master/0155-min-stack) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -197,4 +198,8 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/keshish-kumar/CPP/tree/master/0070-climbing-stairs) |
+## Design
+|  |
+| ------- |
+| [0155-min-stack](https://github.com/keshish-kumar/CPP/tree/master/0155-min-stack) |
 <!---LeetCode Topics End-->
