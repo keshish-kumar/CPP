@@ -10,7 +10,7 @@ public:
             while(left<right){
                 if((nums[left]+nums[right])==target){
                     ans.insert({-1*target,nums[left],nums[right]});
-                    left++;
+                    left++;right--;
                 }
                 else if((nums[left]+nums[right]>target)){
                     right--;
