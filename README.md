@@ -9,6 +9,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0011-container-with-most-water](https://github.com/keshish-kumar/CPP/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/keshish-kumar/CPP/tree/master/0015-3sum) |
 | [0042-trapping-rain-water](https://github.com/keshish-kumar/CPP/tree/master/0042-trapping-rain-water) |
+| [0049-group-anagrams](https://github.com/keshish-kumar/CPP/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/keshish-kumar/CPP/tree/master/0053-maximum-subarray) |
 | [0054-spiral-matrix](https://github.com/keshish-kumar/CPP/tree/master/0054-spiral-matrix) |
 | [0056-merge-intervals](https://github.com/keshish-kumar/CPP/tree/master/0056-merge-intervals) |
@@ -70,6 +71,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 |  |
 | ------- |
 | [0015-3sum](https://github.com/keshish-kumar/CPP/tree/master/0015-3sum) |
+| [0049-group-anagrams](https://github.com/keshish-kumar/CPP/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/keshish-kumar/CPP/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/keshish-kumar/CPP/tree/master/0075-sort-colors) |
 | [0169-majority-element](https://github.com/keshish-kumar/CPP/tree/master/0169-majority-element) |
@@ -115,6 +117,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 ## Hash Table
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/keshish-kumar/CPP/tree/master/0049-group-anagrams) |
 | [0073-set-matrix-zeroes](https://github.com/keshish-kumar/CPP/tree/master/0073-set-matrix-zeroes) |
 | [0138-copy-list-with-random-pointer](https://github.com/keshish-kumar/CPP/tree/master/0138-copy-list-with-random-pointer) |
 | [0160-intersection-of-two-linked-lists](https://github.com/keshish-kumar/CPP/tree/master/0160-intersection-of-two-linked-lists) |
@@ -127,6 +130,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/keshish-kumar/CPP/tree/master/0020-valid-parentheses) |
+| [0049-group-anagrams](https://github.com/keshish-kumar/CPP/tree/master/0049-group-anagrams) |
 | [0344-reverse-string](https://github.com/keshish-kumar/CPP/tree/master/0344-reverse-string) |
 | [0443-string-compression](https://github.com/keshish-kumar/CPP/tree/master/0443-string-compression) |
 | [1129-longest-string-chain](https://github.com/keshish-kumar/CPP/tree/master/1129-longest-string-chain) |
