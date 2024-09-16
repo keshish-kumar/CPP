@@ -6,6 +6,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 ## Array
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/keshish-kumar/CPP/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/keshish-kumar/CPP/tree/master/0015-3sum) |
 | [0053-maximum-subarray](https://github.com/keshish-kumar/CPP/tree/master/0053-maximum-subarray) |
 | [0054-spiral-matrix](https://github.com/keshish-kumar/CPP/tree/master/0054-spiral-matrix) |
@@ -93,6 +94,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 ## Two Pointers
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/keshish-kumar/CPP/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/keshish-kumar/CPP/tree/master/0015-3sum) |
 | [0075-sort-colors](https://github.com/keshish-kumar/CPP/tree/master/0075-sort-colors) |
 | [0160-intersection-of-two-linked-lists](https://github.com/keshish-kumar/CPP/tree/master/0160-intersection-of-two-linked-lists) |
@@ -150,6 +152,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 ## Greedy
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/keshish-kumar/CPP/tree/master/0011-container-with-most-water) |
 | [0334-increasing-triplet-subsequence](https://github.com/keshish-kumar/CPP/tree/master/0334-increasing-triplet-subsequence) |
 ## Stack
 |  |
