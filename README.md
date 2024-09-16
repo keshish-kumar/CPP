@@ -46,6 +46,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/keshish-kumar/CPP/tree/master/0005-longest-palindromic-substring) |
 | [0042-trapping-rain-water](https://github.com/keshish-kumar/CPP/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/keshish-kumar/CPP/tree/master/0053-maximum-subarray) |
 | [0062-unique-paths](https://github.com/keshish-kumar/CPP/tree/master/0062-unique-paths) |
@@ -101,6 +102,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 ## Two Pointers
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/keshish-kumar/CPP/tree/master/0005-longest-palindromic-substring) |
 | [0011-container-with-most-water](https://github.com/keshish-kumar/CPP/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/keshish-kumar/CPP/tree/master/0015-3sum) |
 | [0042-trapping-rain-water](https://github.com/keshish-kumar/CPP/tree/master/0042-trapping-rain-water) |
@@ -132,6 +134,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 ## String
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/keshish-kumar/CPP/tree/master/0005-longest-palindromic-substring) |
 | [0020-valid-parentheses](https://github.com/keshish-kumar/CPP/tree/master/0020-valid-parentheses) |
 | [0049-group-anagrams](https://github.com/keshish-kumar/CPP/tree/master/0049-group-anagrams) |
 | [0344-reverse-string](https://github.com/keshish-kumar/CPP/tree/master/0344-reverse-string) |
