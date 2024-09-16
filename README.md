@@ -23,6 +23,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0136-single-number](https://github.com/keshish-kumar/CPP/tree/master/0136-single-number) |
 | [0169-majority-element](https://github.com/keshish-kumar/CPP/tree/master/0169-majority-element) |
 | [0198-house-robber](https://github.com/keshish-kumar/CPP/tree/master/0198-house-robber) |
+| [0215-kth-largest-element-in-an-array](https://github.com/keshish-kumar/CPP/tree/master/0215-kth-largest-element-in-an-array) |
 | [0229-majority-element-ii](https://github.com/keshish-kumar/CPP/tree/master/0229-majority-element-ii) |
 | [0268-missing-number](https://github.com/keshish-kumar/CPP/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/keshish-kumar/CPP/tree/master/0287-find-the-duplicate-number) |
@@ -75,6 +76,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0056-merge-intervals](https://github.com/keshish-kumar/CPP/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/keshish-kumar/CPP/tree/master/0075-sort-colors) |
 | [0169-majority-element](https://github.com/keshish-kumar/CPP/tree/master/0169-majority-element) |
+| [0215-kth-largest-element-in-an-array](https://github.com/keshish-kumar/CPP/tree/master/0215-kth-largest-element-in-an-array) |
 | [0229-majority-element-ii](https://github.com/keshish-kumar/CPP/tree/master/0229-majority-element-ii) |
 | [0268-missing-number](https://github.com/keshish-kumar/CPP/tree/master/0268-missing-number) |
 | [0368-largest-divisible-subset](https://github.com/keshish-kumar/CPP/tree/master/0368-largest-divisible-subset) |
@@ -95,6 +97,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/keshish-kumar/CPP/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0169-majority-element](https://github.com/keshish-kumar/CPP/tree/master/0169-majority-element) |
 | [0191-number-of-1-bits](https://github.com/keshish-kumar/CPP/tree/master/0191-number-of-1-bits) |
+| [0215-kth-largest-element-in-an-array](https://github.com/keshish-kumar/CPP/tree/master/0215-kth-largest-element-in-an-array) |
 ## Two Pointers
 |  |
 | ------- |
@@ -241,4 +244,12 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/keshish-kumar/CPP/tree/master/0054-spiral-matrix) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0215-kth-largest-element-in-an-array](https://github.com/keshish-kumar/CPP/tree/master/0215-kth-largest-element-in-an-array) |
+## Quickselect
+|  |
+| ------- |
+| [0215-kth-largest-element-in-an-array](https://github.com/keshish-kumar/CPP/tree/master/0215-kth-largest-element-in-an-array) |
 <!---LeetCode Topics End-->
