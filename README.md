@@ -24,6 +24,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0152-maximum-product-subarray](https://github.com/keshish-kumar/CPP/tree/master/0152-maximum-product-subarray) |
 | [0169-majority-element](https://github.com/keshish-kumar/CPP/tree/master/0169-majority-element) |
 | [0198-house-robber](https://github.com/keshish-kumar/CPP/tree/master/0198-house-robber) |
+| [0200-number-of-islands](https://github.com/keshish-kumar/CPP/tree/master/0200-number-of-islands) |
 | [0215-kth-largest-element-in-an-array](https://github.com/keshish-kumar/CPP/tree/master/0215-kth-largest-element-in-an-array) |
 | [0221-maximal-square](https://github.com/keshish-kumar/CPP/tree/master/0221-maximal-square) |
 | [0229-majority-element-ii](https://github.com/keshish-kumar/CPP/tree/master/0229-majority-element-ii) |
@@ -199,6 +200,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0054-spiral-matrix](https://github.com/keshish-kumar/CPP/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/keshish-kumar/CPP/tree/master/0073-set-matrix-zeroes) |
 | [0085-maximal-rectangle](https://github.com/keshish-kumar/CPP/tree/master/0085-maximal-rectangle) |
+| [0200-number-of-islands](https://github.com/keshish-kumar/CPP/tree/master/0200-number-of-islands) |
 | [0221-maximal-square](https://github.com/keshish-kumar/CPP/tree/master/0221-maximal-square) |
 ## Tree
 |  |
@@ -217,6 +219,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0098-validate-binary-search-tree](https://github.com/keshish-kumar/CPP/tree/master/0098-validate-binary-search-tree) |
 | [0101-symmetric-tree](https://github.com/keshish-kumar/CPP/tree/master/0101-symmetric-tree) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/keshish-kumar/CPP/tree/master/0114-flatten-binary-tree-to-linked-list) |
+| [0200-number-of-islands](https://github.com/keshish-kumar/CPP/tree/master/0200-number-of-islands) |
 | [0226-invert-binary-tree](https://github.com/keshish-kumar/CPP/tree/master/0226-invert-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/keshish-kumar/CPP/tree/master/0543-diameter-of-binary-tree) |
 ## Breadth-First Search
@@ -224,6 +227,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | ------- |
 | [0101-symmetric-tree](https://github.com/keshish-kumar/CPP/tree/master/0101-symmetric-tree) |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/keshish-kumar/CPP/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
+| [0200-number-of-islands](https://github.com/keshish-kumar/CPP/tree/master/0200-number-of-islands) |
 | [0226-invert-binary-tree](https://github.com/keshish-kumar/CPP/tree/master/0226-invert-binary-tree) |
 ## Binary Tree
 |  |
@@ -283,4 +287,8 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/keshish-kumar/CPP/tree/master/0239-sliding-window-maximum) |
+## Union Find
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/keshish-kumar/CPP/tree/master/0200-number-of-islands) |
 <!---LeetCode Topics End-->
