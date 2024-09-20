@@ -8,6 +8,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | ------- |
 | [0011-container-with-most-water](https://github.com/keshish-kumar/CPP/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/keshish-kumar/CPP/tree/master/0015-3sum) |
+| [0033-search-in-rotated-sorted-array](https://github.com/keshish-kumar/CPP/tree/master/0033-search-in-rotated-sorted-array) |
 | [0042-trapping-rain-water](https://github.com/keshish-kumar/CPP/tree/master/0042-trapping-rain-water) |
 | [0046-permutations](https://github.com/keshish-kumar/CPP/tree/master/0046-permutations) |
 | [0048-rotate-image](https://github.com/keshish-kumar/CPP/tree/master/0048-rotate-image) |
@@ -47,6 +48,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 ## Binary Search
 |  |
 | ------- |
+| [0033-search-in-rotated-sorted-array](https://github.com/keshish-kumar/CPP/tree/master/0033-search-in-rotated-sorted-array) |
 | [0074-search-a-2d-matrix](https://github.com/keshish-kumar/CPP/tree/master/0074-search-a-2d-matrix) |
 | [0268-missing-number](https://github.com/keshish-kumar/CPP/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/keshish-kumar/CPP/tree/master/0287-find-the-duplicate-number) |
