@@ -1,22 +1,22 @@
 class Solution {
 public:
-    
-    void sub(vector<int>& nums, vector<vector<int>>& ans, vector<int> temp, int i){
-        if(i>=nums.size()){
+    void solve(vector<int>& nums, vector<vector<int>>& ans, vector<int>& temp,int index){
+        if(index == nums.size()){
             ans.push_back(temp);
-            return;
+            return ;
         }
-        
-        //. not pick any
-        sub(nums,ans,temp,i+1);
-        // pick that element
-        temp.push_back(nums[i]);
-        sub(nums,ans,temp,i+1);
+
+        // pick 
+        temp.push_back(nums[index]);
+        solve(nums,ans,temp,index+1);
+        temp.pop_back();
+        // not pick
+        solve(nums,ans,temp,index+1);
     }
     vector<vector<int>> subsets(vector<int>& nums) {
         vector<vector<int>> ans;
         vector<int> temp;
-        sub(nums,ans,temp,0);
+        solve(nums,ans,temp,0);
         return ans;
     }
 };
