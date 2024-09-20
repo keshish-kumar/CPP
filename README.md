@@ -10,6 +10,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0015-3sum](https://github.com/keshish-kumar/CPP/tree/master/0015-3sum) |
 | [0042-trapping-rain-water](https://github.com/keshish-kumar/CPP/tree/master/0042-trapping-rain-water) |
 | [0046-permutations](https://github.com/keshish-kumar/CPP/tree/master/0046-permutations) |
+| [0048-rotate-image](https://github.com/keshish-kumar/CPP/tree/master/0048-rotate-image) |
 | [0049-group-anagrams](https://github.com/keshish-kumar/CPP/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/keshish-kumar/CPP/tree/master/0053-maximum-subarray) |
 | [0054-spiral-matrix](https://github.com/keshish-kumar/CPP/tree/master/0054-spiral-matrix) |
@@ -73,6 +74,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/keshish-kumar/CPP/tree/master/0002-add-two-numbers) |
+| [0048-rotate-image](https://github.com/keshish-kumar/CPP/tree/master/0048-rotate-image) |
 | [0062-unique-paths](https://github.com/keshish-kumar/CPP/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/keshish-kumar/CPP/tree/master/0070-climbing-stairs) |
 | [0268-missing-number](https://github.com/keshish-kumar/CPP/tree/master/0268-missing-number) |
@@ -198,6 +200,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 ## Matrix
 |  |
 | ------- |
+| [0048-rotate-image](https://github.com/keshish-kumar/CPP/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/keshish-kumar/CPP/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/keshish-kumar/CPP/tree/master/0073-set-matrix-zeroes) |
 | [0085-maximal-rectangle](https://github.com/keshish-kumar/CPP/tree/master/0085-maximal-rectangle) |
