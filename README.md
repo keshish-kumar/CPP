@@ -9,6 +9,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0011-container-with-most-water](https://github.com/keshish-kumar/CPP/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/keshish-kumar/CPP/tree/master/0015-3sum) |
 | [0042-trapping-rain-water](https://github.com/keshish-kumar/CPP/tree/master/0042-trapping-rain-water) |
+| [0046-permutations](https://github.com/keshish-kumar/CPP/tree/master/0046-permutations) |
 | [0049-group-anagrams](https://github.com/keshish-kumar/CPP/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/keshish-kumar/CPP/tree/master/0053-maximum-subarray) |
 | [0054-spiral-matrix](https://github.com/keshish-kumar/CPP/tree/master/0054-spiral-matrix) |
@@ -291,4 +292,8 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/keshish-kumar/CPP/tree/master/0200-number-of-islands) |
+## Backtracking
+|  |
+| ------- |
+| [0046-permutations](https://github.com/keshish-kumar/CPP/tree/master/0046-permutations) |
 <!---LeetCode Topics End-->
