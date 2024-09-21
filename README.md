@@ -27,6 +27,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/keshish-kumar/CPP/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0136-single-number](https://github.com/keshish-kumar/CPP/tree/master/0136-single-number) |
 | [0152-maximum-product-subarray](https://github.com/keshish-kumar/CPP/tree/master/0152-maximum-product-subarray) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/keshish-kumar/CPP/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0169-majority-element](https://github.com/keshish-kumar/CPP/tree/master/0169-majority-element) |
 | [0198-house-robber](https://github.com/keshish-kumar/CPP/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/keshish-kumar/CPP/tree/master/0200-number-of-islands) |
@@ -51,6 +52,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/keshish-kumar/CPP/tree/master/0033-search-in-rotated-sorted-array) |
 | [0074-search-a-2d-matrix](https://github.com/keshish-kumar/CPP/tree/master/0074-search-a-2d-matrix) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/keshish-kumar/CPP/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0268-missing-number](https://github.com/keshish-kumar/CPP/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/keshish-kumar/CPP/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/keshish-kumar/CPP/tree/master/0300-longest-increasing-subsequence) |
@@ -123,6 +125,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0042-trapping-rain-water](https://github.com/keshish-kumar/CPP/tree/master/0042-trapping-rain-water) |
 | [0075-sort-colors](https://github.com/keshish-kumar/CPP/tree/master/0075-sort-colors) |
 | [0160-intersection-of-two-linked-lists](https://github.com/keshish-kumar/CPP/tree/master/0160-intersection-of-two-linked-lists) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/keshish-kumar/CPP/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0287-find-the-duplicate-number](https://github.com/keshish-kumar/CPP/tree/master/0287-find-the-duplicate-number) |
 | [0344-reverse-string](https://github.com/keshish-kumar/CPP/tree/master/0344-reverse-string) |
 | [0443-string-compression](https://github.com/keshish-kumar/CPP/tree/master/0443-string-compression) |
