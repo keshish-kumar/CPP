@@ -1,26 +1,36 @@
 class Solution {
 public:
+    vector<int> left(vector<int>& height){
+        int maxi = height[0];
+        vector<int> v;
+        v.push_back(height[0]);
+        for(int i=1;i<height.size();i++){
+            maxi = max(maxi,height[i]);
+            v.push_back(maxi);
+        }
+        return v;
+    }
+
+    vector<int> right(vector<int>& height){
+        int maxi = height[height.size()-1];
+        vector<int> v;
+        v.push_back(maxi);
+        for(int i=height.size()-2;i>=0;i--){
+            maxi = max(maxi,height[i]);
+            v.push_back(maxi);
+        }
+        reverse(v.begin(),v.end());
+        return v;
+    }
     int trap(vector<int>& height) {
-        vector<int> lmax(height.size()),rmax(height.size());
-        int maxi = INT_MIN;
-        for(int i=0;i<height.size();i++){
-            maxi = max(maxi,height[i]);
-            lmax[i] = maxi;
-        }
-         maxi = INT_MIN;
-        for(int i=height.size()-1;i>=0;i--){
-            maxi = max(maxi,height[i]);
-            rmax[i] = maxi;
-        }
-
-        // Now that we got right max and left max we will traverse each node and check if it can trap water or not
-
+        vector<int> leftmax = left(height);
+        vector<int> rightmax = right(height);
         int ans =0;
+        
         for(int i=0;i<height.size();i++){
-            int temp = min(lmax[i],rmax[i]);
-            ans += temp-height[i];
+            ans += (min(leftmax[i],rightmax[i])-height[i]);
         }
-
         return ans;
+
     }
 };
