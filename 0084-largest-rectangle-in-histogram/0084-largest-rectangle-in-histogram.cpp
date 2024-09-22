@@ -1,44 +1,56 @@
 class Solution {
 public:
-
-
     int largestRectangleArea(vector<int>& heights) {
-        int n = heights.size();
         vector<int> left;
         vector<int> right;
-        stack<int>  q,q2;
-        q.push(0);
+        int n = heights.size();
+        stack<int> stleft;
+
         left.push_back(-1);
-        for(int i=1;i<n;i++){
-            while(!q.empty() && heights[q.top()]>heights[i] ){
-                    q.pop();
+        stleft.push(0);
+        for(int i=1;i<heights.size();i++){
+            while( !stleft.empty() && heights[stleft.top()]>=heights[i]){
+                stleft.pop();
             }
-            if(q.empty()) left.push_back(-1);
+            if(stleft.empty()){
+                stleft.push(i);
+                left.push_back(-1);
+            }
             else{
-                left.push_back(q.top());
+                left.push_back(stleft.top());
+                stleft.push(i);
             }
-            q.push(i);
         }
+
+         stack<int> st;
 
         right.push_back(n);
-        q2.push(n-1);
+        st.push(n-1);
+
         for(int i=n-2;i>=0;i--){
-            while(!q2.empty() && heights[q2.top()]>=heights[i]){
-                q2.pop();
+            while( !st.empty() && heights[st.top()]>heights[i]){
+                st.pop();
             }
-            if(q2.empty()) right.push_back(n);
+            if(st.empty()){
+                st.push(i);
+                right.push_back(n);
+            }
             else{
-                right.push_back(q2.top());
+                
+                right.push_back(st.top());
+                st.push(i);
+
             }
-            q2.push(i);
         }
 
-        int ans = INT_MIN;
         reverse(right.begin(),right.end());
+
+
+        int ans =0;
         for(int i=0;i<n;i++){
+            ans = max (ans, (right[i]-left[i]-1)*heights[i]);
             cout<<left[i]<<" "<<right[i]<<endl;
-            ans = max(ans,((right[i]-left[i]-1)*heights[i]));
         }
-    return ans;
+        return ans;
     }
 };
