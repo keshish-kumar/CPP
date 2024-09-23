@@ -35,6 +35,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0169-majority-element](https://github.com/keshish-kumar/CPP/tree/master/0169-majority-element) |
 | [0198-house-robber](https://github.com/keshish-kumar/CPP/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/keshish-kumar/CPP/tree/master/0200-number-of-islands) |
+| [0212-word-search-ii](https://github.com/keshish-kumar/CPP/tree/master/0212-word-search-ii) |
 | [0215-kth-largest-element-in-an-array](https://github.com/keshish-kumar/CPP/tree/master/0215-kth-largest-element-in-an-array) |
 | [0221-maximal-square](https://github.com/keshish-kumar/CPP/tree/master/0221-maximal-square) |
 | [0229-majority-element-ii](https://github.com/keshish-kumar/CPP/tree/master/0229-majority-element-ii) |
@@ -177,6 +178,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0049-group-anagrams](https://github.com/keshish-kumar/CPP/tree/master/0049-group-anagrams) |
 | [0079-word-search](https://github.com/keshish-kumar/CPP/tree/master/0079-word-search) |
 | [0139-word-break](https://github.com/keshish-kumar/CPP/tree/master/0139-word-break) |
+| [0212-word-search-ii](https://github.com/keshish-kumar/CPP/tree/master/0212-word-search-ii) |
 | [0344-reverse-string](https://github.com/keshish-kumar/CPP/tree/master/0344-reverse-string) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/keshish-kumar/CPP/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0443-string-compression](https://github.com/keshish-kumar/CPP/tree/master/0443-string-compression) |
@@ -234,6 +236,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0079-word-search](https://github.com/keshish-kumar/CPP/tree/master/0079-word-search) |
 | [0085-maximal-rectangle](https://github.com/keshish-kumar/CPP/tree/master/0085-maximal-rectangle) |
 | [0200-number-of-islands](https://github.com/keshish-kumar/CPP/tree/master/0200-number-of-islands) |
+| [0212-word-search-ii](https://github.com/keshish-kumar/CPP/tree/master/0212-word-search-ii) |
 | [0221-maximal-square](https://github.com/keshish-kumar/CPP/tree/master/0221-maximal-square) |
 ## Tree
 |  |
@@ -338,10 +341,12 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0046-permutations](https://github.com/keshish-kumar/CPP/tree/master/0046-permutations) |
 | [0078-subsets](https://github.com/keshish-kumar/CPP/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/keshish-kumar/CPP/tree/master/0079-word-search) |
+| [0212-word-search-ii](https://github.com/keshish-kumar/CPP/tree/master/0212-word-search-ii) |
 ## Trie
 |  |
 | ------- |
 | [0139-word-break](https://github.com/keshish-kumar/CPP/tree/master/0139-word-break) |
+| [0212-word-search-ii](https://github.com/keshish-kumar/CPP/tree/master/0212-word-search-ii) |
 ## Bucket Sort
 |  |
 | ------- |
