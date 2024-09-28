@@ -1,48 +1,35 @@
 class Solution {
 public:
-    
-    void letters(string digits, map<char,string>& mp, vector<string>& ans, string temp, int i){
-         if(i>=digits.size()){
-             if(temp.size()==digits.size())
+    void solve(string& digits, int index, map<int,string>& mp,string & temp,vector<string>& ans){
+        if(index==digits.size()){
              ans.push_back(temp);
-             return;
-         }
-       
-        for(int j=i;j<digits.size();j++){
-            
-            for(int k = 0; k<mp[digits[j]].size();k++){
-                temp += mp[digits[i]][k];
-                letters(digits,mp,ans,temp,j+1);
-                temp.pop_back();
-            }
-            
+            return;
         }
-        
-        
+
+       for(int i=0;i<mp[digits[index]-'0'].size();i++){
+            string s = mp[digits[index]-'0'];
+            temp.push_back(s[i]);
+            solve(digits,index+1,mp,temp,ans);
+            temp.pop_back();
+       }
+
     }
-    
-    
     vector<string> letterCombinations(string digits) {
-        
-        // First we have to create a structure which stores 2-9 all letters loke 2->"abc" ....
-        // for this we will use vector which stroes pairs with integer and string
-        map<char,string> mp;
-        
-        mp['2'] = "abc";
-        mp['3'] = "def";
-        mp['4'] = "ghi";
-        mp['5'] = "jkl";
-        mp['6'] = "mno";
-        mp['7'] = "pqrs";
-        mp['8'] = "tuv";
-        mp['9'] = "wxyz";
-        
+        map<int,string> mp;
+        mp[2] = "abc";
+        mp[3] = "def";
+        mp[4] = "ghi";
+        mp[5] = "jkl";
+        mp[6] = "mno";
+        mp[7] = "pqrs";
+        mp[8] = "tuv";
+        mp[9] = "wxyz";
+
+        // now we have stored this in map; we will use vector<string> to store the answer
         vector<string> ans;
-        if(digits.size()==0) return ans;
-        string temp="";
-        letters(digits,mp,ans,temp,0);
+        if(digits.empty()) return ans;
+        string temp;
+        solve(digits,0,mp,temp,ans);
         return ans;
-        
-        
     }
 };
