@@ -1,23 +1,28 @@
 class Solution {
 public:
-    bool solve(vector<int>& nums, int index){
-        if(index>=nums.size()-1) return true;
-        
-        for(int i=nums[index];i>0;i--){
-            if(solve(nums,index+i)) return true;
+    bool solve(vector<int>& nums, int index,vector<int>& dp){
+        if(index>=(nums.size()-1)){
+            return true;
         }
-        
-        return false;
-    }
-    
-    bool canJump(vector<int>& nums) {
-       // return solve(nums,0);
-       int maxi =0;
-       for(int i=0;i<nums.size();i++){
-        if(i>maxi) return false;
-        maxi = max(maxi,i+nums[i]);
+        if(dp[index]!=-1) return dp[index];
+         bool flag = false;
+        for(int i=1;i<=nums[index];i++){
+            flag = flag||solve(nums,index+i,dp);
+        }
 
-       }
-       return true;
+        return dp[index]=flag;
+    }
+    bool canJump(vector<int>& nums) {
+        // vector<int> dp(nums.size(),-1);
+        // return solve(nums,0,dp);
+
+        // Now we do using tabulation approach.
+        
+        int maxi=0;
+        for(int i=0;i<nums.size();i++){
+            if(i>maxi) return false; // it means that this index i cannot be reached fron anwere before popints
+            maxi = max(maxi,i+nums[i]);
+        }
+        return true;
     }
 };
