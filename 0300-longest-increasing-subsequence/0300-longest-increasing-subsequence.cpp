@@ -22,14 +22,19 @@ public:
 
     }
     int lengthOfLIS(vector<int>& nums) {
-        int prev = -1;
-        
-        vector<vector<int>> dp(nums.size()+1,vector<int>(nums.size()+1,-1));
-        return solve(nums,prev,0,dp);
-        
-
-        // space optimized way
-        //vector<int> dp(nums.size()+1,0);
-
+        vector<int> dp(nums.size(),1);
+        for(int i=0;i<nums.size();i++){
+            for(int j=0;j<i;j++){
+                if(nums[j]<nums[i]){
+                    int n = dp[j]+1;
+                    dp[i] = max(dp[i],n);
+                }
+            }
+        }
+        int ans = 0;
+        for(int i=0;i<nums.size();i++){
+            ans = max(ans,dp[i]);
+        }
+        return ans;
     }
 };
