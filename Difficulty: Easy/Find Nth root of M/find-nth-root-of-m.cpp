@@ -8,7 +8,7 @@ class Solution{
 	long long solve(int n , int mid){
 	    long long  ans  = 1;
 	    for(int i=1;i<=n;i++)
-	        {ans = ans * mid;
+	        {ans *= mid;
 	            if(ans>mid) break;
 	        }
 	   return ans;
@@ -22,7 +22,7 @@ class Solution{
 	    while(low<=high){
 	        long long mid = low + (high-low)/2;
 	        
-	       // long long temp = solve(n,mid);
+	       //long long temp = solve(n,mid);
 	       long long temp = 1;
 	       for(int i=1;i<=n;i++){
 	           temp *= mid;
@@ -36,6 +36,7 @@ class Solution{
 	    return -1;
 	}  
 };
+
 
 //{ Driver Code Starts.
 int main(){
