@@ -1,18 +1,5 @@
 class Solution {
 public:
-    void form(vector<vector<char>>& board, vector<vector<int>>& visited, int i, int j){
-        if(i==board.size() && j==board[0].size()) return;
-        visited[i][j]=1;
-        vector<int> ii = {0,1,0,-1};
-        vector<int> jj = {1,0,-1,0};
-        for(int k=0;k<4;k++){
-            if((i+ii[k])>=0 && (i+ii[k])<=(board.size()-1) && (j+jj[k])>=0 && (j+jj[k])<=(board[0].size()-1)){
-                if(board[i+ii[k]][j+jj[k]]=='O' && visited[i+ii[k]][j+jj[k]]==0){
-                    form(board,visited,i+ii[k],j+jj[k]);
-                }
-            }
-    }
-    }
     void solve(vector<vector<char>>& board,vector<vector<int>>& visited, int i, int j,bool flag){
         if(i==board.size() && j==board[0].size()) return;
         visited[i][j] = 1;
