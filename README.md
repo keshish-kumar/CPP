@@ -274,6 +274,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/keshish-kumar/CPP/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0226-invert-binary-tree](https://github.com/keshish-kumar/CPP/tree/master/0226-invert-binary-tree) |
 | [0450-delete-node-in-a-bst](https://github.com/keshish-kumar/CPP/tree/master/0450-delete-node-in-a-bst) |
+| [0530-minimum-absolute-difference-in-bst](https://github.com/keshish-kumar/CPP/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/keshish-kumar/CPP/tree/master/0543-diameter-of-binary-tree) |
 ## Depth-First Search
 |  |
@@ -286,6 +287,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0207-course-schedule](https://github.com/keshish-kumar/CPP/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/keshish-kumar/CPP/tree/master/0210-course-schedule-ii) |
 | [0226-invert-binary-tree](https://github.com/keshish-kumar/CPP/tree/master/0226-invert-binary-tree) |
+| [0530-minimum-absolute-difference-in-bst](https://github.com/keshish-kumar/CPP/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/keshish-kumar/CPP/tree/master/0543-diameter-of-binary-tree) |
 ## Breadth-First Search
 |  |
@@ -298,6 +300,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0210-course-schedule-ii](https://github.com/keshish-kumar/CPP/tree/master/0210-course-schedule-ii) |
 | [0226-invert-binary-tree](https://github.com/keshish-kumar/CPP/tree/master/0226-invert-binary-tree) |
 | [0322-coin-change](https://github.com/keshish-kumar/CPP/tree/master/0322-coin-change) |
+| [0530-minimum-absolute-difference-in-bst](https://github.com/keshish-kumar/CPP/tree/master/0530-minimum-absolute-difference-in-bst) |
 ## Binary Tree
 |  |
 | ------- |
@@ -308,6 +311,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/keshish-kumar/CPP/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0226-invert-binary-tree](https://github.com/keshish-kumar/CPP/tree/master/0226-invert-binary-tree) |
 | [0450-delete-node-in-a-bst](https://github.com/keshish-kumar/CPP/tree/master/0450-delete-node-in-a-bst) |
+| [0530-minimum-absolute-difference-in-bst](https://github.com/keshish-kumar/CPP/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/keshish-kumar/CPP/tree/master/0543-diameter-of-binary-tree) |
 ## Counting
 |  |
@@ -321,6 +325,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0098-validate-binary-search-tree](https://github.com/keshish-kumar/CPP/tree/master/0098-validate-binary-search-tree) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/keshish-kumar/CPP/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0450-delete-node-in-a-bst](https://github.com/keshish-kumar/CPP/tree/master/0450-delete-node-in-a-bst) |
+| [0530-minimum-absolute-difference-in-bst](https://github.com/keshish-kumar/CPP/tree/master/0530-minimum-absolute-difference-in-bst) |
 ## Memoization
 |  |
 | ------- |
