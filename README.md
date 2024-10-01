@@ -33,6 +33,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/keshish-kumar/CPP/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/keshish-kumar/CPP/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/keshish-kumar/CPP/tree/master/0128-longest-consecutive-sequence) |
+| [0130-surrounded-regions](https://github.com/keshish-kumar/CPP/tree/master/0130-surrounded-regions) |
 | [0136-single-number](https://github.com/keshish-kumar/CPP/tree/master/0136-single-number) |
 | [0139-word-break](https://github.com/keshish-kumar/CPP/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/keshish-kumar/CPP/tree/master/0152-maximum-product-subarray) |
@@ -258,6 +259,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0074-search-a-2d-matrix](https://github.com/keshish-kumar/CPP/tree/master/0074-search-a-2d-matrix) |
 | [0079-word-search](https://github.com/keshish-kumar/CPP/tree/master/0079-word-search) |
 | [0085-maximal-rectangle](https://github.com/keshish-kumar/CPP/tree/master/0085-maximal-rectangle) |
+| [0130-surrounded-regions](https://github.com/keshish-kumar/CPP/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/keshish-kumar/CPP/tree/master/0200-number-of-islands) |
 | [0212-word-search-ii](https://github.com/keshish-kumar/CPP/tree/master/0212-word-search-ii) |
 | [0221-maximal-square](https://github.com/keshish-kumar/CPP/tree/master/0221-maximal-square) |
@@ -279,6 +281,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0098-validate-binary-search-tree](https://github.com/keshish-kumar/CPP/tree/master/0098-validate-binary-search-tree) |
 | [0101-symmetric-tree](https://github.com/keshish-kumar/CPP/tree/master/0101-symmetric-tree) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/keshish-kumar/CPP/tree/master/0114-flatten-binary-tree-to-linked-list) |
+| [0130-surrounded-regions](https://github.com/keshish-kumar/CPP/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/keshish-kumar/CPP/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/keshish-kumar/CPP/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/keshish-kumar/CPP/tree/master/0210-course-schedule-ii) |
@@ -289,6 +292,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | ------- |
 | [0101-symmetric-tree](https://github.com/keshish-kumar/CPP/tree/master/0101-symmetric-tree) |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/keshish-kumar/CPP/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
+| [0130-surrounded-regions](https://github.com/keshish-kumar/CPP/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/keshish-kumar/CPP/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/keshish-kumar/CPP/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/keshish-kumar/CPP/tree/master/0210-course-schedule-ii) |
@@ -361,6 +365,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/keshish-kumar/CPP/tree/master/0128-longest-consecutive-sequence) |
+| [0130-surrounded-regions](https://github.com/keshish-kumar/CPP/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/keshish-kumar/CPP/tree/master/0200-number-of-islands) |
 ## Backtracking
 |  |
