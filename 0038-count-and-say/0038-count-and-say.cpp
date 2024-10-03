@@ -22,10 +22,29 @@ public:
         solve(n-1,ans);
     }
     string countAndSay(int n) {
+        // if(n==1) return "1";
+        // string  ans = "1";
+        // solve(n,ans);
+        // return ans;
         if(n==1) return "1";
-        string  ans = "1";
-        solve(n,ans);
-        return ans;
+
+        string st = countAndSay(n-1);
+        int count = 1;
+        char ch = '1';
+        string temp ="";
+        for(int i=st.size()-2;i>=0;i--){
+            if(ch == st[i]){
+                count++;
+            }
+            else{
+                temp = to_string(count) + ch + temp;
+                count=1;
+                ch = st[i];
+            }
+        }
+        temp = to_string(count) + ch + temp;
+        st=temp;
+        return st;
 
     }
 };
