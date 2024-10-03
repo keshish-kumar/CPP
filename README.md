@@ -158,6 +158,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0015-3sum](https://github.com/keshish-kumar/CPP/tree/master/0015-3sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/keshish-kumar/CPP/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/keshish-kumar/CPP/tree/master/0027-remove-element) |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/keshish-kumar/CPP/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0042-trapping-rain-water](https://github.com/keshish-kumar/CPP/tree/master/0042-trapping-rain-water) |
 | [0075-sort-colors](https://github.com/keshish-kumar/CPP/tree/master/0075-sort-colors) |
 | [0160-intersection-of-two-linked-lists](https://github.com/keshish-kumar/CPP/tree/master/0160-intersection-of-two-linked-lists) |
@@ -204,6 +205,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0005-longest-palindromic-substring](https://github.com/keshish-kumar/CPP/tree/master/0005-longest-palindromic-substring) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/keshish-kumar/CPP/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0020-valid-parentheses](https://github.com/keshish-kumar/CPP/tree/master/0020-valid-parentheses) |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/keshish-kumar/CPP/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0049-group-anagrams](https://github.com/keshish-kumar/CPP/tree/master/0049-group-anagrams) |
 | [0079-word-search](https://github.com/keshish-kumar/CPP/tree/master/0079-word-search) |
 | [0139-word-break](https://github.com/keshish-kumar/CPP/tree/master/0139-word-break) |
@@ -414,4 +416,8 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | ------- |
 | [0207-course-schedule](https://github.com/keshish-kumar/CPP/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/keshish-kumar/CPP/tree/master/0210-course-schedule-ii) |
+## String Matching
+|  |
+| ------- |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/keshish-kumar/CPP/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 <!---LeetCode Topics End-->
