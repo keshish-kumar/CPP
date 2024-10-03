@@ -127,6 +127,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0215-kth-largest-element-in-an-array](https://github.com/keshish-kumar/CPP/tree/master/0215-kth-largest-element-in-an-array) |
 | [0229-majority-element-ii](https://github.com/keshish-kumar/CPP/tree/master/0229-majority-element-ii) |
 | [0268-missing-number](https://github.com/keshish-kumar/CPP/tree/master/0268-missing-number) |
+| [0295-find-median-from-data-stream](https://github.com/keshish-kumar/CPP/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/keshish-kumar/CPP/tree/master/0347-top-k-frequent-elements) |
 | [0368-largest-divisible-subset](https://github.com/keshish-kumar/CPP/tree/master/0368-largest-divisible-subset) |
 | [1129-longest-string-chain](https://github.com/keshish-kumar/CPP/tree/master/1129-longest-string-chain) |
@@ -165,6 +166,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/keshish-kumar/CPP/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0189-rotate-array](https://github.com/keshish-kumar/CPP/tree/master/0189-rotate-array) |
 | [0287-find-the-duplicate-number](https://github.com/keshish-kumar/CPP/tree/master/0287-find-the-duplicate-number) |
+| [0295-find-median-from-data-stream](https://github.com/keshish-kumar/CPP/tree/master/0295-find-median-from-data-stream) |
 | [0344-reverse-string](https://github.com/keshish-kumar/CPP/tree/master/0344-reverse-string) |
 | [0443-string-compression](https://github.com/keshish-kumar/CPP/tree/master/0443-string-compression) |
 | [1129-longest-string-chain](https://github.com/keshish-kumar/CPP/tree/master/1129-longest-string-chain) |
@@ -353,6 +355,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 |  |
 | ------- |
 | [0155-min-stack](https://github.com/keshish-kumar/CPP/tree/master/0155-min-stack) |
+| [0295-find-median-from-data-stream](https://github.com/keshish-kumar/CPP/tree/master/0295-find-median-from-data-stream) |
 ## Simulation
 |  |
 | ------- |
@@ -363,6 +366,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/keshish-kumar/CPP/tree/master/0215-kth-largest-element-in-an-array) |
 | [0239-sliding-window-maximum](https://github.com/keshish-kumar/CPP/tree/master/0239-sliding-window-maximum) |
+| [0295-find-median-from-data-stream](https://github.com/keshish-kumar/CPP/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/keshish-kumar/CPP/tree/master/0347-top-k-frequent-elements) |
 ## Quickselect
 |  |
@@ -424,4 +428,8 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 |  |
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/keshish-kumar/CPP/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+## Data Stream
+|  |
+| ------- |
+| [0295-find-median-from-data-stream](https://github.com/keshish-kumar/CPP/tree/master/0295-find-median-from-data-stream) |
 <!---LeetCode Topics End-->
