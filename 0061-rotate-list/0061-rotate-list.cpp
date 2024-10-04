@@ -23,7 +23,7 @@ public:
         }
 
         // ll is the lenth of list after ll-n we have to rotate list
-        if(k==ll) return head;
+       // if(k==ll) return head;
         k = k%ll;
         if(k==0) return head;
         
