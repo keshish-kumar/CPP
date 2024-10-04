@@ -31,6 +31,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0079-word-search](https://github.com/keshish-kumar/CPP/tree/master/0079-word-search) |
 | [0084-largest-rectangle-in-histogram](https://github.com/keshish-kumar/CPP/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/keshish-kumar/CPP/tree/master/0085-maximal-rectangle) |
+| [0090-subsets-ii](https://github.com/keshish-kumar/CPP/tree/master/0090-subsets-ii) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/keshish-kumar/CPP/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/keshish-kumar/CPP/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/keshish-kumar/CPP/tree/master/0128-longest-consecutive-sequence) |
@@ -176,6 +177,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 |  |
 | ------- |
 | [0078-subsets](https://github.com/keshish-kumar/CPP/tree/master/0078-subsets) |
+| [0090-subsets-ii](https://github.com/keshish-kumar/CPP/tree/master/0090-subsets-ii) |
 | [0136-single-number](https://github.com/keshish-kumar/CPP/tree/master/0136-single-number) |
 | [0191-number-of-1-bits](https://github.com/keshish-kumar/CPP/tree/master/0191-number-of-1-bits) |
 | [0201-bitwise-and-of-numbers-range](https://github.com/keshish-kumar/CPP/tree/master/0201-bitwise-and-of-numbers-range) |
@@ -408,6 +410,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0046-permutations](https://github.com/keshish-kumar/CPP/tree/master/0046-permutations) |
 | [0078-subsets](https://github.com/keshish-kumar/CPP/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/keshish-kumar/CPP/tree/master/0079-word-search) |
+| [0090-subsets-ii](https://github.com/keshish-kumar/CPP/tree/master/0090-subsets-ii) |
 | [0212-word-search-ii](https://github.com/keshish-kumar/CPP/tree/master/0212-word-search-ii) |
 ## Trie
 |  |
