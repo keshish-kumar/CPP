@@ -12,7 +12,7 @@ class Solution {
 public:
     ListNode* rotateRight(ListNode* head, int k) {
         if(head==NULL) return NULL;
-        if(k==0||head->next==NULL) return head;
+        //if(k==0) return head;
 
         // first we have to count total length of linked list
         int ll=0;
@@ -23,7 +23,6 @@ public:
         }
 
         // ll is the lenth of list after ll-n we have to rotate list
-       // if(k==ll) return head;
         k = k%ll;
         if(k==0) return head;
         
