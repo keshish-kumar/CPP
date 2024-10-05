@@ -94,6 +94,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0070-climbing-stairs](https://github.com/keshish-kumar/CPP/tree/master/0070-climbing-stairs) |
 | [0085-maximal-rectangle](https://github.com/keshish-kumar/CPP/tree/master/0085-maximal-rectangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/keshish-kumar/CPP/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0131-palindrome-partitioning](https://github.com/keshish-kumar/CPP/tree/master/0131-palindrome-partitioning) |
 | [0139-word-break](https://github.com/keshish-kumar/CPP/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/keshish-kumar/CPP/tree/master/0152-maximum-product-subarray) |
 | [0198-house-robber](https://github.com/keshish-kumar/CPP/tree/master/0198-house-robber) |
@@ -223,6 +224,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0049-group-anagrams](https://github.com/keshish-kumar/CPP/tree/master/0049-group-anagrams) |
 | [0076-minimum-window-substring](https://github.com/keshish-kumar/CPP/tree/master/0076-minimum-window-substring) |
 | [0079-word-search](https://github.com/keshish-kumar/CPP/tree/master/0079-word-search) |
+| [0131-palindrome-partitioning](https://github.com/keshish-kumar/CPP/tree/master/0131-palindrome-partitioning) |
 | [0139-word-break](https://github.com/keshish-kumar/CPP/tree/master/0139-word-break) |
 | [0212-word-search-ii](https://github.com/keshish-kumar/CPP/tree/master/0212-word-search-ii) |
 | [0344-reverse-string](https://github.com/keshish-kumar/CPP/tree/master/0344-reverse-string) |
@@ -420,6 +422,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0078-subsets](https://github.com/keshish-kumar/CPP/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/keshish-kumar/CPP/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/keshish-kumar/CPP/tree/master/0090-subsets-ii) |
+| [0131-palindrome-partitioning](https://github.com/keshish-kumar/CPP/tree/master/0131-palindrome-partitioning) |
 | [0212-word-search-ii](https://github.com/keshish-kumar/CPP/tree/master/0212-word-search-ii) |
 ## Trie
 |  |
