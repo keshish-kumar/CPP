@@ -5,14 +5,18 @@ public:
             ans.push_back(temp);
             return;
         }
-        if(index>=candidates.size()) return;
-        if(target >= candidates[index]){
-            temp.push_back(candidates[index]);
-            solve(candidates,target-candidates[index],temp,ans,index);
-            temp.pop_back();
+        // we will use for loop here to avoid repeatiojion of elements.
+
+        for(int i=index;i<candidates.size();i++){
+            if(i>index && candidates[i-1]==candidates[i]) continue;
+            if(candidates[i]<=target){
+                temp.push_back(candidates[i]);
+                solve(candidates,target-candidates[i],temp,ans,i);
+                temp.pop_back();
+            }
         }
 
-        solve(candidates,target,temp,ans,index+1);
+
     }
     vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
         vector<vector<int>> ans;
