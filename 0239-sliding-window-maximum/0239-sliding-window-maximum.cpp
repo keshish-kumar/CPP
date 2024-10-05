@@ -5,17 +5,19 @@ public:
         vector<int> ans;
         int i=0,j=0;
         while(j<nums.size()){
-            while(!q.empty() && nums[q.back()]<nums[j]){
+            while(!q.empty() && q.back()<nums[j]){ // this will check that samller element should not be i front 
                 q.pop_back();
             }
-            q.push_back(j);
+            q.push_back(nums[j]); // push the current elemnt into q;
             if((j-i+1)==k){
-                ans.push_back(nums[q.front()]);
-                if(nums[q.front()]==nums[i]) q.pop_front();
+                ans.push_back(q.front());
+                if(nums[i]==q.front()) q.pop_front();
                 i++;
             }
             j++;
+
         }
         return ans;
+        
     }
 };
