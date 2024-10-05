@@ -195,6 +195,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0036-valid-sudoku](https://github.com/keshish-kumar/CPP/tree/master/0036-valid-sudoku) |
 | [0049-group-anagrams](https://github.com/keshish-kumar/CPP/tree/master/0049-group-anagrams) |
 | [0073-set-matrix-zeroes](https://github.com/keshish-kumar/CPP/tree/master/0073-set-matrix-zeroes) |
+| [0076-minimum-window-substring](https://github.com/keshish-kumar/CPP/tree/master/0076-minimum-window-substring) |
 | [0128-longest-consecutive-sequence](https://github.com/keshish-kumar/CPP/tree/master/0128-longest-consecutive-sequence) |
 | [0138-copy-list-with-random-pointer](https://github.com/keshish-kumar/CPP/tree/master/0138-copy-list-with-random-pointer) |
 | [0139-word-break](https://github.com/keshish-kumar/CPP/tree/master/0139-word-break) |
@@ -219,6 +220,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/keshish-kumar/CPP/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0038-count-and-say](https://github.com/keshish-kumar/CPP/tree/master/0038-count-and-say) |
 | [0049-group-anagrams](https://github.com/keshish-kumar/CPP/tree/master/0049-group-anagrams) |
+| [0076-minimum-window-substring](https://github.com/keshish-kumar/CPP/tree/master/0076-minimum-window-substring) |
 | [0079-word-search](https://github.com/keshish-kumar/CPP/tree/master/0079-word-search) |
 | [0139-word-break](https://github.com/keshish-kumar/CPP/tree/master/0139-word-break) |
 | [0212-word-search-ii](https://github.com/keshish-kumar/CPP/tree/master/0212-word-search-ii) |
@@ -387,6 +389,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/keshish-kumar/CPP/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0076-minimum-window-substring](https://github.com/keshish-kumar/CPP/tree/master/0076-minimum-window-substring) |
 | [0239-sliding-window-maximum](https://github.com/keshish-kumar/CPP/tree/master/0239-sliding-window-maximum) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/keshish-kumar/CPP/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0940-fruit-into-baskets](https://github.com/keshish-kumar/CPP/tree/master/0940-fruit-into-baskets) |
