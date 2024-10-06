@@ -1,74 +1,56 @@
 class Solution {
 public:
-    
-    
-    bool issafe(int row, int col, vector<string> board, int n){
+    bool ispossible(vector<string>& temp,  int n, int row, int col){
+        
         int r = row;
         int c = col;
-        // we have to check in all the 8 direction to see if there is any queen or not
-        //upper diagonals
-        while(row>=0 && col>=0){
-            if(board[row][col]=='Q') return false; 
-            row--;col--;
+        // left diagonal
+        while(r>0 && c>0){
+            if(temp[r-1][c-1]=='Q') return false;
+            r--;c--;
         }
-        
-        // lower diagonal
-        row = r;
-        col = c;
-        while(row<n && col>=0){
-            if(board[row][col] == 'Q' ) return false;
-            row++;col--;
+
+        r = row; c = col;
+        // right diagonal
+        while(r>0 && c<(n-1)){
+            if(temp[r-1][c+1]=='Q') return false;
+            r--;c++;
         }
-        
-        //left side
-        row = r;
-        col = c;
-        while(col>=0){
-            if(board[row][col]=='Q') return false;
-            col--;
+
+        r =row;c=col;
+
+        // up
+        while(r>0){
+            if(temp[r-1][c] == 'Q') return false;
+            r--;
         }
-        
+
         return true;
-        
+
     }
-    
-    
-    
-    // This function will check whether there is any possiblity to keep the qeen in that
-    void solve( int col,vector<string>& board,vector<vector<string>>& ans, int n){
-        
-       if(col==n)
-       {
-           ans.push_back(board);
-           return;
-       }  
-        
-        for(int row=0;row<n;row++){
-            if(issafe(row,col,board,n)){
-                board[row][col] = 'Q';
-                solve(col+1,board,ans,n);
-                board[row][col] = '.';
+    void solve(int n, vector<vector<string>>& ans, vector<string>& temp, int row){
+        if(row == n) {
+            ans.push_back(temp);
+            return;
+        }
+
+        for(int i=0;i<n;i++){ // this will be col
+            if(ispossible(temp,n,row,i)){
+                temp[row][i] = 'Q';
+                solve(n,ans,temp,row+1);
+                temp[row][i] = '.';
             }
         }
-        
     }
-    
-    
-    
     vector<vector<string>> solveNQueens(int n) {
-        // first we have to make n*n grid where we can put n queens 
-        // criteria for n queen problem
-        // 1-> every row 1-queen , 2-> every col 1-queen, 3-> none of the queen attack each other
-        
         vector<vector<string>> ans;
-        vector<string> board(n);
+        vector<string> temp(n);
         string s(n,'.');
-        // Now we have to make loop such that each col we will satrt there
-        for(int i=0;i<n;i++)
-            board[i] = s;
-        solve(0,board,ans,n);
+        for(int i=0;i<n;i++){ // Here we have created temp vector wiht all . in that
+            temp[i]=s;
+        } 
+        solve(n,ans,temp,0); // 0 repsents the row 
         return ans;
-            
-        
+
     }
 };
