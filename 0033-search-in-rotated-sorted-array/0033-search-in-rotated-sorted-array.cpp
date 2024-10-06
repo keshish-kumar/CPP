@@ -9,7 +9,7 @@ public:
             if(arr[mid]==target) return mid;
            // check if left side is sorted
             if(arr[mid]>=arr[low]){
-                if(arr[low]<=target && arr[mid]>target ){
+                if(arr[low]<=target && arr[mid]>=target ){
                     high=mid-1;
                 }
                 else{
