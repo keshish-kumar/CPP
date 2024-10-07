@@ -1,36 +1,39 @@
 class Solution {
 public:
-    double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
-        // Now we will aply binary search to it. 
-        // we need to check which is samller size and apply binary search to samller vector
-        if(nums1.size()>nums2.size()){
-            return findMedianSortedArrays(nums2,nums1);
-        }
-        int n = nums1.size();
-        int m = nums2.size();
-        // Now apply low to 0 an high to nums1.size()-1;
-        int low = 0;
-        int high = n;
+    double findMedianSortedArrays(vector<int>& arr1, vector<int>& arr2) {
+        if(arr1.size()>arr2.size()) swap(arr1,arr2);
+        int x = arr1.size(), y = arr2.size();
+      
+        int low = 0, high =arr1.size();
+        int k = (x+y)/2;
         while(low<=high){
-            int px = (low+high)/2; // element which will be from nums1 in left slot
-            int py = (n+m+1)/2-px; // elemnet which qill be from nums2 in left slot left after filling from nums1
+            int mid = (low+high)/2; // no of lelemnt from arr1 in leftpart
             
-            // first half 
-            int x1 = (px==0)?-1e9: nums1[px-1];
-            int x2 = (py==0)?-1e9: nums2[py-1];
-
-            // second half
-            int x3 = (px==n)?1e9: nums1[px];
-            int x4 = (py==m)?1e9: nums2[py];
-
-            if(x1<=x4 && x2<=x3){
-                if((n+m)%2==0) return (max(x1,x2)+min(x3,x4))/2.0;
-                else return max(x1,x2);
+            // Now we will fill the leftpart
+            // we now know that mid is the number of elemt present in pargt1 from arr1
+            // we can get number of element present in part1 from arr2 as k-mid;
+            int x1 = (mid>0)?arr1[mid-1]:-1e9;
+            int y1 = ((k-mid)>0 )?arr2[k-mid-1]:-1e9;
+            
+            // Now we will fill the rightpart
+            int x2 = (mid<x)?arr1[mid]:1e9;
+            int y2 = (k-mid<y)?arr2[k-mid]:1e9;
+            
+            if(x1<=y2 && y1<=x2){
+                if((x+y)%2==0){
+                    return (max(x1,y1)+min(x2,y2))/2.0;
+                }
+                else
+                    return min(x2,y2);
             }
-            if(x1>x4) high = px-1;
-            else low = px+1;
+            
+            if(x1>y2){
+                high = mid-1;
+            }
+            else{
+                low = mid+1;
+            }
         }
-        return 0;
-
+        return -1;
     }
 };
