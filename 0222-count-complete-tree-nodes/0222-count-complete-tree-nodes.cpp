@@ -12,31 +12,32 @@
 class Solution {
 public:
     int countNodes(TreeNode* root) {
-        // we know if the tree is complete than 2^h-1 is the formulae
-        
-        int lh = left(root);
-        int rh = right(root);
-        
-        if(rh == lh) return (1<<rh)-1 ;
-        
+        if(root==NULL) return 0;
+        int l = left(root->left);
+        int r = right(root->right);
+
+        if(l==r) return (1<<(l+1))-1;
+
         return 1+countNodes(root->left)+countNodes(root->right);
     }
-    
+
     int left(TreeNode* root){
-        if(root == NULL) return 0;
-        int count =0;
+        if(root==NULL) return 0;
+
+        int count=0;
         while(root!=NULL){
-            root = root->left;
             count++;
+            root=root->left;
         }
         return count;
     }
     int right(TreeNode* root){
         if(root==NULL) return 0;
-        int count =0;
+
+        int count=0;
         while(root!=NULL){
-            root = root->right;
             count++;
+            root=root->right;
         }
         return count;
     }
