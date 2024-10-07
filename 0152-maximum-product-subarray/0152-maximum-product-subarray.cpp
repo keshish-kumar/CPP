@@ -1,20 +1,26 @@
 class Solution {
 public:
+    
     int maxProduct(vector<int>& nums) {
-        int prefix = 1;
-        int ans = INT_MIN;
+        // we will do from both left and right to calcujlate the array
+
+        int count =1;
+        int ans = nums[0];
         for(int i=0;i<nums.size();i++){
-            prefix = prefix*nums[i];
-            ans= max(ans,prefix);
-            //ans = max(ans,prefix);
-            if(nums[i]==0) prefix=1;
+            count *= nums[i];
+             ans = max(ans,count);
+            if(count ==0 ) count =1;
+           
         }
-        int suffix = 1;
+
+        // check from right side
+
+        count =1;
         for(int i=nums.size()-1;i>=0;i--){
-            suffix *=nums[i];
-            ans = max(ans,suffix);
-           // ans = max(ans,suffix);
-            if(nums[i]==0) suffix=1;
+            count *=nums[i];
+             ans = max(ans,count);
+            if(count ==0 ) count =1;
+           
         }
         return ans;
     }
