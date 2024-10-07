@@ -83,6 +83,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0074-search-a-2d-matrix](https://github.com/keshish-kumar/CPP/tree/master/0074-search-a-2d-matrix) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/keshish-kumar/CPP/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/keshish-kumar/CPP/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0222-count-complete-tree-nodes](https://github.com/keshish-kumar/CPP/tree/master/0222-count-complete-tree-nodes) |
 | [0268-missing-number](https://github.com/keshish-kumar/CPP/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/keshish-kumar/CPP/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/keshish-kumar/CPP/tree/master/0300-longest-increasing-subsequence) |
@@ -194,6 +195,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0136-single-number](https://github.com/keshish-kumar/CPP/tree/master/0136-single-number) |
 | [0191-number-of-1-bits](https://github.com/keshish-kumar/CPP/tree/master/0191-number-of-1-bits) |
 | [0201-bitwise-and-of-numbers-range](https://github.com/keshish-kumar/CPP/tree/master/0201-bitwise-and-of-numbers-range) |
+| [0222-count-complete-tree-nodes](https://github.com/keshish-kumar/CPP/tree/master/0222-count-complete-tree-nodes) |
 | [0260-single-number-iii](https://github.com/keshish-kumar/CPP/tree/master/0260-single-number-iii) |
 | [0268-missing-number](https://github.com/keshish-kumar/CPP/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/keshish-kumar/CPP/tree/master/0287-find-the-duplicate-number) |
@@ -319,6 +321,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/keshish-kumar/CPP/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/keshish-kumar/CPP/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/keshish-kumar/CPP/tree/master/0114-flatten-binary-tree-to-linked-list) |
+| [0222-count-complete-tree-nodes](https://github.com/keshish-kumar/CPP/tree/master/0222-count-complete-tree-nodes) |
 | [0226-invert-binary-tree](https://github.com/keshish-kumar/CPP/tree/master/0226-invert-binary-tree) |
 | [0450-delete-node-in-a-bst](https://github.com/keshish-kumar/CPP/tree/master/0450-delete-node-in-a-bst) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/keshish-kumar/CPP/tree/master/0530-minimum-absolute-difference-in-bst) |
@@ -359,6 +362,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/keshish-kumar/CPP/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/keshish-kumar/CPP/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/keshish-kumar/CPP/tree/master/0114-flatten-binary-tree-to-linked-list) |
+| [0222-count-complete-tree-nodes](https://github.com/keshish-kumar/CPP/tree/master/0222-count-complete-tree-nodes) |
 | [0226-invert-binary-tree](https://github.com/keshish-kumar/CPP/tree/master/0226-invert-binary-tree) |
 | [0450-delete-node-in-a-bst](https://github.com/keshish-kumar/CPP/tree/master/0450-delete-node-in-a-bst) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/keshish-kumar/CPP/tree/master/0530-minimum-absolute-difference-in-bst) |
