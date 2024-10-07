@@ -8,37 +8,40 @@ class Solution {
   public:
     int kthElement(int k, vector<int>& arr1, vector<int>& arr2) {
         // code here
-        int i=0,j=0;
-        int count =1;
-        while(i<arr1.size() && j<arr2.size()){
-            if(arr1[i]<=arr2[j]){
-                if(count==k) return arr1[i];
-                i++;
+        // here we will apply binary seaarch on answer
+        // let x be the arr1 and y be the arr2
+        // x1<=y2 && x2<=y1
+        // low and high
+        if(arr1.size()>arr2.size()) swap(arr1,arr2);
+        int x = arr1.size(), y = arr2.size();
+      
+        int low = max(0,k-y), high =min(x,k);
+        
+        while(low<=high){
+            int mid = (low+high)/2; // no of lelemnt from arr1 in leftpart
+            
+            // Now we will fill the leftpart
+            // we now know that mid is the number of elemt present in pargt1 from arr1
+            // we can get number of element present in part1 from arr2 as k-mid;
+            int x1 = (mid>0)?arr1[mid-1]:-1e9;
+            int y1 = ((k-mid)>0 )?arr2[k-mid-1]:-1e9;
+            
+            // Now we will fill the rightpart
+            int x2 = (mid<x)?arr1[mid]:1e9;
+            int y2 = (k-mid<y)?arr2[k-mid]:1e9;
+            
+            if(x1<=y2 && y1<=x2){
+                return max(x1,y1);
+            }
+            
+            if(x1>y2){
+                high = mid-1;
             }
             else{
-                
-                if(count==k) return arr2[j];
-                j++;}
-        count++;
-        
-        }
-        
-        int temp = count;
-        while(i<arr1.size())
-            {
-                if(temp ==k) return arr1[i];
-                temp++;
-                i++;
+                low = mid+1;
             }
-        temp = count;
-        while(j<arr2.size()){
-            if(temp==k) return arr2[j];
-            temp++;
-            j++;
         }
-        
-        return 0;
-        
+        return -1;
     }
 };
 
