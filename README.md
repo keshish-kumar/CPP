@@ -51,6 +51,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0198-house-robber](https://github.com/keshish-kumar/CPP/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/keshish-kumar/CPP/tree/master/0200-number-of-islands) |
 | [0212-word-search-ii](https://github.com/keshish-kumar/CPP/tree/master/0212-word-search-ii) |
+| [0213-house-robber-ii](https://github.com/keshish-kumar/CPP/tree/master/0213-house-robber-ii) |
 | [0215-kth-largest-element-in-an-array](https://github.com/keshish-kumar/CPP/tree/master/0215-kth-largest-element-in-an-array) |
 | [0221-maximal-square](https://github.com/keshish-kumar/CPP/tree/master/0221-maximal-square) |
 | [0229-majority-element-ii](https://github.com/keshish-kumar/CPP/tree/master/0229-majority-element-ii) |
@@ -109,6 +110,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0140-word-break-ii](https://github.com/keshish-kumar/CPP/tree/master/0140-word-break-ii) |
 | [0152-maximum-product-subarray](https://github.com/keshish-kumar/CPP/tree/master/0152-maximum-product-subarray) |
 | [0198-house-robber](https://github.com/keshish-kumar/CPP/tree/master/0198-house-robber) |
+| [0213-house-robber-ii](https://github.com/keshish-kumar/CPP/tree/master/0213-house-robber-ii) |
 | [0221-maximal-square](https://github.com/keshish-kumar/CPP/tree/master/0221-maximal-square) |
 | [0300-longest-increasing-subsequence](https://github.com/keshish-kumar/CPP/tree/master/0300-longest-increasing-subsequence) |
 | [0312-burst-balloons](https://github.com/keshish-kumar/CPP/tree/master/0312-burst-balloons) |
