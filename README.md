@@ -99,6 +99,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0055-jump-game](https://github.com/keshish-kumar/CPP/tree/master/0055-jump-game) |
 | [0062-unique-paths](https://github.com/keshish-kumar/CPP/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/keshish-kumar/CPP/tree/master/0070-climbing-stairs) |
+| [0072-edit-distance](https://github.com/keshish-kumar/CPP/tree/master/0072-edit-distance) |
 | [0085-maximal-rectangle](https://github.com/keshish-kumar/CPP/tree/master/0085-maximal-rectangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/keshish-kumar/CPP/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0131-palindrome-partitioning](https://github.com/keshish-kumar/CPP/tree/master/0131-palindrome-partitioning) |
@@ -237,6 +238,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/keshish-kumar/CPP/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0038-count-and-say](https://github.com/keshish-kumar/CPP/tree/master/0038-count-and-say) |
 | [0049-group-anagrams](https://github.com/keshish-kumar/CPP/tree/master/0049-group-anagrams) |
+| [0072-edit-distance](https://github.com/keshish-kumar/CPP/tree/master/0072-edit-distance) |
 | [0076-minimum-window-substring](https://github.com/keshish-kumar/CPP/tree/master/0076-minimum-window-substring) |
 | [0079-word-search](https://github.com/keshish-kumar/CPP/tree/master/0079-word-search) |
 | [0131-palindrome-partitioning](https://github.com/keshish-kumar/CPP/tree/master/0131-palindrome-partitioning) |
