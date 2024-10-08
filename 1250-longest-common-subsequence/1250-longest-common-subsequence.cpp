@@ -37,7 +37,7 @@ public:
             vector<int> temp(text2.size()+1,0);
             for(int j=1;j<=text2.size();j++){
                 if(text1[i-1]==text2[j-1]){
-                    temp[j] = 1+temp[j-1];
+                    temp[j] = 1+dp[j-1];
                 }
                 else{
                     temp[j] = max(dp[j],temp[j-1]);
