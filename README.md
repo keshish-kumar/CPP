@@ -117,6 +117,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0954-maximum-sum-circular-subarray](https://github.com/keshish-kumar/CPP/tree/master/0954-maximum-sum-circular-subarray) |
 | [1121-partition-array-for-maximum-sum](https://github.com/keshish-kumar/CPP/tree/master/1121-partition-array-for-maximum-sum) |
 | [1129-longest-string-chain](https://github.com/keshish-kumar/CPP/tree/master/1129-longest-string-chain) |
+| [1250-longest-common-subsequence](https://github.com/keshish-kumar/CPP/tree/master/1250-longest-common-subsequence) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/keshish-kumar/CPP/tree/master/1669-minimum-cost-to-cut-a-stick) |
 ## Math
 |  |
@@ -248,6 +249,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0443-string-compression](https://github.com/keshish-kumar/CPP/tree/master/0443-string-compression) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/keshish-kumar/CPP/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1129-longest-string-chain](https://github.com/keshish-kumar/CPP/tree/master/1129-longest-string-chain) |
+| [1250-longest-common-subsequence](https://github.com/keshish-kumar/CPP/tree/master/1250-longest-common-subsequence) |
 | [1960-check-if-the-sentence-is-pangram](https://github.com/keshish-kumar/CPP/tree/master/1960-check-if-the-sentence-is-pangram) |
 ## Linked List
 |  |
