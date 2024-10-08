@@ -9,42 +9,36 @@ using namespace std;
 
 class Solution{
 public:
-
-    int solve(int arr[], int i, int j,vector<vector<int>>& dp){
+    int solve(int arr[], int i, int j){
         if(i>=j) return 0;
-        if(dp[i][j]!=-1) return dp[i][j];
-        int mini = INT_MAX;
-        for(int k=i;k<=j-1;k++){
-            int temp = solve(arr,i,k,dp)+solve(arr,k+1,j,dp)+(arr[i-1]*arr[k]*arr[j]);
-            mini = min(mini,temp);
-        }
         
-        return dp[i][j] = mini;
+        int mini = INT_MAX;
+        for(int k=i;k<j;k++){
+            int temp = solve(arr,i,k)+solve(arr,k+1,j)+ (arr[i-1]*arr[k]*arr[j]);
+            mini=min(mini,temp);
+        }
+        return mini;
     }
+    
     int matrixMultiplication(int N, int arr[])
     {
         // code here
-        // we have to fidnn the best optimal bracket we can do for minimal cost
-    //   vector<vector<int>> dp(N+1,vector<int>(N+1,-1));
-    //     return solve(arr,1,N-1,dp);
-    
-        vector<vector<int>> dp(N+1,vector<int>(N+1));
+       // return solve(arr,1,N-1);
         
-         // j should be row and i should be column
-        
+        // Now we will go for 2d approach
+        vector<vector<int>> dp(N,vector<int>(N,0));
+        // firstw rititng base case
         for(int i=N-1;i>=1;i--){
-            for(int j=i+1;j<=N-1;j++){
-                int mini = INT_MAX;
-                 for(int k=i;k<=j-1;k++){
-                     int temp = dp[i][k]+dp[k+1][j]+(arr[i-1]*arr[k]*arr[j]);
-                mini = min(mini,temp);
+            for(int j=i+1;j<N;j++){
+                 int mini = INT_MAX;
+                for(int k=i;k<j;k++){
+                    int temp = dp[i][k]+dp[k+1][j]+ (arr[i-1]*arr[k]*arr[j]);
+                    mini=min(mini,temp);
                 }
                 dp[i][j] = mini;
             }
-
         }
         return dp[1][N-1];
-       
     }
 };
 
