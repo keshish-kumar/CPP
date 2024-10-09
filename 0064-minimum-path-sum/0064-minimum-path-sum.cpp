@@ -25,20 +25,28 @@ public:
         //vector<vector<int>> dp(grid.size(),vector<int>(grid[0].size(),-1));
         //return solve(grid,0,0,dp);
 
-        vector<vector<int>> dp(grid.size(),vector<int>(grid[0].size(),-1));
-        for(int i=0;i<grid.size();i++){
+        //vector<vector<int>> dp(grid.size(),vector<int>(grid[0].size(),-1));
+        vector<int> dp(grid[0].size(),-1);
+        for (int j = 0; j < grid[0].size(); j++) {
+        if (j == 0) {
+            dp[j] = grid[0][j];
+        } else {
+            dp[j] = dp[j - 1] + grid[0][j];
+        }
+    }
+        for(int i=1;i<grid.size();i++){
+            vector<int> temp(grid[0].size(),-1);
             for(int j=0;j<grid[0].size();j++){
-                if(i==0 && j==0) dp[i][j] = grid[i][j];
-                else{
-                    int left = 1e9,right=1e9;
-                    if(i>0) left = dp[i-1][j];
-                    if(j>0) right = dp[i][j-1];
-                    dp[i][j] = grid[i][j] + min(left,right);
+                 if (j == 0) {
+                temp[j] = dp[j] + grid[i][j];  // From the top cell
+                } else {
+                temp[j] = grid[i][j] + min(dp[j], temp[j - 1]);  // Min from top or left
                 }
             }
+            dp =temp;
         }
 
-        return dp[grid.size()-1][grid[0].size()-1];
+        return dp[grid[0].size()-1];
 
     }
 };
