@@ -78,6 +78,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0954-maximum-sum-circular-subarray](https://github.com/keshish-kumar/CPP/tree/master/0954-maximum-sum-circular-subarray) |
 | [0966-binary-subarrays-with-sum](https://github.com/keshish-kumar/CPP/tree/master/0966-binary-subarrays-with-sum) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/keshish-kumar/CPP/tree/master/1016-subarray-sums-divisible-by-k) |
+| [1046-max-consecutive-ones-iii](https://github.com/keshish-kumar/CPP/tree/master/1046-max-consecutive-ones-iii) |
 | [1121-partition-array-for-maximum-sum](https://github.com/keshish-kumar/CPP/tree/master/1121-partition-array-for-maximum-sum) |
 | [1129-longest-string-chain](https://github.com/keshish-kumar/CPP/tree/master/1129-longest-string-chain) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/keshish-kumar/CPP/tree/master/1669-minimum-cost-to-cut-a-stick) |
@@ -96,6 +97,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0300-longest-increasing-subsequence](https://github.com/keshish-kumar/CPP/tree/master/0300-longest-increasing-subsequence) |
 | [0540-single-element-in-a-sorted-array](https://github.com/keshish-kumar/CPP/tree/master/0540-single-element-in-a-sorted-array) |
 | [0792-binary-search](https://github.com/keshish-kumar/CPP/tree/master/0792-binary-search) |
+| [1046-max-consecutive-ones-iii](https://github.com/keshish-kumar/CPP/tree/master/1046-max-consecutive-ones-iii) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -441,6 +443,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0438-find-all-anagrams-in-a-string](https://github.com/keshish-kumar/CPP/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0940-fruit-into-baskets](https://github.com/keshish-kumar/CPP/tree/master/0940-fruit-into-baskets) |
 | [0966-binary-subarrays-with-sum](https://github.com/keshish-kumar/CPP/tree/master/0966-binary-subarrays-with-sum) |
+| [1046-max-consecutive-ones-iii](https://github.com/keshish-kumar/CPP/tree/master/1046-max-consecutive-ones-iii) |
 ## Queue
 |  |
 | ------- |
@@ -506,4 +509,5 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0560-subarray-sum-equals-k](https://github.com/keshish-kumar/CPP/tree/master/0560-subarray-sum-equals-k) |
 | [0966-binary-subarrays-with-sum](https://github.com/keshish-kumar/CPP/tree/master/0966-binary-subarrays-with-sum) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/keshish-kumar/CPP/tree/master/1016-subarray-sums-divisible-by-k) |
+| [1046-max-consecutive-ones-iii](https://github.com/keshish-kumar/CPP/tree/master/1046-max-consecutive-ones-iii) |
 <!---LeetCode Topics End-->
