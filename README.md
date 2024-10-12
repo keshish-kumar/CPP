@@ -75,6 +75,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0540-single-element-in-a-sorted-array](https://github.com/keshish-kumar/CPP/tree/master/0540-single-element-in-a-sorted-array) |
 | [0560-subarray-sum-equals-k](https://github.com/keshish-kumar/CPP/tree/master/0560-subarray-sum-equals-k) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/keshish-kumar/CPP/tree/master/0673-number-of-longest-increasing-subsequence) |
+| [0735-asteroid-collision](https://github.com/keshish-kumar/CPP/tree/master/0735-asteroid-collision) |
 | [0792-binary-search](https://github.com/keshish-kumar/CPP/tree/master/0792-binary-search) |
 | [0940-fruit-into-baskets](https://github.com/keshish-kumar/CPP/tree/master/0940-fruit-into-baskets) |
 | [0954-maximum-sum-circular-subarray](https://github.com/keshish-kumar/CPP/tree/master/0954-maximum-sum-circular-subarray) |
@@ -321,6 +322,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0085-maximal-rectangle](https://github.com/keshish-kumar/CPP/tree/master/0085-maximal-rectangle) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/keshish-kumar/CPP/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0155-min-stack](https://github.com/keshish-kumar/CPP/tree/master/0155-min-stack) |
+| [0735-asteroid-collision](https://github.com/keshish-kumar/CPP/tree/master/0735-asteroid-collision) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/keshish-kumar/CPP/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 ## Monotonic Stack
 |  |
@@ -433,6 +435,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | ------- |
 | [0054-spiral-matrix](https://github.com/keshish-kumar/CPP/tree/master/0054-spiral-matrix) |
 | [0289-game-of-life](https://github.com/keshish-kumar/CPP/tree/master/0289-game-of-life) |
+| [0735-asteroid-collision](https://github.com/keshish-kumar/CPP/tree/master/0735-asteroid-collision) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
