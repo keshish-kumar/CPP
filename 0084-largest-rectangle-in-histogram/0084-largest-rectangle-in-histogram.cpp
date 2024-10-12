@@ -1,55 +1,43 @@
 class Solution {
 public:
-    int largestRectangleArea(vector<int>& heights) {
+    int largestRectangleArea(vector<int>& height) {
+         // we have to find the boundary index of bothh left and right till were whats its max indx it can reach +1;
+         int n = height.size();
         vector<int> left;
-        vector<int> right;
-        int n = heights.size();
-        stack<int> stleft;
-
         left.push_back(-1);
-        stleft.push(0);
-        for(int i=1;i<heights.size();i++){
-            while( !stleft.empty() && heights[stleft.top()]>=heights[i]){
-                stleft.pop();
+        stack<int> st;
+        st.push(0);
+        for(int i=1;i<n;i++){
+            while(!st.empty() && height[st.top()]>=height[i]){
+                st.pop();
             }
-            if(stleft.empty()){
-                stleft.push(i);
-                left.push_back(-1);
-            }
+            if(st.empty()) {left.push_back(-1);st.push(i);}
             else{
-                left.push_back(stleft.top());
-                stleft.push(i);
+                left.push_back(st.top());
+                st.push(i);
             }
         }
 
-         stack<int> st;
-
+        vector<int> right;
+        while(!st.empty()) st.pop();
         right.push_back(n);
         st.push(n-1);
-
         for(int i=n-2;i>=0;i--){
-            while( !st.empty() && heights[st.top()]>heights[i]){
+            while(!st.empty() && height[st.top()]>height[i]){
                 st.pop();
             }
-            if(st.empty()){
-                st.push(i);
-                right.push_back(n);
-            }
+            if(st.empty()){right.push_back(n);st.push(i);}
             else{
-                
                 right.push_back(st.top());
                 st.push(i);
-
             }
         }
 
         reverse(right.begin(),right.end());
 
-
         int ans =0;
         for(int i=0;i<n;i++){
-            ans = max (ans, (right[i]-left[i]-1)*heights[i]);
-            cout<<left[i]<<" "<<right[i]<<endl;
+            ans = max(ans,(right[i]-left[i]-1)*height[i]);
         }
         return ans;
     }
