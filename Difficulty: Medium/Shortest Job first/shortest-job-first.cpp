@@ -15,20 +15,17 @@ class Solution {
     long long solve(vector<int>& bt) {
         // code here
         sort(bt.begin(),bt.end());
-        
-        long long exittime=0;
         vector<int> ct;
-        for(int i=0;i<bt.size();i++){
-                exittime += bt[i];
-                ct.push_back(exittime);
+        ct.push_back(bt[0]);
+        for(int i=1;i<bt.size();i++){
+            ct.push_back(bt[i]+ct[i-1]);
         }
-        
-        long long ans=0;
+        long long sum=0;
         for(int i=0;i<bt.size();i++){
-            ans += abs(bt[i]-ct[i]);
+            ct[i] = ct[i]-bt[i];
+            sum+=ct[i];
         }
-        ans = ans/bt.size();
-        return ans;
+        return sum/int(bt.size());
     }
 };
 
