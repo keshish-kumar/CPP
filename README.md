@@ -89,6 +89,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [1129-longest-string-chain](https://github.com/keshish-kumar/CPP/tree/master/1129-longest-string-chain) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/keshish-kumar/CPP/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/keshish-kumar/CPP/tree/master/1669-minimum-cost-to-cut-a-stick) |
+| [2497-maximum-matching-of-players-with-trainers](https://github.com/keshish-kumar/CPP/tree/master/2497-maximum-matching-of-players-with-trainers) |
 ## Binary Search
 |  |
 | ------- |
@@ -174,6 +175,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0368-largest-divisible-subset](https://github.com/keshish-kumar/CPP/tree/master/0368-largest-divisible-subset) |
 | [1129-longest-string-chain](https://github.com/keshish-kumar/CPP/tree/master/1129-longest-string-chain) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/keshish-kumar/CPP/tree/master/1669-minimum-cost-to-cut-a-stick) |
+| [2497-maximum-matching-of-players-with-trainers](https://github.com/keshish-kumar/CPP/tree/master/2497-maximum-matching-of-players-with-trainers) |
 ## Binary Indexed Tree
 |  |
 | ------- |
@@ -215,6 +217,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0443-string-compression](https://github.com/keshish-kumar/CPP/tree/master/0443-string-compression) |
 | [1028-interval-list-intersections](https://github.com/keshish-kumar/CPP/tree/master/1028-interval-list-intersections) |
 | [1129-longest-string-chain](https://github.com/keshish-kumar/CPP/tree/master/1129-longest-string-chain) |
+| [2497-maximum-matching-of-players-with-trainers](https://github.com/keshish-kumar/CPP/tree/master/2497-maximum-matching-of-players-with-trainers) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -319,6 +322,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0334-increasing-triplet-subsequence](https://github.com/keshish-kumar/CPP/tree/master/0334-increasing-triplet-subsequence) |
 | [0402-remove-k-digits](https://github.com/keshish-kumar/CPP/tree/master/0402-remove-k-digits) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/keshish-kumar/CPP/tree/master/0957-minimum-add-to-make-parentheses-valid) |
+| [2497-maximum-matching-of-players-with-trainers](https://github.com/keshish-kumar/CPP/tree/master/2497-maximum-matching-of-players-with-trainers) |
 ## Stack
 |  |
 | ------- |
