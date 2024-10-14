@@ -305,6 +305,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0025-reverse-nodes-in-k-group](https://github.com/keshish-kumar/CPP/tree/master/0025-reverse-nodes-in-k-group) |
 | [0061-rotate-list](https://github.com/keshish-kumar/CPP/tree/master/0061-rotate-list) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/keshish-kumar/CPP/tree/master/0114-flatten-binary-tree-to-linked-list) |
+| [0116-populating-next-right-pointers-in-each-node](https://github.com/keshish-kumar/CPP/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0138-copy-list-with-random-pointer](https://github.com/keshish-kumar/CPP/tree/master/0138-copy-list-with-random-pointer) |
 | [0160-intersection-of-two-linked-lists](https://github.com/keshish-kumar/CPP/tree/master/0160-intersection-of-two-linked-lists) |
 | [0206-reverse-linked-list](https://github.com/keshish-kumar/CPP/tree/master/0206-reverse-linked-list) |
@@ -380,6 +381,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/keshish-kumar/CPP/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/keshish-kumar/CPP/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/keshish-kumar/CPP/tree/master/0114-flatten-binary-tree-to-linked-list) |
+| [0116-populating-next-right-pointers-in-each-node](https://github.com/keshish-kumar/CPP/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0222-count-complete-tree-nodes](https://github.com/keshish-kumar/CPP/tree/master/0222-count-complete-tree-nodes) |
 | [0226-invert-binary-tree](https://github.com/keshish-kumar/CPP/tree/master/0226-invert-binary-tree) |
 | [0450-delete-node-in-a-bst](https://github.com/keshish-kumar/CPP/tree/master/0450-delete-node-in-a-bst) |
@@ -393,6 +395,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0098-validate-binary-search-tree](https://github.com/keshish-kumar/CPP/tree/master/0098-validate-binary-search-tree) |
 | [0101-symmetric-tree](https://github.com/keshish-kumar/CPP/tree/master/0101-symmetric-tree) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/keshish-kumar/CPP/tree/master/0114-flatten-binary-tree-to-linked-list) |
+| [0116-populating-next-right-pointers-in-each-node](https://github.com/keshish-kumar/CPP/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0130-surrounded-regions](https://github.com/keshish-kumar/CPP/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/keshish-kumar/CPP/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/keshish-kumar/CPP/tree/master/0207-course-schedule) |
@@ -407,6 +410,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | ------- |
 | [0101-symmetric-tree](https://github.com/keshish-kumar/CPP/tree/master/0101-symmetric-tree) |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/keshish-kumar/CPP/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
+| [0116-populating-next-right-pointers-in-each-node](https://github.com/keshish-kumar/CPP/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0127-word-ladder](https://github.com/keshish-kumar/CPP/tree/master/0127-word-ladder) |
 | [0130-surrounded-regions](https://github.com/keshish-kumar/CPP/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/keshish-kumar/CPP/tree/master/0200-number-of-islands) |
@@ -427,6 +431,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/keshish-kumar/CPP/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/keshish-kumar/CPP/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/keshish-kumar/CPP/tree/master/0114-flatten-binary-tree-to-linked-list) |
+| [0116-populating-next-right-pointers-in-each-node](https://github.com/keshish-kumar/CPP/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0222-count-complete-tree-nodes](https://github.com/keshish-kumar/CPP/tree/master/0222-count-complete-tree-nodes) |
 | [0226-invert-binary-tree](https://github.com/keshish-kumar/CPP/tree/master/0226-invert-binary-tree) |
 | [0450-delete-node-in-a-bst](https://github.com/keshish-kumar/CPP/tree/master/0450-delete-node-in-a-bst) |
