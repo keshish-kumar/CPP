@@ -38,6 +38,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0084-largest-rectangle-in-histogram](https://github.com/keshish-kumar/CPP/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/keshish-kumar/CPP/tree/master/0085-maximal-rectangle) |
 | [0090-subsets-ii](https://github.com/keshish-kumar/CPP/tree/master/0090-subsets-ii) |
+| [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/keshish-kumar/CPP/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/keshish-kumar/CPP/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0120-triangle](https://github.com/keshish-kumar/CPP/tree/master/0120-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/keshish-kumar/CPP/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -189,6 +190,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/keshish-kumar/CPP/tree/master/0004-median-of-two-sorted-arrays) |
 | [0053-maximum-subarray](https://github.com/keshish-kumar/CPP/tree/master/0053-maximum-subarray) |
+| [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/keshish-kumar/CPP/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/keshish-kumar/CPP/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0169-majority-element](https://github.com/keshish-kumar/CPP/tree/master/0169-majority-element) |
 | [0191-number-of-1-bits](https://github.com/keshish-kumar/CPP/tree/master/0191-number-of-1-bits) |
@@ -242,6 +244,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0049-group-anagrams](https://github.com/keshish-kumar/CPP/tree/master/0049-group-anagrams) |
 | [0073-set-matrix-zeroes](https://github.com/keshish-kumar/CPP/tree/master/0073-set-matrix-zeroes) |
 | [0076-minimum-window-substring](https://github.com/keshish-kumar/CPP/tree/master/0076-minimum-window-substring) |
+| [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/keshish-kumar/CPP/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0127-word-ladder](https://github.com/keshish-kumar/CPP/tree/master/0127-word-ladder) |
 | [0128-longest-consecutive-sequence](https://github.com/keshish-kumar/CPP/tree/master/0128-longest-consecutive-sequence) |
 | [0138-copy-list-with-random-pointer](https://github.com/keshish-kumar/CPP/tree/master/0138-copy-list-with-random-pointer) |
@@ -370,6 +373,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0098-validate-binary-search-tree](https://github.com/keshish-kumar/CPP/tree/master/0098-validate-binary-search-tree) |
 | [0101-symmetric-tree](https://github.com/keshish-kumar/CPP/tree/master/0101-symmetric-tree) |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/keshish-kumar/CPP/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
+| [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/keshish-kumar/CPP/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/keshish-kumar/CPP/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/keshish-kumar/CPP/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0222-count-complete-tree-nodes](https://github.com/keshish-kumar/CPP/tree/master/0222-count-complete-tree-nodes) |
@@ -415,6 +419,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0098-validate-binary-search-tree](https://github.com/keshish-kumar/CPP/tree/master/0098-validate-binary-search-tree) |
 | [0101-symmetric-tree](https://github.com/keshish-kumar/CPP/tree/master/0101-symmetric-tree) |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/keshish-kumar/CPP/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
+| [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/keshish-kumar/CPP/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/keshish-kumar/CPP/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/keshish-kumar/CPP/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0222-count-complete-tree-nodes](https://github.com/keshish-kumar/CPP/tree/master/0222-count-complete-tree-nodes) |
