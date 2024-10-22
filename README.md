@@ -93,6 +93,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [1046-max-consecutive-ones-iii](https://github.com/keshish-kumar/CPP/tree/master/1046-max-consecutive-ones-iii) |
 | [1121-partition-array-for-maximum-sum](https://github.com/keshish-kumar/CPP/tree/master/1121-partition-array-for-maximum-sum) |
 | [1129-longest-string-chain](https://github.com/keshish-kumar/CPP/tree/master/1129-longest-string-chain) |
+| [1171-shortest-path-in-binary-matrix](https://github.com/keshish-kumar/CPP/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/keshish-kumar/CPP/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/keshish-kumar/CPP/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/keshish-kumar/CPP/tree/master/2497-maximum-matching-of-players-with-trainers) |
@@ -385,6 +386,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0212-word-search-ii](https://github.com/keshish-kumar/CPP/tree/master/0212-word-search-ii) |
 | [0221-maximal-square](https://github.com/keshish-kumar/CPP/tree/master/0221-maximal-square) |
 | [0289-game-of-life](https://github.com/keshish-kumar/CPP/tree/master/0289-game-of-life) |
+| [1171-shortest-path-in-binary-matrix](https://github.com/keshish-kumar/CPP/tree/master/1171-shortest-path-in-binary-matrix) |
 ## Tree
 |  |
 | ------- |
@@ -438,6 +440,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0530-minimum-absolute-difference-in-bst](https://github.com/keshish-kumar/CPP/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/keshish-kumar/CPP/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0799-minimum-distance-between-bst-nodes](https://github.com/keshish-kumar/CPP/tree/master/0799-minimum-distance-between-bst-nodes) |
+| [1171-shortest-path-in-binary-matrix](https://github.com/keshish-kumar/CPP/tree/master/1171-shortest-path-in-binary-matrix) |
 ## Binary Tree
 |  |
 | ------- |
