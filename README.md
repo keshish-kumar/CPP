@@ -428,6 +428,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/keshish-kumar/CPP/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0799-minimum-distance-between-bst-nodes](https://github.com/keshish-kumar/CPP/tree/master/0799-minimum-distance-between-bst-nodes) |
 | [1753-path-with-minimum-effort](https://github.com/keshish-kumar/CPP/tree/master/1753-path-with-minimum-effort) |
+| [2439-longest-cycle-in-a-graph](https://github.com/keshish-kumar/CPP/tree/master/2439-longest-cycle-in-a-graph) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -580,11 +581,13 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0207-course-schedule](https://github.com/keshish-kumar/CPP/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/keshish-kumar/CPP/tree/master/0210-course-schedule-ii) |
 | [1032-satisfiability-of-equality-equations](https://github.com/keshish-kumar/CPP/tree/master/1032-satisfiability-of-equality-equations) |
+| [2439-longest-cycle-in-a-graph](https://github.com/keshish-kumar/CPP/tree/master/2439-longest-cycle-in-a-graph) |
 ## Topological Sort
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/keshish-kumar/CPP/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/keshish-kumar/CPP/tree/master/0210-course-schedule-ii) |
+| [2439-longest-cycle-in-a-graph](https://github.com/keshish-kumar/CPP/tree/master/2439-longest-cycle-in-a-graph) |
 ## String Matching
 |  |
 | ------- |
