@@ -17,8 +17,8 @@ public:
         priority_queue<pair<long long ,int>,vector<pair<long long,int>>,greater<pair<long long,int>>> pq;
         pq.push({0,0});
         while(!pq.empty()){
-            // int size = pq.size();
-            // while(size--){
+            int size = pq.size();
+            while(size--){
                 int node=pq.top().second;
                 long long cost=pq.top().first;
                 pq.pop();
@@ -32,7 +32,7 @@ public:
                     }
 
                 }
-           // }
+            }
         }
 
         return ways[n-1]%mod;
