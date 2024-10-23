@@ -13,8 +13,8 @@ public:
         vector<int> ai = {0,1,1,1,0,-1,-1,-1};
         vector<int> aj = {1,1,0,-1,-1,-1,0,1};
         while(!q.empty()){
-            int size = q.size();
-            while(size--){
+            // int size = q.size();
+            // while(size--){
                 int i= q.top().second.first;
                 int j = q.top().second.second;
                 int dist = q.top().first;
@@ -30,7 +30,7 @@ public:
                          }
                          grid[ii][jj]=1;
                     }
-                }
+                //}
             }
         }
         return -1;
