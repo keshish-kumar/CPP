@@ -418,6 +418,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/keshish-kumar/CPP/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0783-search-in-a-binary-search-tree](https://github.com/keshish-kumar/CPP/tree/master/0783-search-in-a-binary-search-tree) |
 | [0799-minimum-distance-between-bst-nodes](https://github.com/keshish-kumar/CPP/tree/master/0799-minimum-distance-between-bst-nodes) |
+| [2568-minimum-fuel-cost-to-report-to-the-capital](https://github.com/keshish-kumar/CPP/tree/master/2568-minimum-fuel-cost-to-report-to-the-capital) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -441,6 +442,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [1442-number-of-operations-to-make-network-connected](https://github.com/keshish-kumar/CPP/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1753-path-with-minimum-effort](https://github.com/keshish-kumar/CPP/tree/master/1753-path-with-minimum-effort) |
 | [2439-longest-cycle-in-a-graph](https://github.com/keshish-kumar/CPP/tree/master/2439-longest-cycle-in-a-graph) |
+| [2568-minimum-fuel-cost-to-report-to-the-capital](https://github.com/keshish-kumar/CPP/tree/master/2568-minimum-fuel-cost-to-report-to-the-capital) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -464,6 +466,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [1171-shortest-path-in-binary-matrix](https://github.com/keshish-kumar/CPP/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/keshish-kumar/CPP/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1753-path-with-minimum-effort](https://github.com/keshish-kumar/CPP/tree/master/1753-path-with-minimum-effort) |
+| [2568-minimum-fuel-cost-to-report-to-the-capital](https://github.com/keshish-kumar/CPP/tree/master/2568-minimum-fuel-cost-to-report-to-the-capital) |
 ## Binary Tree
 |  |
 | ------- |
@@ -608,6 +611,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [1442-number-of-operations-to-make-network-connected](https://github.com/keshish-kumar/CPP/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/keshish-kumar/CPP/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2439-longest-cycle-in-a-graph](https://github.com/keshish-kumar/CPP/tree/master/2439-longest-cycle-in-a-graph) |
+| [2568-minimum-fuel-cost-to-report-to-the-capital](https://github.com/keshish-kumar/CPP/tree/master/2568-minimum-fuel-cost-to-report-to-the-capital) |
 ## Topological Sort
 |  |
 | ------- |
