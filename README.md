@@ -91,6 +91,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [1028-interval-list-intersections](https://github.com/keshish-kumar/CPP/tree/master/1028-interval-list-intersections) |
 | [1032-satisfiability-of-equality-equations](https://github.com/keshish-kumar/CPP/tree/master/1032-satisfiability-of-equality-equations) |
 | [1034-subarrays-with-k-different-integers](https://github.com/keshish-kumar/CPP/tree/master/1034-subarrays-with-k-different-integers) |
+| [1036-rotting-oranges](https://github.com/keshish-kumar/CPP/tree/master/1036-rotting-oranges) |
 | [1046-max-consecutive-ones-iii](https://github.com/keshish-kumar/CPP/tree/master/1046-max-consecutive-ones-iii) |
 | [1121-partition-array-for-maximum-sum](https://github.com/keshish-kumar/CPP/tree/master/1121-partition-array-for-maximum-sum) |
 | [1129-longest-string-chain](https://github.com/keshish-kumar/CPP/tree/master/1129-longest-string-chain) |
@@ -394,6 +395,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0212-word-search-ii](https://github.com/keshish-kumar/CPP/tree/master/0212-word-search-ii) |
 | [0221-maximal-square](https://github.com/keshish-kumar/CPP/tree/master/0221-maximal-square) |
 | [0289-game-of-life](https://github.com/keshish-kumar/CPP/tree/master/0289-game-of-life) |
+| [1036-rotting-oranges](https://github.com/keshish-kumar/CPP/tree/master/1036-rotting-oranges) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/keshish-kumar/CPP/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1753-path-with-minimum-effort](https://github.com/keshish-kumar/CPP/tree/master/1753-path-with-minimum-effort) |
 ## Tree
@@ -458,6 +460,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0799-minimum-distance-between-bst-nodes](https://github.com/keshish-kumar/CPP/tree/master/0799-minimum-distance-between-bst-nodes) |
 | [0801-is-graph-bipartite](https://github.com/keshish-kumar/CPP/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/keshish-kumar/CPP/tree/master/0803-cheapest-flights-within-k-stops) |
+| [1036-rotting-oranges](https://github.com/keshish-kumar/CPP/tree/master/1036-rotting-oranges) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/keshish-kumar/CPP/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/keshish-kumar/CPP/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1753-path-with-minimum-effort](https://github.com/keshish-kumar/CPP/tree/master/1753-path-with-minimum-effort) |
