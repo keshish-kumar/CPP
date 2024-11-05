@@ -1,59 +1,64 @@
 class Solution {
 public:
-    int largestRectangleArea(vector<int>& heights) {
-        int n = heights.size();
-        vector<int> left;
-        vector<int> right;
-        stack<int>  q,q2;
-        q.push(0);
-        left.push_back(-1);
-        for(int i=1;i<n;i++){
-            while(!q.empty() && heights[q.top()]>heights[i] ){
-                    q.pop();
+    vector<int> leftvertex(vector<int>& temp){
+        vector<int> ans;
+        stack<int> st;
+        st.push(0);
+        ans.push_back(-1);
+        for(int i=1;i<temp.size();i++){
+
+            while(!st.empty() && temp[st.top()]>=temp[i]){
+                st.pop();
             }
-            if(q.empty()) left.push_back(-1);
-            else{
-                left.push_back(q.top());
-            }
-            q.push(i);
+            if(st.empty()) ans.push_back(-1);
+            else ans.push_back(st.top());
+            st.push(i);
         }
 
-        right.push_back(n);
-        q2.push(n-1);
+        return ans;
+    }
+
+    vector<int> rightvertex(vector<int>& temp){
+        int n= temp.size();
+        vector<int> ans;
+        stack<int> st;
+        st.push(n-1);
+        ans.push_back(n);
         for(int i=n-2;i>=0;i--){
-            while(!q2.empty() && heights[q2.top()]>=heights[i]){
-                q2.pop();
+            while(!st.empty() && temp[st.top()]>temp[i]){
+                st.pop();
             }
-            if(q2.empty()) right.push_back(n);
-            else{
-                right.push_back(q2.top());
-            }
-            q2.push(i);
+            if(st.empty()) ans.push_back(n);
+            else ans.push_back(st.top());
+            st.push(i);
         }
+        reverse(ans.begin(),ans.end());
+        return ans;
+    }
 
-        int ans = INT_MIN;
-        reverse(right.begin(),right.end());
-        for(int i=0;i<n;i++){
-           // cout<<left[i]<<" "<<right[i]<<endl;
-            ans = max(ans,((right[i]-left[i]-1)*heights[i]));
+    int solve(vector<int>& temp){
+        vector<int> left = leftvertex(temp);
+        vector<int> right = rightvertex(temp);
+        int ans =0;
+        for(int i=0;i<temp.size();i++){
+            int t = right[i]-left[i]-1;
+            ans = max(ans,temp[i]*t);
         }
-    return ans;
+        return ans;
     }
     int maximalRectangle(vector<vector<char>>& matrix) {
-        int n = matrix.size();
-        int m = matrix[0].size();
-        vector<int> h(m,0);
-        int ans = INT_MIN;
-        for(int i=0;i<n;i++){
-            for(int j=0;j<m;j++){
-                if(matrix[i][j] == '0')
-                    h[j] = 0;
-                else
-                    h[j] = h[j] + ( matrix[i][j]-'0');
+        // Here we need to find maimum area in rectangle
+        if (matrix.empty() || matrix[0].empty()) return 0;
+        vector<int> temp(matrix[0].size(),0);
+        int ans =0;
+        for(int i=0;i<matrix.size();i++){
+            for(int j=0;j<matrix[0].size();j++){
+                if(matrix[i][j]=='0') temp[j]=0;
+                else{
+                    temp[j] += 1;
+                }
             }
-            // for(int j=0;j<m;j++) cout<<h[j]<<" "; cout<<endl;
-            ans = max(ans,largestRectangleArea(h));
-            //cout<<ans<<endl;
+            ans = max(ans,solve(temp));
         }
         return ans;
     }
