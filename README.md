@@ -317,6 +317,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/keshish-kumar/CPP/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1032-satisfiability-of-equality-equations](https://github.com/keshish-kumar/CPP/tree/master/1032-satisfiability-of-equality-equations) |
 | [1129-longest-string-chain](https://github.com/keshish-kumar/CPP/tree/master/1129-longest-string-chain) |
+| [1197-parsing-a-boolean-expression](https://github.com/keshish-kumar/CPP/tree/master/1197-parsing-a-boolean-expression) |
 | [1250-longest-common-subsequence](https://github.com/keshish-kumar/CPP/tree/master/1250-longest-common-subsequence) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/keshish-kumar/CPP/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1960-check-if-the-sentence-is-pangram](https://github.com/keshish-kumar/CPP/tree/master/1960-check-if-the-sentence-is-pangram) |
@@ -342,6 +343,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0050-powx-n](https://github.com/keshish-kumar/CPP/tree/master/0050-powx-n) |
 | [0060-permutation-sequence](https://github.com/keshish-kumar/CPP/tree/master/0060-permutation-sequence) |
 | [0206-reverse-linked-list](https://github.com/keshish-kumar/CPP/tree/master/0206-reverse-linked-list) |
+| [1197-parsing-a-boolean-expression](https://github.com/keshish-kumar/CPP/tree/master/1197-parsing-a-boolean-expression) |
 ## Combinatorics
 |  |
 | ------- |
@@ -371,6 +373,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0735-asteroid-collision](https://github.com/keshish-kumar/CPP/tree/master/0735-asteroid-collision) |
 | [0943-sum-of-subarray-minimums](https://github.com/keshish-kumar/CPP/tree/master/0943-sum-of-subarray-minimums) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/keshish-kumar/CPP/tree/master/0957-minimum-add-to-make-parentheses-valid) |
+| [1197-parsing-a-boolean-expression](https://github.com/keshish-kumar/CPP/tree/master/1197-parsing-a-boolean-expression) |
 ## Monotonic Stack
 |  |
 | ------- |
