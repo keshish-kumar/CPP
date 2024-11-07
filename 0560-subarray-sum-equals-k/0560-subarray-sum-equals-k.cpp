@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int subarraySum(vector<int>& nums, int k) {
+    int subarraySum(vector<int>& arr, int k) {
         // int ans =0;
         // int sum =0;
         // int j=0;
@@ -17,16 +17,18 @@ public:
         // return ans; // this will work only for positive numbers.'
 
         map<int,int> mp;
-        int count=0;
-        int presum=0;
-        mp[0] = 1; // this is very imporatnat to handle the zero case. try test case [3,-3,1,1,1]
-        for(int i=0;i<nums.size();i++){
-            presum += nums[i];
-            if(mp.find(presum-k)!=mp.end()){
-                count += mp[presum-k];
-            }
-            mp[presum]++;
+       int sum=0;
+       int ans =0;
+    mp[0]=1;
+    for(int i=0;i<arr.size();i++){
+        sum += arr[i];
+
+        if(mp.find(sum-k)!=mp.end()){
+            ans+=mp[sum-k];
         }
-        return count;
+       
+        mp[sum]++;
+    }
+    return ans;
     }
 };
