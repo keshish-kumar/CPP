@@ -1,57 +1,34 @@
 class Solution {
 public:
-    bool solve(vector<vector<char>>& board, string word,int i, int j, string& temp,vector<vector<int>>& visited, int n){
-        if(temp==word) return true;
-        if(n==word.size() ) return false;
-        
-        
-        bool left = false;
-        if(i>0 && visited[i-1][j]==-1 && board[i-1][j]==word[n]){
-            temp = temp+board[i-1][j];
-            visited[i-1][j]=1;
-            left = solve(board,word,i-1,j,temp,visited,n+1);
-            temp.pop_back();
-            visited[i-1][j]=-1;
-        }
-        bool up =false;
-        if(j>0  && visited[i][j-1]==-1 && board[i][j-1]==word[n]){
-            temp = temp+board[i][j-1];
-            visited[i][j-1]=1;
-            up = solve(board,word,i,j-1,temp,visited,n+1);
-            temp.pop_back();
-            visited[i][j-1]=-1;
-        }
-        bool down=false;
-        if(i<board.size()-1  && visited[i+1][j]==-1 && board[i+1][j]==word[n]){
-            temp = temp+board[i+1][j];
-            visited[i+1][j]=1;
-            down = solve(board,word,i+1,j,temp,visited,n+1);
-            temp.pop_back();
-            visited[i+1][j]=-1;
-        }
-        bool right=false;
-        if(j<board[0].size()-1  && visited[i][j+1]==-1 && board[i][j+1]==word[n]){
-            temp = temp+board[i][j+1];
-            visited[i][j+1]=1;
-            right = solve(board,word,i,j+1,temp,visited,n+1);
-            temp.pop_back();
-            visited[i][j+1]=-1;
-        }
-      
-        return up||down||left||right;
+    bool solve(int n, int m, vector<vector<char>>& board, string & word,int p,vector<vector<int>>& visited){
+        if(p>=word.size()) return true;
+        vector<int> ii={0,1,0,-1};
+        vector<int> jj={1,0,-1,0};
+       
+       
+       visited[n][m] = 1;
+                for(int k=0;k<4;k++){
+                    int row = n+ii[k];
+                    int col = m+jj[k];
+                    if(row>=0 && col>=0 && row<board.size() && col<board[0].size() && visited[row][col]==0 && board[row][col]==word[p]){             
+                        if(solve(row,col,board,word,p+1,visited)) return true;
+                         
+                    }
+                }
+               visited[n][m] = 0;
 
+                return false;
     }
     bool exist(vector<vector<char>>& board, string word) {
-        // here we have to apply dfs search to sdearch for the word in the grid
-        string temp;
-        temp.push_back(word[0]);
-        vector<vector<int>> visited(board.size(),vector<int>(board[0].size(),-1));
+        
+        vector<vector<int>> visited(board.size(),vector<int>(board[0].size(),0));
         for(int i=0;i<board.size();i++){
-            for(int j=0;j<board[i].size();j++){
-                if(board[i][j]==word[0]){
-                    visited[i][j]=1;
-                    if(solve(board,word,i,j,temp,visited,1)) return true;
-                    visited[i][j]=-1;
+            for(int j=0;j<board[0].size();j++){
+               
+                if(board[i][j] == word[0] &&  visited[i][j] == 0){
+                     visited[i][j] = 1;
+                    if(solve(i,j,board,word,1,visited)) return true;
+                     visited[i][j] = 0;
                 }
             }
         }
