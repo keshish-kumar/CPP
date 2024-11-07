@@ -1,27 +1,36 @@
 class Solution {
 public:
-    int count(string text1, int n , string text2 , int m, vector<vector<int>>& dp){
-        if(m==0 || n==0) return 0;
-        if(text1[n-1] == text2[m-1]) return 1+count(text1,n-1,text2,m-1,dp);
-        
-        if(dp[n][m]!=-1) return dp[n][m];
-        return dp[n][m] = max(count(text1,n-1,text2,m,dp),count(text1,n,text2,m-1,dp));
-    }
-    int longestPalindromeSubseq(string s1) {
-        int n = s1.size();
-        string s2 ="";
-        for(int i=n-1;i>=0;i--)
-                s2 += s1[i];
-        vector<vector<int>> dp(n+1,vector<int>(n+1,0));
-       // return count(s1,n,s2,n,dp);
-        for(int i=1;i<=n;i++){
-            for(int j=1;j<=n;j++){
-                if(s1[i-1]==s2[j-1]) dp[i][j] = 1+dp[i-1][j-1];
-                else{
-                    dp[i][j] = max(dp[i-1][j],dp[i][j-1]);
-                }
-            }
+    int solve(string & s1, string & s2, int i , int j){
+        if(i>=s1.size() && j>=s2.size()) return 0;
+        if(i>=s1.size() || j>=s2.size()) return 0;
+
+        int l1 = 0;
+        if(s1[i]==s2[j]){
+            l1 = 1+solve(s1,s2,i+1,j+1);
         }
-        return dp[n][n];
+        int l2 = max({solve(s1,s2,i+1,j),solve(s1,s2,i,j+1),solve(s1,s2,i+1,j+1)});
+
+        return max(l1,l2);
+    }
+    int longestPalindromeSubseq(string s) {
+        string s1 = s;
+         reverse(s.begin(),s.end());
+       // return solve(s1,s,0,0);
+
+        vector<int> dp(s.size()+1,0);
+        for(int i=1;i<=s.size();i++){
+            vector<int> temp(s.size()+1,0);
+            for(int j=1;j<=s.size();j++){
+                int l1 = 0;
+                if(s1[i-1]==s[j-1]){
+                     l1 = 1+dp[j-1];
+                }
+            int l2 = max({dp[j],temp[j-1],dp[j-1]});
+            temp[j] = max(l1,l2);
+            }
+            dp = temp;
+        }
+
+        return dp[s.size()];
     }
 };
