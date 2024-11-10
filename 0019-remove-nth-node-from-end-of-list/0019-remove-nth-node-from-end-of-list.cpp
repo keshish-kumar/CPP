@@ -25,7 +25,7 @@ public:
             prev =  temp;
             temp=temp->next;
         }
-        if(prev==NULL) {if(temp==NULL) return NULL; else return temp;}
+        
         if(temp!=NULL)
             prev->next=temp->next;
         else
