@@ -1,44 +1,38 @@
 class Solution {
 public:
     vector<int> majorityElement(vector<int>& nums) {
-        vector<int> ans;
-        int target = nums.size()/3;
+        int a = NULL;
+        int b = NULL;
         int count1=0;
-        int a=NULL;
         int count2=0;
-        int b=NULL;
+        int t = nums.size()/3+1;
         for(int i=0;i<nums.size();i++){
-            if(a==nums[i]){
+            if (nums[i] == a) {
                 count1++;
-            }
-            else if(b==nums[i]){
+            } else if (nums[i] == b) {
                 count2++;
-            }
-            else if(count1==0){
-                    count1=1;
-                    a=nums[i];
-            }
-            else if(count2==0){
-                count2=1;
+            } else if (count1 == 0) {
+                a = nums[i];
+                count1 = 1;
+            } else if (count2 == 0) {
                 b = nums[i];
-            }
-            else{
+                count2 = 1;
+            } else {
                 count1--;
                 count2--;
             }
-            
-            
         }
-       
-        int n1 = 0;
-        int n2 = 0;
+        
+        int c1=0;
+        int c2=0;
         for(int i=0;i<nums.size();i++){
-            if(a==nums[i]) n1++;
-            else if(b==nums[i]) n2++;
+            if(nums[i]==a) c1++;
+            else if(nums[i]==b) c2++;
+            
         }
-        if(n1>target) ans.push_back(a);
-        if(n2>target) ans.push_back(b);
-       // cout<<"n1="<<n1<<" n2="<<n2<<endl;
+        vector<int> ans;
+        if(c1>=t) ans.push_back(a);
+        if(c2>=t) ans.push_back(b);
         return ans;
     }
 };
