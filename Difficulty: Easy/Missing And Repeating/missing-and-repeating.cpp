@@ -1,0 +1,88 @@
+//{ Driver Code Starts
+#include <bits/stdc++.h>
+
+using namespace std;
+
+
+// } Driver Code Ends
+class Solution {
+  public:
+    vector<int> findTwoElement(vector<int>& arr) {
+        // code here
+        //we have to seperate ellement on there first bits of diiference
+        
+        // we ahve to take xor of all the element
+        int b=0;
+       
+        for(int i=0;i<arr.size();i++){
+            b ^=arr[i]^(i+1);
+            
+        }
+        
+        // Now we have to check to what bit x^y=b differen in b
+        int k=0;
+        while(1){
+            if((b&(1<<k)) != 0){
+                break;
+            }
+            k++;
+        }
+        
+        // Now wehave to sperate the lement 
+        int n1=0,n2=0;
+        for(int i=0;i<arr.size();i++){
+            if((arr[i]&(1<<k)) !=0){
+                n1 ^= arr[i];
+            }
+            else{
+                n2^=arr[i];
+            }
+            
+            if(((i+1)&(1<<k))!=0){
+                n1 ^= (i+1);
+            }
+            else{
+                n2 ^= (i+1);
+            }
+        }
+        
+        // lets find missing value
+        
+        int count=0;
+        for(int i=0;i<arr.size();i++){
+            if(arr[i]==n1) count++;
+        }
+        
+        if(count==2) return {n1,n2};
+        else return {n2,n1};
+        
+        
+        
+    }
+};
+
+//{ Driver Code Starts.
+
+int main() {
+    int t;
+    cin >> t;
+    cin.ignore();
+    while (t--) {
+        string input;
+        int num;
+        vector<int> arr;
+        getline(cin, input);
+        stringstream s2(input);
+        while (s2 >> num) {
+            arr.push_back(num);
+        }
+        Solution ob;
+        auto ans = ob.findTwoElement(arr);
+        cout << ans[0] << " " << ans[1] << "\n";
+
+        cout << "~"
+             << "\n";
+    }
+    return 0;
+}
+// } Driver Code Ends
