@@ -104,6 +104,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [1694-make-sum-divisible-by-p](https://github.com/keshish-kumar/CPP/tree/master/1694-make-sum-divisible-by-p) |
 | [1753-path-with-minimum-effort](https://github.com/keshish-kumar/CPP/tree/master/1753-path-with-minimum-effort) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/keshish-kumar/CPP/tree/master/2497-maximum-matching-of-players-with-trainers) |
+| [3227-find-missing-and-repeated-values](https://github.com/keshish-kumar/CPP/tree/master/3227-find-missing-and-repeated-values) |
 ## Binary Search
 |  |
 | ------- |
@@ -181,6 +182,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0189-rotate-array](https://github.com/keshish-kumar/CPP/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/keshish-kumar/CPP/tree/master/0268-missing-number) |
 | [0368-largest-divisible-subset](https://github.com/keshish-kumar/CPP/tree/master/0368-largest-divisible-subset) |
+| [3227-find-missing-and-repeated-values](https://github.com/keshish-kumar/CPP/tree/master/3227-find-missing-and-repeated-values) |
 ## Sorting
 |  |
 | ------- |
@@ -299,6 +301,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/keshish-kumar/CPP/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1694-make-sum-divisible-by-p](https://github.com/keshish-kumar/CPP/tree/master/1694-make-sum-divisible-by-p) |
 | [1960-check-if-the-sentence-is-pangram](https://github.com/keshish-kumar/CPP/tree/master/1960-check-if-the-sentence-is-pangram) |
+| [3227-find-missing-and-repeated-values](https://github.com/keshish-kumar/CPP/tree/master/3227-find-missing-and-repeated-values) |
 ## String
 |  |
 | ------- |
@@ -416,6 +419,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [1171-shortest-path-in-binary-matrix](https://github.com/keshish-kumar/CPP/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/keshish-kumar/CPP/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1753-path-with-minimum-effort](https://github.com/keshish-kumar/CPP/tree/master/1753-path-with-minimum-effort) |
+| [3227-find-missing-and-repeated-values](https://github.com/keshish-kumar/CPP/tree/master/3227-find-missing-and-repeated-values) |
 ## Tree
 |  |
 | ------- |
