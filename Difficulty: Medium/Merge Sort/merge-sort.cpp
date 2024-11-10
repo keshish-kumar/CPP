@@ -1,84 +1,74 @@
 //{ Driver Code Starts
-#include <stdio.h>
 #include <bits/stdc++.h>
 using namespace std;
 
 
-
-/* Function to print an array */
-void printArray(int arr[], int size)
-{
-    int i;
-    for (i=0; i < size; i++)
-        printf("%d ", arr[i]);
-    printf("\n");
-}
-
-
 // } Driver Code Ends
-class Solution
-{
-    public:
-    void merge(int arr[], int l, int m, int r)
-    {
-         // Your code here
-         vector<int> temp;
-         int i1=l,i2 = m+1;
-         while(i1<=m && i2<=r){
-            if(arr[i1]<arr[i2]){
-                temp.push_back(arr[i1]);
-                i1++;
-            }
-            else{
-                temp.push_back(arr[i2]);
-                i2++;
-            }
-         }
-         while(i1<=m){
-             temp.push_back(arr[i1]);
-             i1++;
-         }
-         while(i2<=r){
-             temp.push_back(arr[i2]);
-             i2++;
-         }
-         for(int i=l;i<=r;i++){
-             arr[i] = temp[i-l];
-         }
-    }
-    public:
-    void mergeSort(int arr[], int l, int r)
-    {
-        //code here
+class Solution {
+  public:
+  void merge(vector<int>& arr, int l,int mid, int r){
+      int i=l,j=mid+1;
+      vector<int> temp;
+      while(i<=mid && j<=r){
+          if(arr[i]>arr[j]){
+              temp.push_back(arr[j]);
+              j++;
+          }
+          else{
+              temp.push_back(arr[i]);
+              i++;
+          }
+      }
+      while(i<=mid){
+          temp.push_back(arr[i]);
+          i++;
+      }
+      while(j<=r){
+          temp.push_back(arr[j]);
+          j++;
+      }
+      // now we have to put this leents in origignal array
+      int t=0;
+      for(int k=l;k<=r;k++){
+          arr[k] = temp[t];
+          t++;
+      }
+  }
+    void mergeSort(vector<int>& arr, int l, int r) {
+        // code here
         if(l<r){
-        int m = (l+r)/2;
-        mergeSort(arr,l,m);
-        mergeSort(arr,m+1,r);
-        merge(arr,l,m,r);
+            int mid = (l+r)/2;
+            mergeSort(arr,l,mid);
+            mergeSort(arr,mid+1,r);
+            merge(arr,l,mid,r);
         }
     }
 };
 
 //{ Driver Code Starts.
 
-
-int main()
-{
-    int n,T,i;
-
-    scanf("%d",&T);
-
-    while(T--){
-    
-    scanf("%d",&n);
-    int arr[n+1];
-    for(i=0;i<n;i++)
-      scanf("%d",&arr[i]);
-
-    Solution ob;
-    ob.mergeSort(arr, 0, n-1);
-    printArray(arr, n);
+int main() {
+    string ts;
+    getline(cin, ts);
+    int t = stoi(ts);
+    while (t--) {
+        vector<int> arr;
+        string input;
+        getline(cin, input);
+        stringstream ss(input);
+        int number;
+        while (ss >> number) {
+            arr.push_back(number);
+        }
+        Solution obj;
+        obj.mergeSort(arr, 0, arr.size() - 1);
+        for (int i = 0; i < arr.size(); i++) {
+            cout << arr[i] << " ";
+        }
+        cout << endl;
+        cout << "~" << endl;
     }
     return 0;
 }
+
 // } Driver Code Ends
