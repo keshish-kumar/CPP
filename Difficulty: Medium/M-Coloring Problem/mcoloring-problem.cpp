@@ -6,42 +6,36 @@ using namespace std;
 // } Driver Code Ends
 class Solution {
   public:
-  bool isposible( vector<vector<int>>& adj, vector<int>& color,int index,int col){
-      
-      for(auto it:adj[index]){
-          if(color[it]==col) return false;
+  bool ispossible(vector<vector<int>>& adj, int i,vector<int>& color,int c){
+      for(auto it:adj[i]){
+          if(color[it]==c) return false;
       }
       return true;
   }
-    
-    bool solve(vector<vector<int>>& adj, vector<int>& color, int index){
-        if(index==adj.size()) return true;
-        
-        for(int i=1;i<=color.size();i++){ // we will try with all the possiblity of colors from strarting node
-            if( isposible(adj,color,index,i)){ // it will check wether color[i] is possible or not
-                color[index] = i;
-                if(solve(adj,color,index+1)) return true;
-                color[index] = 0;
-            }
-        }
-        return false;
-    }
-    bool graphColoring(int n, vector<pair<int, int>>& edges, int m) {
+  bool solve(vector<vector<int>>& adj, int i,vector<int>& color, int m){
+      
+      if(i==adj.size()) return true;
+      for(int c=1;c<=m;c++){
+          if(ispossible(adj,i,color,c)){
+              color[i]=c;
+              if(solve(adj,i+1,color,m)) return true;
+              color[i]=0;
+          }
+      }
+      return false;
+      
+  }
+    bool graphColoring(int v, vector<pair<int, int>>& edges, int m) {
         // code here
-        vector<vector<int>> adj(n); 
-        
-        // Here we will get adjacency matrix
-        for(int i=0;i<n;i++){
+        vector<vector<int>> adj(v);
+        for(int i=0;i<edges.size();i++)
+        {
             adj[edges[i].first].push_back(edges[i].second);
             adj[edges[i].second].push_back(edges[i].first);
         }
-        
-        // we will apply backtracking to check for every possible solutions.
-        vector<int> color(m,0);
-        return solve(adj,color,0);
-        
-            
-        }
+        vector<int> color(v,0);
+        return solve(adj,0,color,m);
+    }
 };
 
 //{ Driver Code Starts.
@@ -78,7 +72,7 @@ int main() {
 
         Solution ob;
         cout << (ob.graphColoring(n, edges, m) ? "true" : "false")
-             << endl; // Call the graph coloring function
+             << "\n~\n"; // Call the graph coloring function
     }
     return 0;
 }
