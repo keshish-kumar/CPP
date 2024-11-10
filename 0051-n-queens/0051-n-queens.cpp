@@ -1,56 +1,54 @@
 class Solution {
 public:
-    bool ispossible(vector<string>& temp,  int n, int row, int col){
-        
-        int r = row;
-        int c = col;
-        // left diagonal
-        while(r>0 && c>0){
-            if(temp[r-1][c-1]=='Q') return false;
-            r--;c--;
-        }
+vector<vector<string>> temp;
+bool ispossible(vector<string>& ans, int row,int col){
 
-        r = row; c = col;
-        // right diagonal
-        while(r>0 && c<(n-1)){
-            if(temp[r-1][c+1]=='Q') return false;
-            r--;c++;
-        }
+    // diagonal 
+    int r = row,c = col;
 
-        r =row;c=col;
-
-        // up
-        while(r>0){
-            if(temp[r-1][c] == 'Q') return false;
-            r--;
-        }
-
-        return true;
-
+    while(r>=0 && c>=0){
+        if(ans[r][c]=='Q') return false;
+        r--;c--;
     }
-    void solve(int n, vector<vector<string>>& ans, vector<string>& temp, int row){
-        if(row == n) {
-            ans.push_back(temp);
-            return;
-        }
+    
+    r=row;c=col;
+    while(r>=0 && c<ans.size()){
+        if(ans[r][c] == 'Q') return false;
+        r--;c++;
+    }
 
-        for(int i=0;i<n;i++){ // this will be col
-            if(ispossible(temp,n,row,i)){
-                temp[row][i] = 'Q';
-                solve(n,ans,temp,row+1);
-                temp[row][i] = '.';
+    r=row;c=col;
+    while(r>=0 ){
+        if(ans[r][c]=='Q') return false;
+        r--;
+    }
+
+    return true;
+
+}
+
+    void solve(vector<string>&ans, int index){
+        if(index==ans.size()) {temp.push_back(ans); return; }
+
+        for(int i=0;i<ans.size();i++){
+            if(ispossible(ans,index,i)){
+                ans[index][i] = 'Q';
+                solve(ans,index+1);
+                ans[index][i] ='.';
             }
         }
+       
     }
     vector<vector<string>> solveNQueens(int n) {
-        vector<vector<string>> ans;
-        vector<string> temp(n);
+        
+         
+        vector<string> ans(n);
         string s(n,'.');
         for(int i=0;i<n;i++){ // Here we have created temp vector wiht all . in that
-            temp[i]=s;
+            ans[i]=s;
         } 
-        solve(n,ans,temp,0); // 0 repsents the row 
-        return ans;
+        solve(ans,0);
 
+        return temp;
     }
 };
