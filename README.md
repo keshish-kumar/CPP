@@ -143,6 +143,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0085-maximal-rectangle](https://github.com/keshish-kumar/CPP/tree/master/0085-maximal-rectangle) |
 | [0120-triangle](https://github.com/keshish-kumar/CPP/tree/master/0120-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/keshish-kumar/CPP/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/keshish-kumar/CPP/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0131-palindrome-partitioning](https://github.com/keshish-kumar/CPP/tree/master/0131-palindrome-partitioning) |
 | [0132-palindrome-partitioning-ii](https://github.com/keshish-kumar/CPP/tree/master/0132-palindrome-partitioning-ii) |
 | [0139-word-break](https://github.com/keshish-kumar/CPP/tree/master/0139-word-break) |
@@ -436,6 +437,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/keshish-kumar/CPP/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/keshish-kumar/CPP/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/keshish-kumar/CPP/tree/master/0116-populating-next-right-pointers-in-each-node) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/keshish-kumar/CPP/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0222-count-complete-tree-nodes](https://github.com/keshish-kumar/CPP/tree/master/0222-count-complete-tree-nodes) |
 | [0226-invert-binary-tree](https://github.com/keshish-kumar/CPP/tree/master/0226-invert-binary-tree) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/keshish-kumar/CPP/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
@@ -454,6 +456,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0101-symmetric-tree](https://github.com/keshish-kumar/CPP/tree/master/0101-symmetric-tree) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/keshish-kumar/CPP/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/keshish-kumar/CPP/tree/master/0116-populating-next-right-pointers-in-each-node) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/keshish-kumar/CPP/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0130-surrounded-regions](https://github.com/keshish-kumar/CPP/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/keshish-kumar/CPP/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/keshish-kumar/CPP/tree/master/0207-course-schedule) |
@@ -507,6 +510,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/keshish-kumar/CPP/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/keshish-kumar/CPP/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/keshish-kumar/CPP/tree/master/0116-populating-next-right-pointers-in-each-node) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/keshish-kumar/CPP/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0222-count-complete-tree-nodes](https://github.com/keshish-kumar/CPP/tree/master/0222-count-complete-tree-nodes) |
 | [0226-invert-binary-tree](https://github.com/keshish-kumar/CPP/tree/master/0226-invert-binary-tree) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/keshish-kumar/CPP/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
