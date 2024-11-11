@@ -16,7 +16,7 @@ public:
         TreeNode* r = lowestCommonAncestor(root->right,p,q);
         if((l==p && r==q) ||(l==q && r==p)) return root;
         if(l!=NULL) return l;
-        if(r!=NULL) return r;
+        if(r!=NULL) return r;  // these two lines will indicate that if they both are on same side than top most will be retived as other side will get null 
         return NULL;
     }
 };
