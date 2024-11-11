@@ -11,24 +11,18 @@
  */
 class Solution {
 public:
-    
-    int maximum(TreeNode* root, int & ans){
-        
+    int solve(TreeNode* root, int & ans){
         if(root==NULL) return 0;
-        
-        int lh = maximum(root->left,ans);
-        int rh = maximum(root->right,ans);
-        if(lh<0) lh=0;
-        if(rh<0) rh =0;
-        ans = max(ans,lh+rh+root->val);
-        return root->val + max(lh,rh);
+        int l = solve(root->left,ans);
+        int r = solve(root->right,ans);
+        if(l<0) l=0;
+        if(r<0) r=0;
+        ans = max(ans,l+r+root->val);
+        return max(l,r)+root->val;
     }
-    
     int maxPathSum(TreeNode* root) {
-        // same as height of binary tree just we have to add node here
-        int ans = -1e9;
-        
-        maximum(root,ans);
+        int ans =INT_MIN;
+        solve(root,ans);
         return ans;
     }
 };
