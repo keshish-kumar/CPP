@@ -11,17 +11,13 @@
 class Solution {
 public:
     ListNode* middleNode(ListNode* head) {
-        // we will use heir and tortoise conecept
         ListNode* slow = head;
         ListNode* fast = head;
-
         while(fast!=NULL){
-            
             if(fast->next==NULL) break;
-            slow = slow->next;
+            slow=slow->next;
             fast=fast->next->next;
         }
-
         return slow;
     }
 };
