@@ -11,22 +11,18 @@
  */
 class Solution {
 public:
-    bool findTarget(TreeNode* root, int k) {
-        set<int> st;
-        queue<TreeNode*> q;
-        q.push(root);
-        while(!q.empty()){
+    bool solve(TreeNode* root, int k, map<int,int>& mp){
+        if(root==NULL) return false;
 
-            int n = q.size();
-            while(n--){
-                TreeNode* node = q.front(); q.pop();
-                if(st.find(k-node->val)!=st.end()) return true;
-                st.insert(node->val);
-                if(node->left!=NULL) q.push(node->left);
-                if(node->right!=NULL) q.push(node->right);
-            }
-            
+        if(mp.find(k-root->val)!=mp.end()){
+            return true;
         }
-         return false;
+
+        mp[root->val]++;
+        return solve(root->left,k,mp)|| solve(root->right,k,mp);
+    }
+    bool findTarget(TreeNode* root, int k) {
+        map<int,int> mp;
+        return solve(root,k,mp);
     }
 };
