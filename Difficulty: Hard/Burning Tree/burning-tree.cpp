@@ -96,55 +96,36 @@ struct Node {
 */
 class Solution {
   public:
-  
-  void traverse(Node* root, int target, map<Node*,Node*>&mp,map<Node*,int>&visited,Node*& temp){
-      if(root==NULL) return;
-      
-      if(root->data == target) temp = root;
-      visited[root] = 0;
-      if(root->left != NULL){
-          mp[root->left] = root;
-          traverse(root->left,target,mp,visited,temp);
-      }
-      if(root->right != NULL){
-          mp[root->right] = root;
-          traverse(root->right,target,mp,visited,temp);
-      }
-      
-  }
-  
-  
+  int ans =0;
+    int solve(Node* root, int target){
+        if(root==NULL) return 0;
+        int l = solve(root->left,target);
+        
+        int r = solve(root->right,target);
+        
+        if(root->data == target){
+            ans = max(l,r); // suppose if it root only than we take max of both
+            return -1;
+        }
+        
+        if(l>=0 && r>=0){
+            return 1+max(l,r);
+        }
+        if(l<0){
+            ans= max(ans,abs(l)+r);
+            return l-1;
+        }
+        ans = max(ans,l+abs(r));
+        return r-1;
+        
+    }
     int minTime(Node* root, int target) 
     {
         // Your code goes here
-        if(root==NULL) return 0;
-        map<Node*,Node*> mp; // use to store the 
-        Node* temp;
-        map<Node*,int> visited;
-        traverse(root,target,mp,visited,temp);
+       ans =0;
+        solve(root,target);
         
-        queue<Node*> q;
-        q.push(temp);
-        int ans =0;
-        while(!q.empty()){
-            int n = q.size();
-            while(n--){
-                root = q.front(); q.pop();
-                visited[root] =1;
-                if(root->left != NULL && visited[root->left]==0){
-                    q.push(root->left);
-                }
-                if(root->right != NULL && visited[root->right]==0){
-                    q.push(root->right);
-                }
-                if(mp.find(root) != mp.end() && visited[mp[root]]==0){
-                    q.push(mp[root]);
-                }
-            }
-            ans++;
-        }
-        
-        return ans-1;
+        return ans;
     }
 };
 
@@ -169,7 +150,9 @@ int main()
 
         cin.ignore();
 
-    }
+    
+cout << "~" << "\n";
+}
 
 
     return 0;
