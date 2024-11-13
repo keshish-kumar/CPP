@@ -6,28 +6,24 @@ using namespace std;
 // } Driver Code Ends
 class Solution {
   public:
-  int solve(vector<vector<int>>& ans, int n,int index,vector<vector<int>>& dp){
-      if(n>=ans.size()){
-          return 0;
-      }
-      
-      int maxi = 0;
-      if(dp[n][index] !=-1) return dp[n][index];
-      for(int i=0;i<3;i++){
-          if(i!=index){
-              maxi=max(maxi,ans[n][i]+solve(ans,n+1,i,dp));
-          }
-      }
-      return dp[n][index] = maxi;
-  }
-  
+    int solve(vector<vector<int>>& arr, int i,int j,vector<vector<int>>& dp){
+        if(i>=arr.size() ) return 0;
+        if(dp[i][j+1]!=-1) return dp[i][j+1];
+        int r = 0;
+        if(j==-1 || 0!=j)
+             r = arr[i][0]+solve(arr,i+1,0,dp);
+        int f = 0;
+        if(j==-1 || 1!=j)
+             f = arr[i][1]+solve(arr,i+1,1,dp);
+        int p = 0;
+        if(j==-1 || 2!=j)
+             p = arr[i][2]+solve(arr,i+1,2,dp);
+        return dp[i][j+1] = max({r,f,p});
+    }
     int maximumPoints(vector<vector<int>>& arr, int n) {
         // Code here
-        
-        vector<vector<int>> dp(n+1,vector<int>(4,-1));
-        return solve(arr,0,3,dp);
-        
-        
+        vector<vector<int>> dp(n,vector<int>(4,-1));
+        return solve(arr,0,-1,dp);
     }
 };
 
@@ -51,6 +47,7 @@ int main() {
 
         Solution obj;
         cout << obj.maximumPoints(arr, n) << endl;
+        cout << "~" << endl;
     }
     return 0;
 }
