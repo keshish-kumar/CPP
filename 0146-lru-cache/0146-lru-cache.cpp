@@ -21,7 +21,7 @@ public:
         if(mp.find(key)!=mp.end()){
             dll.erase(mp[key].first);
             dll.push_front(key);
-            mp[key] = {dll.begin(),mp[key].second};
+            mp[key] = {dll.begin(),value};
             return;
         }
         if(dll.size()>=n){mp.erase(dll.back()); dll.pop_back();}
