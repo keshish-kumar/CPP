@@ -1,58 +1,60 @@
 //{ Driver Code Starts
-//Initial template for C++
 
-#include<bits/stdc++.h> 
-using namespace std; 
+#include <bits/stdc++.h>
+using namespace std;
+
 
 // } Driver Code Ends
-//User function template for C++
+// User function template for C++
 
-class Solution{   
-public:
-
-    bool solve(vector<int>&arr, int sum , int index,vector<vector<int>>& dp){
-         if(sum==0) return true;
-        if(index>=arr.size() || sum<0){
-           
-            return false;
+class Solution {
+  public:
+    bool solve(vector<int>& arr, int target, int i,vector<vector<int>>& dp){
+        if(target==0) return true;
+        if(i>=arr.size()) return false;
+        if(dp[target][i]!=-1) return dp[target][i];
+        bool l = false;
+        if(target>=arr[i]){
+            l = solve(arr,target-arr[i],i+1,dp);
         }
-        
-        if(dp[index][sum]!=-1) return dp[index][sum];
-        
-        bool take = false;
-        if(sum>=arr[index]) take = solve(arr,sum-arr[index],index+1,dp);
-        bool nottake = solve(arr,sum,index+1,dp);
-        
-        return dp[index][sum] = (take||nottake);
-        
+        bool r = solve(arr,target,i+1,dp);
+        return dp[target][i] = l||r;
     }
-    
-    bool isSubsetSum(vector<int>arr, int sum){
-        // code here 
-        vector<vector<int>>  dp(arr.size()+1,vector<int>(sum+1,-1));
-        return solve(arr,sum,0,dp);
+    bool isSubsetSum(vector<int>& arr, int target) {
+        // code here
+        vector<vector<int>> dp(target+1,vector<int>(arr.size(),-1));
+        return solve(arr,target,0,dp);
     }
 };
 
 //{ Driver Code Starts.
-int main() 
-{ 
+
+int main() {
+
     int t;
-    cin>>t;
-    while(t--)
-    {
-        int N, sum;
-        cin >> N;
-        vector<int> arr(N);
-        for(int i = 0; i < N; i++){
-            cin >> arr[i];
+    cin >> t;
+    cin.ignore();
+    while (t--) {
+        vector<int> arr;
+        string input;
+        getline(cin, input);
+        stringstream ss(input);
+        int number;
+        while (ss >> number) {
+            arr.push_back(number);
         }
+        int sum;
         cin >> sum;
-        
+        cin.ignore();
+
         Solution ob;
-        cout << ob.isSubsetSum(arr, sum) << endl;
+        if (ob.isSubsetSum(arr, sum))
+            cout << "true" << endl;
+        else
+            cout << "false" << endl;
+        cout << "~" << endl;
     }
-    return 0; 
-} 
+    return 0;
+}
 
 // } Driver Code Ends
