@@ -5,7 +5,7 @@ public:
             ans.push_back(s);
             return;
         }
-        if(open<n){
+        if(open<=n){
             s += '(';
             solve(n,open+1,close,ans,s);
             s.pop_back();
@@ -17,8 +17,8 @@ public:
         }
     }
     vector<string> generateParenthesis(int n) {
-        int open =0;
-        int close = 0;
+        int open =1;
+        int close = 1;
         vector<string> ans;
         string s;
         solve(n,open,close,ans,s);
