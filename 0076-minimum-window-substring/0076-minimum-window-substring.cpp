@@ -1,31 +1,38 @@
 class Solution {
 public:
     string minWindow(string s, string t) {
-        map<char,int> mp;
-        for(char it:t)
-            mp[it]++;
+        if (s.size() < t.size())
+            return "";
+        map<char, int> mp;
+        for (int i = 0; i < t.size(); i++) {
+            mp[t[i]]++;
+        }
+        int ans = INT_MAX;
         int count = t.size();
-        int i=0,j=0,ans=INT_MAX;int str = -1;
-        while(j<s.size()){
-           
-            if(mp[s[j]]>0){ // important to check before reducing it 
-                count--; 
-            }
-            mp[s[j]]--;
-            while(count==0){
-               // cout<<s.substr(i,j-i+1);
-                if(ans>(j-i+1)){
-                    str = i;
-                    ans = j-i+1;
+        int i = 0, j = 0;
+        int p = 0;
+        while (i < s.size()) {
+            while (count > 0 && i < s.size()) {
+                if (mp.find(s[i]) != mp.end() && mp[s[i]] > 0) {
+                    count--;
                 }
-                mp[s[i]]++;
-                if(mp[s[i]]>0) count++;
+                mp[s[i]]--;
                 i++;
             }
-             j++;
+            while (count == 0) {
+                if (i - j < ans) {
+                    ans = i - j;
+                    p = j;
+                }
+                mp[s[j]]++;
+                if (mp[s[j]] > 0)
+                    count++;
+                j++;
+            }
         }
 
-       
-        return str==-1?"": s.substr(str,ans);
+        if (ans == INT_MAX)
+            return "";
+        return s.substr(p, ans);
     }
 };
