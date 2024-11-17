@@ -10,7 +10,7 @@ public:
         if(target>=cand[index]){
             temp.push_back(cand[index]);
             solve(cand,target-cand[index],index,temp,ans);
-            solve(cand,target-cand[index],index+1,temp,ans);
+            // solve(cand,target-cand[index],index+1,temp,ans);
             temp.pop_back();
         }
         solve(cand,target,index+1,temp,ans);
