@@ -302,6 +302,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0139-word-break](https://github.com/keshish-kumar/CPP/tree/master/0139-word-break) |
 | [0140-word-break-ii](https://github.com/keshish-kumar/CPP/tree/master/0140-word-break-ii) |
 | [0141-linked-list-cycle](https://github.com/keshish-kumar/CPP/tree/master/0141-linked-list-cycle) |
+| [0146-lru-cache](https://github.com/keshish-kumar/CPP/tree/master/0146-lru-cache) |
 | [0160-intersection-of-two-linked-lists](https://github.com/keshish-kumar/CPP/tree/master/0160-intersection-of-two-linked-lists) |
 | [0169-majority-element](https://github.com/keshish-kumar/CPP/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/keshish-kumar/CPP/tree/master/0229-majority-element-ii) |
@@ -366,6 +367,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/keshish-kumar/CPP/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0138-copy-list-with-random-pointer](https://github.com/keshish-kumar/CPP/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/keshish-kumar/CPP/tree/master/0141-linked-list-cycle) |
+| [0146-lru-cache](https://github.com/keshish-kumar/CPP/tree/master/0146-lru-cache) |
 | [0148-sort-list](https://github.com/keshish-kumar/CPP/tree/master/0148-sort-list) |
 | [0160-intersection-of-two-linked-lists](https://github.com/keshish-kumar/CPP/tree/master/0160-intersection-of-two-linked-lists) |
 | [0206-reverse-linked-list](https://github.com/keshish-kumar/CPP/tree/master/0206-reverse-linked-list) |
@@ -573,6 +575,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 ## Design
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/keshish-kumar/CPP/tree/master/0146-lru-cache) |
 | [0155-min-stack](https://github.com/keshish-kumar/CPP/tree/master/0155-min-stack) |
 | [0295-find-median-from-data-stream](https://github.com/keshish-kumar/CPP/tree/master/0295-find-median-from-data-stream) |
 ## Simulation
@@ -708,4 +711,8 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 |  |
 | ------- |
 | [0148-sort-list](https://github.com/keshish-kumar/CPP/tree/master/0148-sort-list) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/keshish-kumar/CPP/tree/master/0146-lru-cache) |
 <!---LeetCode Topics End-->
