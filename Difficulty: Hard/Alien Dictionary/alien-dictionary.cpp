@@ -9,49 +9,42 @@ using namespace std;
 
 class Solution {
   public:
-    string findOrder(string dp[], int n, int k) {
+    string findOrder(string dict[], int n, int k) {
         // code here
-        // firts I will make adjacancy graph 
-        // than I will apply topological sort to get the sequence
-        
-        vector<vector<int>> adj(k); // we are creating adjacency matrix to check topological sort
-        vector<int> indegree(k,0);
-        for(int i=0;i<n-1;i++){
-            int j=0;
-            string node1 = dp[i];
-            string node2 = dp[i+1];
-            while( j<node1.size() && j<node2.size()){
-                if(node1[j]!=node2[j]){
-                    adj[node1[j]-'a'].push_back(node2[j]-'a');
-                    indegree[node2[j]-'a']++;
+        // first wehav eto make ordering of the graph
+        vector<int> indg(k,0);
+        vector<vector<int>> adj(k);
+        for(int k=0;k<n-1;k++){ // as. it have n words and we have to comapre each wrd
+            string s1 = dict[k];
+            string s2 = dict[k+1];
+            int i=0,j=0;
+            while(i<s1.size() && j<s2.size()){
+                if(s1[i]!=s2[j]){
+                    indg[s2[j]-'a']++;
+                    adj[s1[i]-'a'].push_back(s2[j]-'a');
                     break;
                 }
-                j++;
+                i++;j++;
             }
-  
-            
         }
         
-        // Now we have to start from node were its indegree is 
+        // Now we have both adjacency matric and indegree we qill find the topological ordering
+        string ans="";
         queue<int> q;
-        for(int i=0;i<k;i++) if(indegree[i]==0) q.push(i);
-        
-        string ans ="";
+        for(int i=0;i<k;i++){
+            if(indg[i]==0) q.push(i);
+        }
         while(!q.empty()){
-            int n = q.front();q.pop();
-            ans += char('a'+n);
-            for(auto it:adj[n]){
-                indegree[it]--;
-                if(indegree[it]==0){
-                    q.push(it);
-                }
+            int t = q.front();
+            q.pop();
+            ans += (char)(t+'a');
+            for(auto it:adj[t]){
+                indg[it]--;
+                if(indg[it]==0) q.push(it);
             }
         }
-        //cout<<ans<<endl;
-        
+       // cout<<ans<<endl;
         return ans;
-        
-        
     }
 };
 
@@ -104,6 +97,9 @@ int main() {
         else
             cout << 0;
         cout << endl;
+
+        cout << "~"
+             << "\n";
     }
     return 0;
 }
