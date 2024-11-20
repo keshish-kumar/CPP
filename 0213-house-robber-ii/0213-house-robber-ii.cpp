@@ -1,23 +1,14 @@
 class Solution {
 public:
+    int solve(vector<int>& nums, int i, int n,vector<int>& dp){
+        if(i>=n) return 0;
+        if(dp[i]!=-1) return dp[i];
+        return dp[i] = max(nums[i]+solve(nums,i+2,n,dp),solve(nums,i+1,n,dp));
+    }
     int rob(vector<int>& nums) {
         if(nums.size()==1) return nums[0];
-        vector<int> dp(nums.size(),0);
-        dp[0] = 0;
-        dp[1] = nums[0]; // Here we are conmsidering that we have taken the foirstr elemnt
-        for(int i=2;i<nums.size();i++){
-            dp[i] = max(dp[i-1] , nums[i-1]+dp[i-2]);
-        }
-
-        vector<int> dpt(nums.size()+1,0);
-        dpt[0] = 0;
-        dpt[1] = 0;
-        dpt[2] = nums[1];
-        for(int i=3;i<=nums.size();i++){
-            dpt[i] = max(dpt[i-1] , nums[i-1]+dpt[i-2]); 
-        }
-
-        return max(dp[nums.size()-1],dpt[nums.size()]);
-
+        vector<int> dp1(nums.size(),-1);
+        vector<int> dp2(nums.size(),-1);
+        return max(solve(nums,0,nums.size()-1,dp1),solve(nums,1,nums.size(),dp2));
     }
 };
