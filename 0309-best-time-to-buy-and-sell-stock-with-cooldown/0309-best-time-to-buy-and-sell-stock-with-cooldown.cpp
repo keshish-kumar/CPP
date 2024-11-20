@@ -1,20 +1,19 @@
 class Solution {
 public:
-    int stocks(vector<int>& prices,int i ,  int buy,vector<vector<int>>& dp){
-        if(i>=prices.size()  ) return 0;
-         if(dp[i][buy] != -1) return dp[i][buy];
-        if(buy){
-           return dp[i][buy] =  max(-prices[i] + stocks(prices,i+1,0 , dp) , stocks(prices,i+1,1,dp));
-            
+    int solve(vector<int>& prices, int buy,int i,vector<vector<int>>& dp){
+        if(i>=prices.size()) return 0;
+        if(dp[i][buy]!=-1) return dp[i][buy];
+        if(buy==0){
+            return dp[i][buy] = max(-prices[i]+solve(prices,!buy,i+1,dp),solve(prices,buy,i+1,dp));
         }
         else{
-           return  dp[i][buy] =  max(prices[i]+stocks(prices,i+2,1,dp) , stocks(prices, i+1,0,dp));
+            return dp[i][buy] = max(prices[i]+solve(prices,!buy,i+2,dp),solve(prices,buy,i+1,dp));
         }
     }
     int maxProfit(vector<int>& prices) {
-        int n = prices.size();
-        int count = 2;
-        vector<vector<int>> dp(n+1,vector<int>(2,-1));
-        return stocks(prices,0,1,dp);
+        // there is cool down periojd which need to be considered
+        int buy=0;
+        vector<vector<int>> dp(prices.size(),vector<int>(2,-1));
+        return solve(prices,buy,0,dp);
     }
 };
