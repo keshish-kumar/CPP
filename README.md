@@ -222,6 +222,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0455-assign-cookies](https://github.com/keshish-kumar/CPP/tree/master/0455-assign-cookies) |
 | [0621-task-scheduler](https://github.com/keshish-kumar/CPP/tree/master/0621-task-scheduler) |
 | [0658-find-k-closest-elements](https://github.com/keshish-kumar/CPP/tree/master/0658-find-k-closest-elements) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/keshish-kumar/CPP/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1129-longest-string-chain](https://github.com/keshish-kumar/CPP/tree/master/1129-longest-string-chain) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/keshish-kumar/CPP/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/keshish-kumar/CPP/tree/master/2497-maximum-matching-of-players-with-trainers) |
@@ -323,6 +324,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0940-fruit-into-baskets](https://github.com/keshish-kumar/CPP/tree/master/0940-fruit-into-baskets) |
 | [0966-binary-subarrays-with-sum](https://github.com/keshish-kumar/CPP/tree/master/0966-binary-subarrays-with-sum) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/keshish-kumar/CPP/tree/master/1016-subarray-sums-divisible-by-k) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/keshish-kumar/CPP/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1034-subarrays-with-k-different-integers](https://github.com/keshish-kumar/CPP/tree/master/1034-subarrays-with-k-different-integers) |
 | [1129-longest-string-chain](https://github.com/keshish-kumar/CPP/tree/master/1129-longest-string-chain) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/keshish-kumar/CPP/tree/master/1460-number-of-substrings-containing-all-three-characters) |
@@ -482,6 +484,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/keshish-kumar/CPP/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0783-search-in-a-binary-search-tree](https://github.com/keshish-kumar/CPP/tree/master/0783-search-in-a-binary-search-tree) |
 | [0799-minimum-distance-between-bst-nodes](https://github.com/keshish-kumar/CPP/tree/master/0799-minimum-distance-between-bst-nodes) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/keshish-kumar/CPP/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [2568-minimum-fuel-cost-to-report-to-the-capital](https://github.com/keshish-kumar/CPP/tree/master/2568-minimum-fuel-cost-to-report-to-the-capital) |
 ## Depth-First Search
 |  |
@@ -508,6 +511,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0799-minimum-distance-between-bst-nodes](https://github.com/keshish-kumar/CPP/tree/master/0799-minimum-distance-between-bst-nodes) |
 | [0801-is-graph-bipartite](https://github.com/keshish-kumar/CPP/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/keshish-kumar/CPP/tree/master/0803-cheapest-flights-within-k-stops) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/keshish-kumar/CPP/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1300-critical-connections-in-a-network](https://github.com/keshish-kumar/CPP/tree/master/1300-critical-connections-in-a-network) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/keshish-kumar/CPP/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1753-path-with-minimum-effort](https://github.com/keshish-kumar/CPP/tree/master/1753-path-with-minimum-effort) |
@@ -533,6 +537,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0799-minimum-distance-between-bst-nodes](https://github.com/keshish-kumar/CPP/tree/master/0799-minimum-distance-between-bst-nodes) |
 | [0801-is-graph-bipartite](https://github.com/keshish-kumar/CPP/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/keshish-kumar/CPP/tree/master/0803-cheapest-flights-within-k-stops) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/keshish-kumar/CPP/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1036-rotting-oranges](https://github.com/keshish-kumar/CPP/tree/master/1036-rotting-oranges) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/keshish-kumar/CPP/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/keshish-kumar/CPP/tree/master/1442-number-of-operations-to-make-network-connected) |
@@ -563,6 +568,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/keshish-kumar/CPP/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0783-search-in-a-binary-search-tree](https://github.com/keshish-kumar/CPP/tree/master/0783-search-in-a-binary-search-tree) |
 | [0799-minimum-distance-between-bst-nodes](https://github.com/keshish-kumar/CPP/tree/master/0799-minimum-distance-between-bst-nodes) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/keshish-kumar/CPP/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 ## Counting
 |  |
 | ------- |
