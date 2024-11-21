@@ -99,42 +99,24 @@ struct Node
 */
 class Solution
 {
-    
-    
     public:
     //Function to return a list of nodes visible from the top view 
     //from left to right in Binary Tree.
+    void solve(Node* root, map<int,pair<int,int>>& mp, int dist,int level ){
+        if(root==NULL) return;
+        
+        if(mp.find(dist)==mp.end() || level<mp[dist].first) mp[dist] = {level,root->data};
+        solve(root->left,mp,dist-1,level+1);
+        solve(root->right,mp,dist+1,level+1);
+    }
     vector<int> topView(Node *root)
     {
         //Your code here
+        map<int,pair<int,int>> mp;
+        solve(root,mp,0,0);
         vector<int> ans;
-        if(root==NULL) return ans;
-        int count = 0;
-        queue<pair<Node*,int>> q;
-        map<int,int> mp;
-        q.push({root,count});
-        while(!q.empty()){
-            
-            root = q.front().first; 
-            int x = q.front().second;
-            q.pop();
-            if(mp.find(x)==mp.end()){
-                mp[x]=root->data;
-            }
-            if(root->left!= NULL)
-            q.push({root->left,x-1});
-            if(root->right!=NULL)
-            q.push({root->right,x+1});
-            
-            
-            
-            
-        }
-        for(auto it : mp){
-            ans.push_back(it.second);
-        }
+        for(auto it:mp) ans.push_back(it.second.second);
         return ans;
-        
     }
 
 };
@@ -156,7 +138,9 @@ int main() {
         for(int x : vec)
             cout<<x<<" ";
         cout<<endl;
-    }
+    
+cout << "~" << "\n";
+}
     return 0;
 }
 // } Driver Code Ends
