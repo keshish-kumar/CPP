@@ -11,34 +11,24 @@
  */
 class Solution {
 public:
+    void solve(TreeNode* root, map<int,vector<int>>& mp, int level){
+        if(root==NULL) return;
+
+        mp[level].push_back(root->val);
+        solve(root->left,mp,level+1);
+        solve(root->right,mp,level+1);
+    }
     vector<vector<int>> zigzagLevelOrder(TreeNode* root) {
-        vector<vector<int>> ans;
-        if(root==NULL) return ans;
         
-        queue<TreeNode*> q;
-        q.push(root);
-        int level = 0;
-        while(!q.empty()){
-            int n = q.size();
-            vector<int>temp;
-            for(int i=0;i<n;i++){
-                TreeNode* node = q.front();
-                temp.push_back(node->val); q.pop();
-                if(node->left!=NULL){
-                    q.push(node->left);
-                }
-                if(node->right!=NULL){
-                    q.push(node->right);
-                }
-            }
-            if(level%2!=0){
-                    reverse(temp.begin(),temp.end());
-            }
-            ans.push_back(temp);
-            level++;
+        map<int,vector<int>> mp;
+        solve(root,mp,0);
+        int i=0;
+        vector<vector<int>> ans;
+        for(auto it:mp){
+            if(i%2!=0) reverse(it.second.begin(),it.second.end());
+            ans.push_back(it.second);
+            i++;
         }
-
         return ans;
-
     }
 };
