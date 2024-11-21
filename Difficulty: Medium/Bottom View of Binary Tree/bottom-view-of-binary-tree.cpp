@@ -95,25 +95,21 @@ Node* buildTree(string str)
 
 class Solution {
   public:
-  void view(Node* root, map<int,pair<int,int>>& mp,int index,int level){
+  void solve(Node* root, map<int,pair<int,int>>& mp, int dist, int level){
       if(root==NULL) return;
-      
-      
-      if(mp.find(index)==mp.end() || level >= mp[index].second){
-          mp[index]={root->data,level};
+      if(mp.find(dist)==mp.end() || level>=mp[dist].first){
+          mp[dist]={level,root->data};
       }
-     
-      view(root->left,mp,index-1,level+1);
-       
-      view(root->right,mp,index+1,level+1);
+      solve(root->left,mp,dist-1,level+1);
+      solve(root->right,mp,dist+1,level+1);
   }
     vector <int> bottomView(Node *root) {
         // Your Code Here
         vector<int> ans;
-        map<int,pair<int,int>> mp;
-        view(root,mp,0,0);
-        for(auto st:mp){
-            ans.push_back(st.second.first);
+        map<int,pair<int,int>> mp;// dist,level,val
+        solve(root,mp,0,0);
+        for(auto it:mp){
+            ans.push_back(it.second.second);
         }
         return ans;
     }
