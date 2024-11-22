@@ -1,30 +1,18 @@
 class Solution {
 public:
     int longestConsecutive(vector<int>& nums) {
-        unordered_map<int,int> mp;
-        for(int i=0;i<nums.size();i++){
-            mp[nums[i]]++;
-        }
-        int ans  = 0;
-        for(int i=0;i<nums.size();i++){
-            int count=1;
-            int n = nums[i]+1;
-            while(mp.find(n)!=mp.end()){
+        if(nums.size()==0) return 0;
+        sort(nums.begin(),nums.end());
+        int ans =1;
+        int count =1;
+        for(int i=1;i<nums.size();i++){
+            if(nums[i]==(nums[i-1]+1)){
                 count++;
-               //mp[n]--;
-                mp.erase(n);
-                n+=1;
-
+                ans= max(ans,count);
             }
-            // now we also have to check for if its previous lement how many are present
-            n = nums[i]-1;
-            while(mp.find(n)!=mp.end()){
-                count++;
-                mp.erase(n);
-                n-=1;
+            else if(nums[i]>(nums[i-1]+1)){
+                count=1;
             }
-            mp.erase(nums[i]);
-            ans = max(ans,count);
         }
         return ans;
     }
