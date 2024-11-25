@@ -10,34 +10,34 @@ using namespace std;
 
 class Solution {
   public:
-    bool solve(vector<int>& stalls, int d, int k){
-        int count=1;
-        int i=1;
-        int l=stalls[0];
-        while(i<stalls.size()){
-            if(stalls[i]-l>=d){
-                count++;
-                l = stalls[i];
-            }
-            i++;
-        }
-        if(count>=k) return true;
-        else return false;
-    }
+
     int aggressiveCows(vector<int> &stalls, int k) {
 
         // Write your code here
+        // The minimum. dostance any two of them is maximum possible
         sort(stalls.begin(),stalls.end());
-        int low = 1,high = *max_element(stalls.begin(),stalls.end());
-        int ans =0;
+        int low = 0,high = accumulate(stalls.begin(),stalls.end(),0);
+        int ans =-1;
         while(low<=high){
             int mid = (low+high)/2;
-            
-            if(solve(stalls,mid,k)){
-                ans = max(ans,mid);
+            int count =1,sum=0;
+            int i=0,j=1;
+            while(j<stalls.size()){
+                if(abs(stalls[i]-stalls[j])>=mid){
+                    count++;
+                    i=j;
+                    j++;
+                }
+                else{
+                    j++;
+                }
+            }
+            if(count>= k){
+                ans = mid;
                 low = mid+1;
             }
             else{
+                
                 high = mid-1;
             }
         }
