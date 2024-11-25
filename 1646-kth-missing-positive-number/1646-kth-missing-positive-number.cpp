@@ -10,6 +10,6 @@ public:
             }
             else low =mid+1;
         }
-        return k+high+1;
+        return low+k;
     }
 };
