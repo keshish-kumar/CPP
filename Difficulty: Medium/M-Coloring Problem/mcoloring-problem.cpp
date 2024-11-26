@@ -6,35 +6,36 @@ using namespace std;
 // } Driver Code Ends
 class Solution {
   public:
-  bool ispossible(vector<vector<int>>& adj, int i,vector<int>& color,int c){
-      for(auto it:adj[i]){
-          if(color[it]==c) return false;
+  bool ispossible(vector<vector<int>>& adj, int vertex, int col, vector<int>& color){
+      
+      for(auto it:adj[vertex]){
+          if(color[it]==col) return false;
       }
       return true;
   }
-  bool solve(vector<vector<int>>& adj, int i,vector<int>& color, int m){
+  
+  bool solve(vector<vector<int>>& adj, int m, int vertex,vector<int>& color){
+      if(vertex>=adj.size()) return true;
       
-      if(i==adj.size()) return true;
       for(int c=1;c<=m;c++){
-          if(ispossible(adj,i,color,c)){
-              color[i]=c;
-              if(solve(adj,i+1,color,m)) return true;
-              color[i]=0;
+          if(ispossible(adj,vertex,c,color)){
+              color[vertex] = c;
+              if(solve(adj,m,vertex+1,color)) return true;
+              color[vertex] = 0;
           }
       }
       return false;
-      
   }
     bool graphColoring(int v, vector<pair<int, int>>& edges, int m) {
         // code here
+        // first we have to crerate adjacency matrix
         vector<vector<int>> adj(v);
-        for(int i=0;i<edges.size();i++)
-        {
+        for(int i=0;i<edges.size();i++){
             adj[edges[i].first].push_back(edges[i].second);
             adj[edges[i].second].push_back(edges[i].first);
         }
         vector<int> color(v,0);
-        return solve(adj,0,color,m);
+        return solve(adj,m,0,color);
     }
 };
 
