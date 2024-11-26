@@ -315,6 +315,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0146-lru-cache](https://github.com/keshish-kumar/CPP/tree/master/0146-lru-cache) |
 | [0160-intersection-of-two-linked-lists](https://github.com/keshish-kumar/CPP/tree/master/0160-intersection-of-two-linked-lists) |
 | [0169-majority-element](https://github.com/keshish-kumar/CPP/tree/master/0169-majority-element) |
+| [0205-isomorphic-strings](https://github.com/keshish-kumar/CPP/tree/master/0205-isomorphic-strings) |
 | [0229-majority-element-ii](https://github.com/keshish-kumar/CPP/tree/master/0229-majority-element-ii) |
 | [0268-missing-number](https://github.com/keshish-kumar/CPP/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/keshish-kumar/CPP/tree/master/0347-top-k-frequent-elements) |
@@ -353,6 +354,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0132-palindrome-partitioning-ii](https://github.com/keshish-kumar/CPP/tree/master/0132-palindrome-partitioning-ii) |
 | [0139-word-break](https://github.com/keshish-kumar/CPP/tree/master/0139-word-break) |
 | [0140-word-break-ii](https://github.com/keshish-kumar/CPP/tree/master/0140-word-break-ii) |
+| [0205-isomorphic-strings](https://github.com/keshish-kumar/CPP/tree/master/0205-isomorphic-strings) |
 | [0212-word-search-ii](https://github.com/keshish-kumar/CPP/tree/master/0212-word-search-ii) |
 | [0344-reverse-string](https://github.com/keshish-kumar/CPP/tree/master/0344-reverse-string) |
 | [0402-remove-k-digits](https://github.com/keshish-kumar/CPP/tree/master/0402-remove-k-digits) |
