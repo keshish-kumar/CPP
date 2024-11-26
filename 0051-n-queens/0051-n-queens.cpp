@@ -1,54 +1,48 @@
 class Solution {
 public:
-vector<vector<string>> temp;
-bool ispossible(vector<string>& ans, int row,int col){
+    vector<vector<string>> ans;
+    bool ispossible(int index, int j,vector<string>& temp){
+        int r = index;
+        int c = j;
+        while(r>=0 && c>=0){
+            if(temp[r][c] == 'Q') return false;
+            r--;c--;
+        }
 
-    // diagonal 
-    int r = row,c = col;
+        r= index;
+        c = j;
+        while(r>=0 && c<temp.size()){
+            if(temp[r][c]=='Q') return false;
+            r--;c++;
+        }
 
-    while(r>=0 && c>=0){
-        if(ans[r][c]=='Q') return false;
-        r--;c--;
+        // check for the bacj side
+        r = index;
+        while(r>=0){
+            if(temp[r][j]=='Q') return false;
+            r--;
+        }
+
+        return true;
     }
-    
-    r=row;c=col;
-    while(r>=0 && c<ans.size()){
-        if(ans[r][c] == 'Q') return false;
-        r--;c++;
-    }
+    void solve(int n , vector<string>& temp , int index){
+        if(index>=n){
+            ans.push_back(temp);
+            return;
+        }
 
-    r=row;c=col;
-    while(r>=0 ){
-        if(ans[r][c]=='Q') return false;
-        r--;
-    }
-
-    return true;
-
-}
-
-    void solve(vector<string>&ans, int index){
-        if(index==ans.size()) {temp.push_back(ans); return; }
-
-        for(int i=0;i<ans.size();i++){
-            if(ispossible(ans,index,i)){
-                ans[index][i] = 'Q';
-                solve(ans,index+1);
-                ans[index][i] ='.';
+        for(int j=0;j<n;j++){
+            if(ispossible(index,j,temp)){
+                temp[index][j] = 'Q';
+                solve(n,temp,index+1);
+                temp[index][j] = '.';
             }
         }
-       
     }
     vector<vector<string>> solveNQueens(int n) {
-        
-         
-        vector<string> ans(n);
-        string s(n,'.');
-        for(int i=0;i<n;i++){ // Here we have created temp vector wiht all . in that
-            ans[i]=s;
-        } 
-        solve(ans,0);
+         vector<string> temp(n, string(n, '.'));
+        solve(n,temp,0);
+        return ans;
 
-        return temp;
     }
 };
