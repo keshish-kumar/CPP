@@ -6,42 +6,40 @@ using namespace std;
 // } Driver Code Ends
 class Solution {
   public:
-  void merge(vector<int>& arr, int l,int mid, int r){
-      int i=l,j=mid+1;
+  void merge(vector<int>& arr, int l, int mid, int r){
       vector<int> temp;
-      while(i<=mid && j<=r){
-          if(arr[i]>arr[j]){
-              temp.push_back(arr[j]);
-              j++;
+      int start=l,end=r;
+      int i=0;
+      int k = mid+1;
+      while(l<=mid && k<=r){
+          if(arr[l]<arr[k]){
+              temp.push_back(arr[l++]);
           }
           else{
-              temp.push_back(arr[i]);
-              i++;
+              temp.push_back(arr[k++]);
           }
       }
-      while(i<=mid){
-          temp.push_back(arr[i]);
-          i++;
+      while(l<=mid){
+          temp.push_back(arr[l++]);
       }
-      while(j<=r){
-          temp.push_back(arr[j]);
-          j++;
+      while(k<=r){
+          temp.push_back(arr[k++]);
       }
-      // now we have to put this leents in origignal array
-      int t=0;
-      for(int k=l;k<=r;k++){
-          arr[k] = temp[t];
-          t++;
+      
+      for(int t=start;t<=end;t++){
+          arr[t]=temp[t-start];
       }
   }
     void mergeSort(vector<int>& arr, int l, int r) {
         // code here
+        // first we need to divided in suck a way that only single element remains at last
         if(l<r){
             int mid = (l+r)/2;
             mergeSort(arr,l,mid);
             mergeSort(arr,mid+1,r);
             merge(arr,l,mid,r);
         }
+        
     }
 };
 
