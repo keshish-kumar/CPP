@@ -111,6 +111,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [1121-partition-array-for-maximum-sum](https://github.com/keshish-kumar/CPP/tree/master/1121-partition-array-for-maximum-sum) |
 | [1129-longest-string-chain](https://github.com/keshish-kumar/CPP/tree/master/1129-longest-string-chain) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/keshish-kumar/CPP/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1319-unique-number-of-occurrences](https://github.com/keshish-kumar/CPP/tree/master/1319-unique-number-of-occurrences) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/keshish-kumar/CPP/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/keshish-kumar/CPP/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1646-kth-missing-positive-number](https://github.com/keshish-kumar/CPP/tree/master/1646-kth-missing-positive-number) |
@@ -335,6 +336,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/keshish-kumar/CPP/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1034-subarrays-with-k-different-integers](https://github.com/keshish-kumar/CPP/tree/master/1034-subarrays-with-k-different-integers) |
 | [1129-longest-string-chain](https://github.com/keshish-kumar/CPP/tree/master/1129-longest-string-chain) |
+| [1319-unique-number-of-occurrences](https://github.com/keshish-kumar/CPP/tree/master/1319-unique-number-of-occurrences) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/keshish-kumar/CPP/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1694-make-sum-divisible-by-p](https://github.com/keshish-kumar/CPP/tree/master/1694-make-sum-divisible-by-p) |
 | [1960-check-if-the-sentence-is-pangram](https://github.com/keshish-kumar/CPP/tree/master/1960-check-if-the-sentence-is-pangram) |
