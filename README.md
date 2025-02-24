@@ -324,6 +324,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0205-isomorphic-strings](https://github.com/keshish-kumar/CPP/tree/master/0205-isomorphic-strings) |
 | [0229-majority-element-ii](https://github.com/keshish-kumar/CPP/tree/master/0229-majority-element-ii) |
 | [0268-missing-number](https://github.com/keshish-kumar/CPP/tree/master/0268-missing-number) |
+| [0290-word-pattern](https://github.com/keshish-kumar/CPP/tree/master/0290-word-pattern) |
 | [0347-top-k-frequent-elements](https://github.com/keshish-kumar/CPP/tree/master/0347-top-k-frequent-elements) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/keshish-kumar/CPP/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0496-next-greater-element-i](https://github.com/keshish-kumar/CPP/tree/master/0496-next-greater-element-i) |
@@ -363,6 +364,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0140-word-break-ii](https://github.com/keshish-kumar/CPP/tree/master/0140-word-break-ii) |
 | [0205-isomorphic-strings](https://github.com/keshish-kumar/CPP/tree/master/0205-isomorphic-strings) |
 | [0212-word-search-ii](https://github.com/keshish-kumar/CPP/tree/master/0212-word-search-ii) |
+| [0290-word-pattern](https://github.com/keshish-kumar/CPP/tree/master/0290-word-pattern) |
 | [0344-reverse-string](https://github.com/keshish-kumar/CPP/tree/master/0344-reverse-string) |
 | [0402-remove-k-digits](https://github.com/keshish-kumar/CPP/tree/master/0402-remove-k-digits) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/keshish-kumar/CPP/tree/master/0438-find-all-anagrams-in-a-string) |
