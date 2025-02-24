@@ -114,6 +114,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [1319-unique-number-of-occurrences](https://github.com/keshish-kumar/CPP/tree/master/1319-unique-number-of-occurrences) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/keshish-kumar/CPP/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/keshish-kumar/CPP/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
+| [1635-number-of-good-pairs](https://github.com/keshish-kumar/CPP/tree/master/1635-number-of-good-pairs) |
 | [1646-kth-missing-positive-number](https://github.com/keshish-kumar/CPP/tree/master/1646-kth-missing-positive-number) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/keshish-kumar/CPP/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [1694-make-sum-divisible-by-p](https://github.com/keshish-kumar/CPP/tree/master/1694-make-sum-divisible-by-p) |
@@ -211,6 +212,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0189-rotate-array](https://github.com/keshish-kumar/CPP/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/keshish-kumar/CPP/tree/master/0268-missing-number) |
 | [0368-largest-divisible-subset](https://github.com/keshish-kumar/CPP/tree/master/0368-largest-divisible-subset) |
+| [1635-number-of-good-pairs](https://github.com/keshish-kumar/CPP/tree/master/1635-number-of-good-pairs) |
 | [3227-find-missing-and-repeated-values](https://github.com/keshish-kumar/CPP/tree/master/3227-find-missing-and-repeated-values) |
 ## Sorting
 |  |
@@ -340,6 +342,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [1129-longest-string-chain](https://github.com/keshish-kumar/CPP/tree/master/1129-longest-string-chain) |
 | [1319-unique-number-of-occurrences](https://github.com/keshish-kumar/CPP/tree/master/1319-unique-number-of-occurrences) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/keshish-kumar/CPP/tree/master/1460-number-of-substrings-containing-all-three-characters) |
+| [1635-number-of-good-pairs](https://github.com/keshish-kumar/CPP/tree/master/1635-number-of-good-pairs) |
 | [1694-make-sum-divisible-by-p](https://github.com/keshish-kumar/CPP/tree/master/1694-make-sum-divisible-by-p) |
 | [1960-check-if-the-sentence-is-pangram](https://github.com/keshish-kumar/CPP/tree/master/1960-check-if-the-sentence-is-pangram) |
 | [2428-equal-row-and-column-pairs](https://github.com/keshish-kumar/CPP/tree/master/2428-equal-row-and-column-pairs) |
@@ -600,6 +603,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0347-top-k-frequent-elements](https://github.com/keshish-kumar/CPP/tree/master/0347-top-k-frequent-elements) |
 | [0621-task-scheduler](https://github.com/keshish-kumar/CPP/tree/master/0621-task-scheduler) |
 | [1034-subarrays-with-k-different-integers](https://github.com/keshish-kumar/CPP/tree/master/1034-subarrays-with-k-different-integers) |
+| [1635-number-of-good-pairs](https://github.com/keshish-kumar/CPP/tree/master/1635-number-of-good-pairs) |
 ## Binary Search Tree
 |  |
 | ------- |
