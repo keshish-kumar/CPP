@@ -3,15 +3,20 @@ public:
     bool wordPattern(string pattern, string s) {
           // first we will extract all the words from the string
           vector<string> str;
-          for(int i=0;i<s.size();i++){
-            int len =0;
-            int j=i;
-            while(  i<s.size() && s[i]!=' '){
-                len++;
-                i++;
-            }
-            str.push_back(s.substr(j,len));
-          }
+        //   for(int i=0;i<s.size();i++){
+        //     int len =0;
+        //     int j=i;
+        //     while(  i<s.size() && s[i]!=' '){
+        //         len++;
+        //         i++;
+        //     }
+        //     str.push_back(s.substr(j,len));
+        //   }
+        stringstream ss(s);
+        string token;
+        while(getline(ss,token,' ')){
+            str.push_back(token);
+        }
           for(int i=0;i<str.size();i++) cout<<str[i]<<endl;
 
           if(pattern.size()!= str.size()) return false;
