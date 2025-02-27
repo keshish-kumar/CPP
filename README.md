@@ -119,6 +119,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/keshish-kumar/CPP/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [1694-make-sum-divisible-by-p](https://github.com/keshish-kumar/CPP/tree/master/1694-make-sum-divisible-by-p) |
 | [1753-path-with-minimum-effort](https://github.com/keshish-kumar/CPP/tree/master/1753-path-with-minimum-effort) |
+| [1866-restore-the-array-from-adjacent-pairs](https://github.com/keshish-kumar/CPP/tree/master/1866-restore-the-array-from-adjacent-pairs) |
 | [2428-equal-row-and-column-pairs](https://github.com/keshish-kumar/CPP/tree/master/2428-equal-row-and-column-pairs) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/keshish-kumar/CPP/tree/master/2497-maximum-matching-of-players-with-trainers) |
 | [3227-find-missing-and-repeated-values](https://github.com/keshish-kumar/CPP/tree/master/3227-find-missing-and-repeated-values) |
@@ -344,6 +345,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/keshish-kumar/CPP/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1635-number-of-good-pairs](https://github.com/keshish-kumar/CPP/tree/master/1635-number-of-good-pairs) |
 | [1694-make-sum-divisible-by-p](https://github.com/keshish-kumar/CPP/tree/master/1694-make-sum-divisible-by-p) |
+| [1866-restore-the-array-from-adjacent-pairs](https://github.com/keshish-kumar/CPP/tree/master/1866-restore-the-array-from-adjacent-pairs) |
 | [1960-check-if-the-sentence-is-pangram](https://github.com/keshish-kumar/CPP/tree/master/1960-check-if-the-sentence-is-pangram) |
 | [2428-equal-row-and-column-pairs](https://github.com/keshish-kumar/CPP/tree/master/2428-equal-row-and-column-pairs) |
 | [3227-find-missing-and-repeated-values](https://github.com/keshish-kumar/CPP/tree/master/3227-find-missing-and-repeated-values) |
@@ -538,6 +540,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [1300-critical-connections-in-a-network](https://github.com/keshish-kumar/CPP/tree/master/1300-critical-connections-in-a-network) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/keshish-kumar/CPP/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1753-path-with-minimum-effort](https://github.com/keshish-kumar/CPP/tree/master/1753-path-with-minimum-effort) |
+| [1866-restore-the-array-from-adjacent-pairs](https://github.com/keshish-kumar/CPP/tree/master/1866-restore-the-array-from-adjacent-pairs) |
 | [2439-longest-cycle-in-a-graph](https://github.com/keshish-kumar/CPP/tree/master/2439-longest-cycle-in-a-graph) |
 | [2568-minimum-fuel-cost-to-report-to-the-capital](https://github.com/keshish-kumar/CPP/tree/master/2568-minimum-fuel-cost-to-report-to-the-capital) |
 ## Breadth-First Search
