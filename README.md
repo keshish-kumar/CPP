@@ -120,6 +120,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [1694-make-sum-divisible-by-p](https://github.com/keshish-kumar/CPP/tree/master/1694-make-sum-divisible-by-p) |
 | [1753-path-with-minimum-effort](https://github.com/keshish-kumar/CPP/tree/master/1753-path-with-minimum-effort) |
 | [1866-restore-the-array-from-adjacent-pairs](https://github.com/keshish-kumar/CPP/tree/master/1866-restore-the-array-from-adjacent-pairs) |
+| [1925-count-nice-pairs-in-an-array](https://github.com/keshish-kumar/CPP/tree/master/1925-count-nice-pairs-in-an-array) |
 | [2428-equal-row-and-column-pairs](https://github.com/keshish-kumar/CPP/tree/master/2428-equal-row-and-column-pairs) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/keshish-kumar/CPP/tree/master/2497-maximum-matching-of-players-with-trainers) |
 | [3227-find-missing-and-repeated-values](https://github.com/keshish-kumar/CPP/tree/master/3227-find-missing-and-repeated-values) |
@@ -214,6 +215,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0268-missing-number](https://github.com/keshish-kumar/CPP/tree/master/0268-missing-number) |
 | [0368-largest-divisible-subset](https://github.com/keshish-kumar/CPP/tree/master/0368-largest-divisible-subset) |
 | [1635-number-of-good-pairs](https://github.com/keshish-kumar/CPP/tree/master/1635-number-of-good-pairs) |
+| [1925-count-nice-pairs-in-an-array](https://github.com/keshish-kumar/CPP/tree/master/1925-count-nice-pairs-in-an-array) |
 | [3227-find-missing-and-repeated-values](https://github.com/keshish-kumar/CPP/tree/master/3227-find-missing-and-repeated-values) |
 ## Sorting
 |  |
@@ -346,6 +348,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [1635-number-of-good-pairs](https://github.com/keshish-kumar/CPP/tree/master/1635-number-of-good-pairs) |
 | [1694-make-sum-divisible-by-p](https://github.com/keshish-kumar/CPP/tree/master/1694-make-sum-divisible-by-p) |
 | [1866-restore-the-array-from-adjacent-pairs](https://github.com/keshish-kumar/CPP/tree/master/1866-restore-the-array-from-adjacent-pairs) |
+| [1925-count-nice-pairs-in-an-array](https://github.com/keshish-kumar/CPP/tree/master/1925-count-nice-pairs-in-an-array) |
 | [1960-check-if-the-sentence-is-pangram](https://github.com/keshish-kumar/CPP/tree/master/1960-check-if-the-sentence-is-pangram) |
 | [2428-equal-row-and-column-pairs](https://github.com/keshish-kumar/CPP/tree/master/2428-equal-row-and-column-pairs) |
 | [3227-find-missing-and-repeated-values](https://github.com/keshish-kumar/CPP/tree/master/3227-find-missing-and-repeated-values) |
@@ -607,6 +610,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0621-task-scheduler](https://github.com/keshish-kumar/CPP/tree/master/0621-task-scheduler) |
 | [1034-subarrays-with-k-different-integers](https://github.com/keshish-kumar/CPP/tree/master/1034-subarrays-with-k-different-integers) |
 | [1635-number-of-good-pairs](https://github.com/keshish-kumar/CPP/tree/master/1635-number-of-good-pairs) |
+| [1925-count-nice-pairs-in-an-array](https://github.com/keshish-kumar/CPP/tree/master/1925-count-nice-pairs-in-an-array) |
 ## Binary Search Tree
 |  |
 | ------- |
