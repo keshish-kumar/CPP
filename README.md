@@ -97,6 +97,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0673-number-of-longest-increasing-subsequence](https://github.com/keshish-kumar/CPP/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0735-asteroid-collision](https://github.com/keshish-kumar/CPP/tree/master/0735-asteroid-collision) |
 | [0792-binary-search](https://github.com/keshish-kumar/CPP/tree/master/0792-binary-search) |
+| [0876-hand-of-straights](https://github.com/keshish-kumar/CPP/tree/master/0876-hand-of-straights) |
 | [0907-koko-eating-bananas](https://github.com/keshish-kumar/CPP/tree/master/0907-koko-eating-bananas) |
 | [0940-fruit-into-baskets](https://github.com/keshish-kumar/CPP/tree/master/0940-fruit-into-baskets) |
 | [0943-sum-of-subarray-minimums](https://github.com/keshish-kumar/CPP/tree/master/0943-sum-of-subarray-minimums) |
@@ -237,6 +238,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0455-assign-cookies](https://github.com/keshish-kumar/CPP/tree/master/0455-assign-cookies) |
 | [0621-task-scheduler](https://github.com/keshish-kumar/CPP/tree/master/0621-task-scheduler) |
 | [0658-find-k-closest-elements](https://github.com/keshish-kumar/CPP/tree/master/0658-find-k-closest-elements) |
+| [0876-hand-of-straights](https://github.com/keshish-kumar/CPP/tree/master/0876-hand-of-straights) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/keshish-kumar/CPP/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1129-longest-string-chain](https://github.com/keshish-kumar/CPP/tree/master/1129-longest-string-chain) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/keshish-kumar/CPP/tree/master/1669-minimum-cost-to-cut-a-stick) |
@@ -339,6 +341,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0560-subarray-sum-equals-k](https://github.com/keshish-kumar/CPP/tree/master/0560-subarray-sum-equals-k) |
 | [0621-task-scheduler](https://github.com/keshish-kumar/CPP/tree/master/0621-task-scheduler) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/keshish-kumar/CPP/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [0876-hand-of-straights](https://github.com/keshish-kumar/CPP/tree/master/0876-hand-of-straights) |
 | [0940-fruit-into-baskets](https://github.com/keshish-kumar/CPP/tree/master/0940-fruit-into-baskets) |
 | [0966-binary-subarrays-with-sum](https://github.com/keshish-kumar/CPP/tree/master/0966-binary-subarrays-with-sum) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/keshish-kumar/CPP/tree/master/1016-subarray-sums-divisible-by-k) |
@@ -437,6 +440,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0435-non-overlapping-intervals](https://github.com/keshish-kumar/CPP/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/keshish-kumar/CPP/tree/master/0455-assign-cookies) |
 | [0621-task-scheduler](https://github.com/keshish-kumar/CPP/tree/master/0621-task-scheduler) |
+| [0876-hand-of-straights](https://github.com/keshish-kumar/CPP/tree/master/0876-hand-of-straights) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/keshish-kumar/CPP/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/keshish-kumar/CPP/tree/master/2497-maximum-matching-of-players-with-trainers) |
 | [3275-minimum-number-of-pushes-to-type-word-i](https://github.com/keshish-kumar/CPP/tree/master/3275-minimum-number-of-pushes-to-type-word-i) |
