@@ -93,6 +93,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0540-single-element-in-a-sorted-array](https://github.com/keshish-kumar/CPP/tree/master/0540-single-element-in-a-sorted-array) |
 | [0560-subarray-sum-equals-k](https://github.com/keshish-kumar/CPP/tree/master/0560-subarray-sum-equals-k) |
 | [0621-task-scheduler](https://github.com/keshish-kumar/CPP/tree/master/0621-task-scheduler) |
+| [0648-replace-words](https://github.com/keshish-kumar/CPP/tree/master/0648-replace-words) |
 | [0658-find-k-closest-elements](https://github.com/keshish-kumar/CPP/tree/master/0658-find-k-closest-elements) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/keshish-kumar/CPP/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0735-asteroid-collision](https://github.com/keshish-kumar/CPP/tree/master/0735-asteroid-collision) |
@@ -340,6 +341,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0496-next-greater-element-i](https://github.com/keshish-kumar/CPP/tree/master/0496-next-greater-element-i) |
 | [0560-subarray-sum-equals-k](https://github.com/keshish-kumar/CPP/tree/master/0560-subarray-sum-equals-k) |
 | [0621-task-scheduler](https://github.com/keshish-kumar/CPP/tree/master/0621-task-scheduler) |
+| [0648-replace-words](https://github.com/keshish-kumar/CPP/tree/master/0648-replace-words) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/keshish-kumar/CPP/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0876-hand-of-straights](https://github.com/keshish-kumar/CPP/tree/master/0876-hand-of-straights) |
 | [0940-fruit-into-baskets](https://github.com/keshish-kumar/CPP/tree/master/0940-fruit-into-baskets) |
@@ -386,6 +388,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0438-find-all-anagrams-in-a-string](https://github.com/keshish-kumar/CPP/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0443-string-compression](https://github.com/keshish-kumar/CPP/tree/master/0443-string-compression) |
 | [0516-longest-palindromic-subsequence](https://github.com/keshish-kumar/CPP/tree/master/0516-longest-palindromic-subsequence) |
+| [0648-replace-words](https://github.com/keshish-kumar/CPP/tree/master/0648-replace-words) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/keshish-kumar/CPP/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1032-satisfiability-of-equality-equations](https://github.com/keshish-kumar/CPP/tree/master/1032-satisfiability-of-equality-equations) |
 | [1129-longest-string-chain](https://github.com/keshish-kumar/CPP/tree/master/1129-longest-string-chain) |
@@ -729,6 +732,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0139-word-break](https://github.com/keshish-kumar/CPP/tree/master/0139-word-break) |
 | [0140-word-break-ii](https://github.com/keshish-kumar/CPP/tree/master/0140-word-break-ii) |
 | [0212-word-search-ii](https://github.com/keshish-kumar/CPP/tree/master/0212-word-search-ii) |
+| [0648-replace-words](https://github.com/keshish-kumar/CPP/tree/master/0648-replace-words) |
 ## Bucket Sort
 |  |
 | ------- |
