@@ -116,6 +116,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [1319-unique-number-of-occurrences](https://github.com/keshish-kumar/CPP/tree/master/1319-unique-number-of-occurrences) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/keshish-kumar/CPP/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/keshish-kumar/CPP/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
+| [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/keshish-kumar/CPP/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [1635-number-of-good-pairs](https://github.com/keshish-kumar/CPP/tree/master/1635-number-of-good-pairs) |
 | [1646-kth-missing-positive-number](https://github.com/keshish-kumar/CPP/tree/master/1646-kth-missing-positive-number) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/keshish-kumar/CPP/tree/master/1669-minimum-cost-to-cut-a-stick) |
@@ -352,6 +353,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [1129-longest-string-chain](https://github.com/keshish-kumar/CPP/tree/master/1129-longest-string-chain) |
 | [1319-unique-number-of-occurrences](https://github.com/keshish-kumar/CPP/tree/master/1319-unique-number-of-occurrences) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/keshish-kumar/CPP/tree/master/1460-number-of-substrings-containing-all-three-characters) |
+| [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/keshish-kumar/CPP/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [1635-number-of-good-pairs](https://github.com/keshish-kumar/CPP/tree/master/1635-number-of-good-pairs) |
 | [1694-make-sum-divisible-by-p](https://github.com/keshish-kumar/CPP/tree/master/1694-make-sum-divisible-by-p) |
 | [1866-restore-the-array-from-adjacent-pairs](https://github.com/keshish-kumar/CPP/tree/master/1866-restore-the-array-from-adjacent-pairs) |
@@ -623,6 +625,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0347-top-k-frequent-elements](https://github.com/keshish-kumar/CPP/tree/master/0347-top-k-frequent-elements) |
 | [0621-task-scheduler](https://github.com/keshish-kumar/CPP/tree/master/0621-task-scheduler) |
 | [1034-subarrays-with-k-different-integers](https://github.com/keshish-kumar/CPP/tree/master/1034-subarrays-with-k-different-integers) |
+| [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/keshish-kumar/CPP/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [1635-number-of-good-pairs](https://github.com/keshish-kumar/CPP/tree/master/1635-number-of-good-pairs) |
 | [1925-count-nice-pairs-in-an-array](https://github.com/keshish-kumar/CPP/tree/master/1925-count-nice-pairs-in-an-array) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/keshish-kumar/CPP/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
