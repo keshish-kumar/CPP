@@ -241,6 +241,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [1129-longest-string-chain](https://github.com/keshish-kumar/CPP/tree/master/1129-longest-string-chain) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/keshish-kumar/CPP/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/keshish-kumar/CPP/tree/master/2497-maximum-matching-of-players-with-trainers) |
+| [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/keshish-kumar/CPP/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## Binary Indexed Tree
 |  |
 | ------- |
@@ -353,6 +354,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [1960-check-if-the-sentence-is-pangram](https://github.com/keshish-kumar/CPP/tree/master/1960-check-if-the-sentence-is-pangram) |
 | [2428-equal-row-and-column-pairs](https://github.com/keshish-kumar/CPP/tree/master/2428-equal-row-and-column-pairs) |
 | [3227-find-missing-and-repeated-values](https://github.com/keshish-kumar/CPP/tree/master/3227-find-missing-and-repeated-values) |
+| [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/keshish-kumar/CPP/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## String
 |  |
 | ------- |
@@ -389,6 +391,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/keshish-kumar/CPP/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1960-check-if-the-sentence-is-pangram](https://github.com/keshish-kumar/CPP/tree/master/1960-check-if-the-sentence-is-pangram) |
 | [3275-minimum-number-of-pushes-to-type-word-i](https://github.com/keshish-kumar/CPP/tree/master/3275-minimum-number-of-pushes-to-type-word-i) |
+| [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/keshish-kumar/CPP/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## Linked List
 |  |
 | ------- |
@@ -437,6 +440,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/keshish-kumar/CPP/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/keshish-kumar/CPP/tree/master/2497-maximum-matching-of-players-with-trainers) |
 | [3275-minimum-number-of-pushes-to-type-word-i](https://github.com/keshish-kumar/CPP/tree/master/3275-minimum-number-of-pushes-to-type-word-i) |
+| [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/keshish-kumar/CPP/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## Stack
 |  |
 | ------- |
@@ -614,6 +618,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [1034-subarrays-with-k-different-integers](https://github.com/keshish-kumar/CPP/tree/master/1034-subarrays-with-k-different-integers) |
 | [1635-number-of-good-pairs](https://github.com/keshish-kumar/CPP/tree/master/1635-number-of-good-pairs) |
 | [1925-count-nice-pairs-in-an-array](https://github.com/keshish-kumar/CPP/tree/master/1925-count-nice-pairs-in-an-array) |
+| [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/keshish-kumar/CPP/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## Binary Search Tree
 |  |
 | ------- |
