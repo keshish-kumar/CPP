@@ -1,43 +1,21 @@
 class Solution {
 public:
-    
-    bool solve(string& s, int index, int count){
+    bool solve(string& s, int i, int count,vector<vector<int>>& dp){
         if(count<0) return false;
-        if(index == s.size()){
-            return (count==0);
+        if(i==s.size()){
+            return count ==0;
         }
-        if(s[index]=='('){
-            return solve(s,index+1,count+1);
+        if(dp[i][count] != -1) return dp[i][count];
+        if(s[i] == '(') return dp[i][count] = solve(s,i+1,count+1,dp);
+        else if(s[i] == ')') return dp[i][count] =solve(s,i+1,count-1,dp);
+        else{
+            return dp[i][count] =solve(s,i+1,count+1,dp)||solve(s,i+1,count-1,dp)||solve(s,i+1,count,dp);
         }
-        if(s[index]==')'){
-            return solve(s,index+1,count-1);
-        }
-        return solve(s,index+1,count+1)||solve(s,index+1,count-1)||solve(s,index+1,count);
     }
-    
     bool checkValidString(string s) {
-       
-        //return solve(s,0,0);
-        
-        int countmax=0,countmin=0;
-        for(auto i:s){
-            if(i=='(')
-            {
-                countmax++;countmin++;
-            }
-            else if(i==')'){
-                countmax--;countmin--;
-            }
-            else{
-                countmin--;
-                countmax++;
-            }
-            
-            if(countmin<0) countmin=0;
-            if(countmax<0) return false;
-        }
-       
-        return countmin==0;
-        
+        vector<vector<int>> dp(s.size(),vector<int>(s.size(),-1));
+        return solve(s,0,0,dp);
+
+
     }
 };
