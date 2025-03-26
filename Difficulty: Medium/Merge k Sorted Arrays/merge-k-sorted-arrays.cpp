@@ -12,6 +12,7 @@ for (int i=0; i < size; i++)
 
 
 // } Driver Code Ends
+
 //User function Template for C++
 
 
@@ -19,24 +20,31 @@ class Solution
 {
     public:
     //Function to merge k sorted arrays.
-    vector<int> mergeKArrays(vector<vector<int>> arr, int K)
+    vector<int> mergeKArrays(vector<vector<int>> arr, int k)
     {
         //code here
+        priority_queue<vector<int>,vector<vector<int>>, greater<vector<int>>> pq;
         vector<int> ans;
-        priority_queue<int,vector<int>,greater<int>> q;
-        
-        for(int i=0;i<arr.size();i++){
-            for(int j=0;j<arr[i].size();j++){
-                q.push(arr[i][j]);
-            }
+        int j=0;
+        int i=0;
+        while(i<k){
+            pq.push({arr[i][j],i,j});
+            i++;
         }
-        while(!q.empty()){
-            ans.push_back(q.top()); q.pop();
+        while(!pq.empty()){
+            i = pq.top()[1];
+            j = pq.top()[2];
+            ans.push_back(pq.top()[0]);
+            pq.pop();
+            if(j<k-1){
+                pq.push({arr[i][j+1],i,j+1});
+            }
         }
         
         return ans;
     }
 };
+
 
 //{ Driver Code Starts.
 
@@ -58,7 +66,9 @@ int main()
     	vector<int> output = obj.mergeKArrays(arr, k);
     	printArray(output, k*k);
     	cout<<endl;
-    }
+    
+cout << "~" << "\n";
+}
 	return 0;
 }
 
