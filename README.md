@@ -195,6 +195,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0516-longest-palindromic-subsequence](https://github.com/keshish-kumar/CPP/tree/master/0516-longest-palindromic-subsequence) |
 | [0518-coin-change-ii](https://github.com/keshish-kumar/CPP/tree/master/0518-coin-change-ii) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/keshish-kumar/CPP/tree/master/0673-number-of-longest-increasing-subsequence) |
+| [0678-valid-parenthesis-string](https://github.com/keshish-kumar/CPP/tree/master/0678-valid-parenthesis-string) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/keshish-kumar/CPP/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0943-sum-of-subarray-minimums](https://github.com/keshish-kumar/CPP/tree/master/0943-sum-of-subarray-minimums) |
 | [0954-maximum-sum-circular-subarray](https://github.com/keshish-kumar/CPP/tree/master/0954-maximum-sum-circular-subarray) |
@@ -396,6 +397,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0443-string-compression](https://github.com/keshish-kumar/CPP/tree/master/0443-string-compression) |
 | [0516-longest-palindromic-subsequence](https://github.com/keshish-kumar/CPP/tree/master/0516-longest-palindromic-subsequence) |
 | [0648-replace-words](https://github.com/keshish-kumar/CPP/tree/master/0648-replace-words) |
+| [0678-valid-parenthesis-string](https://github.com/keshish-kumar/CPP/tree/master/0678-valid-parenthesis-string) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/keshish-kumar/CPP/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1032-satisfiability-of-equality-equations](https://github.com/keshish-kumar/CPP/tree/master/1032-satisfiability-of-equality-equations) |
 | [1129-longest-string-chain](https://github.com/keshish-kumar/CPP/tree/master/1129-longest-string-chain) |
@@ -451,6 +453,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0435-non-overlapping-intervals](https://github.com/keshish-kumar/CPP/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/keshish-kumar/CPP/tree/master/0455-assign-cookies) |
 | [0621-task-scheduler](https://github.com/keshish-kumar/CPP/tree/master/0621-task-scheduler) |
+| [0678-valid-parenthesis-string](https://github.com/keshish-kumar/CPP/tree/master/0678-valid-parenthesis-string) |
 | [0876-hand-of-straights](https://github.com/keshish-kumar/CPP/tree/master/0876-hand-of-straights) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/keshish-kumar/CPP/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/keshish-kumar/CPP/tree/master/2497-maximum-matching-of-players-with-trainers) |
@@ -468,6 +471,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0155-min-stack](https://github.com/keshish-kumar/CPP/tree/master/0155-min-stack) |
 | [0402-remove-k-digits](https://github.com/keshish-kumar/CPP/tree/master/0402-remove-k-digits) |
 | [0496-next-greater-element-i](https://github.com/keshish-kumar/CPP/tree/master/0496-next-greater-element-i) |
+| [0678-valid-parenthesis-string](https://github.com/keshish-kumar/CPP/tree/master/0678-valid-parenthesis-string) |
 | [0735-asteroid-collision](https://github.com/keshish-kumar/CPP/tree/master/0735-asteroid-collision) |
 | [0943-sum-of-subarray-minimums](https://github.com/keshish-kumar/CPP/tree/master/0943-sum-of-subarray-minimums) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/keshish-kumar/CPP/tree/master/0957-minimum-add-to-make-parentheses-valid) |
