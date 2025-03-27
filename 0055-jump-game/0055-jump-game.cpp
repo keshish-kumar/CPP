@@ -10,7 +10,15 @@ public:
         return dp[i]=ans;
     }
     bool canJump(vector<int>& nums) {
-        vector<int> dp(nums.size(),-1);
-        return solve(nums,0,dp);
+        // vector<int> dp(nums.size(),-1);
+        // return solve(nums,0,dp);
+        
+        int maxi = 0;
+
+        for(int i=0;i<nums.size();i++){
+            if(i>maxi) return false;
+            maxi = max(maxi,i+nums[i]);
+        }
+        return true;
     }
 };
