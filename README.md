@@ -118,6 +118,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [1171-shortest-path-in-binary-matrix](https://github.com/keshish-kumar/CPP/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1319-unique-number-of-occurrences](https://github.com/keshish-kumar/CPP/tree/master/1319-unique-number-of-occurrences) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/keshish-kumar/CPP/tree/master/1402-count-square-submatrices-with-all-ones) |
+| [1428-jump-game-iii](https://github.com/keshish-kumar/CPP/tree/master/1428-jump-game-iii) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/keshish-kumar/CPP/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/keshish-kumar/CPP/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [1635-number-of-good-pairs](https://github.com/keshish-kumar/CPP/tree/master/1635-number-of-good-pairs) |
@@ -571,6 +572,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0803-cheapest-flights-within-k-stops](https://github.com/keshish-kumar/CPP/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/keshish-kumar/CPP/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1300-critical-connections-in-a-network](https://github.com/keshish-kumar/CPP/tree/master/1300-critical-connections-in-a-network) |
+| [1428-jump-game-iii](https://github.com/keshish-kumar/CPP/tree/master/1428-jump-game-iii) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/keshish-kumar/CPP/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1753-path-with-minimum-effort](https://github.com/keshish-kumar/CPP/tree/master/1753-path-with-minimum-effort) |
 | [1866-restore-the-array-from-adjacent-pairs](https://github.com/keshish-kumar/CPP/tree/master/1866-restore-the-array-from-adjacent-pairs) |
@@ -600,6 +602,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/keshish-kumar/CPP/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1036-rotting-oranges](https://github.com/keshish-kumar/CPP/tree/master/1036-rotting-oranges) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/keshish-kumar/CPP/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1428-jump-game-iii](https://github.com/keshish-kumar/CPP/tree/master/1428-jump-game-iii) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/keshish-kumar/CPP/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1753-path-with-minimum-effort](https://github.com/keshish-kumar/CPP/tree/master/1753-path-with-minimum-effort) |
 | [2568-minimum-fuel-cost-to-report-to-the-capital](https://github.com/keshish-kumar/CPP/tree/master/2568-minimum-fuel-cost-to-report-to-the-capital) |
