@@ -1,59 +1,69 @@
 //{ Driver Code Starts
-// Program to find minimum number of platforms
-// required on a railway station
 #include <bits/stdc++.h>
 using namespace std;
 
 
 // } Driver Code Ends
-class Solution{
-    public:
-    //Function to find the minimum number of platforms required at the
-    //railway station such that no train waits.
-    int findPlatform(int arr[], int dep[], int n)
-    {
-    	// Your code here
-    	priority_queue<pair<int,char>,vector<pair<int,char>>,greater<pair<int,char>>> q;
-    	for(int i=0;i<n;i++){
-    	    q.push({arr[i],'A'});
-    	    q.push({dep[i],'D'});
-    	}
-    	
-    	int ans =0,r = 0;
-    	while(!q.empty()){
-    	    pair<int,char> p = q.top();q.pop();
-    	    if(p.second=='A') ans++;
-    	    else ans--;
-    	    r= max(r,ans);
-    	    
-    	}
-    	
-    	return r;
-    	
+
+class Solution {
+  public:
+    // Function to find the minimum number of platforms required at the
+    // railway station such that no train waits.
+    int findPlatform(vector<int>& arr, vector<int>& dep) {
+        // Your code here
+        priority_queue<pair<int,char>,vector<pair<int,char>>,greater<pair<int,char>>> pq;
+        
+        for(int i=0;i<arr.size();i++){
+            pq.push({arr[i],'A'});
+            pq.push({dep[i],'D'});
+        }
+        
+        int ans = 0,r=0;
+        while(!pq.empty()){
+            if(pq.top().second == 'A') ans++;
+            else ans--;
+            r = max(ans,r);
+            pq.pop();
+        }
+        return r;
     }
 };
 
 
+
 //{ Driver Code Starts.
-// Driver code
-int main()
-{
+
+int main() {
     int t;
-    cin>>t;
-    while(t--) 
-    {
-        int n;
-        cin>>n;
-        int arr[n];
-        int dep[n];
-        for(int i=0;i<n;i++)
-            cin>>arr[i];
-        for(int j=0;j<n;j++){
-            cin>>dep[j];
+    cin >> t;
+    cin.ignore();
+    while (t--) {
+        vector<int> arr, dep;
+        string input;
+
+        // Read first array (arr)
+        getline(cin, input);
+        stringstream ss(input);
+        int number;
+        while (ss >> number) {
+            arr.push_back(number);
         }
+
+        // Read second array (dep)
+        getline(cin, input);
+        stringstream ss2(input);
+        while (ss2 >> number) {
+            dep.push_back(number);
+        }
+
+        // Assuming Solution class is defined elsewhere with a method findPlatform
         Solution ob;
-        cout <<ob.findPlatform(arr, dep, n)<<endl;
-    } 
-   return 0;
+        cout << ob.findPlatform(arr, dep);
+
+        cout << endl;
+        cout << "~\n";
+    }
+    return 0;
 }
+
 // } Driver Code Ends
