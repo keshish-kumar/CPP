@@ -1,50 +1,48 @@
 class Solution {
 public:
-    vector<int> solveleft(vector<int>& heights){
-        stack<int> st;
+    vector<int> solveLeft(vector<int>& heights){
         vector<int> left;
-        st.push(0);
-        left.push_back(-1);
-        int i=1;
-        while(i<heights.size()){
-            while(!st.empty() && heights[st.top()]>=heights[i]){
-                st.pop();
-            }
-            if(st.empty()) left.push_back(-1);
-            else left.push_back(st.top());
-            st.push(i);
-            i++;
-        }
+        stack<int> st;
 
+        for(int i=0;i<heights.size();i++){
+            if(st.empty()){
+                left.push_back(-1);
+            }
+            else{
+                while(!st.empty() && heights[st.top()] >= heights[i])
+                    st.pop();
+                if(!st.empty()) left.push_back(st.top());
+                else left.push_back(-1);
+            }
+            st.push(i);
+        }
         return left;
     }
-    vector<int> solveright(vector<int>& heights){
-        int n = heights.size();
-        stack<int> st;
+     vector<int> solveRight(vector<int>& heights){
         vector<int> right;
-        right.push_back(n);
-        st.push(n-1);
-        int i = n-2;
-        while(i>=0){
-                while(!st.empty() && heights[st.top()]>=heights[i]){
+        stack<int> st;
+        int n = heights.size();
+        for(int i=n-1;i>=0;i--){
+            if(st.empty()){
+                right.push_back(n);
+            }
+            else{
+                while(!st.empty() && heights[st.top()] > heights[i])
                     st.pop();
-                }
-                if(st.empty()) right.push_back(n);
-                else right.push_back(st.top());
-                st.push(i);
-                i--;
+                if(!st.empty()) right.push_back(st.top());
+                else right.push_back(n);
+            }
+            st.push(i);
         }
         reverse(right.begin(),right.end());
         return right;
     }
     int largestRectangleArea(vector<int>& heights) {
-        
-        vector<int> left = solveleft(heights);
-        vector<int> right = solveright(heights);
+        vector<int> left = solveLeft(heights);
+        vector<int> right = solveRight(heights);
         int ans =0;
         for(int i=0;i<heights.size();i++){
-            //cout<<right[i]<<" "<<endl;
-            ans = max(ans,abs(right[i]-left[i]-1)*heights[i]);
+            ans = max(ans, (right[i]-left[i]-1)*heights[i]);
         }
         return ans;
     }
