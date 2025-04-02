@@ -1,22 +1,54 @@
 class Solution {
 public:
-    int maxArea(vector<int>& height) {
-        // first brute force approcg goes in n^2 time 
-        // for each node check other node and calculate the area.
+    void SolveLeft(vector<int>& height, vector<int>& left){
+        stack<int> st;
 
-        // second approach is using two pointer approach
-
-        int i=0,j=height.size()-1;
-        int area = 0;
-        while(i<j){
-            int temp_height = min(height[i],height[j]);
-            int temp_area = temp_height*(j-i); 
-            area = max(area,temp_area);
-            if(height[i]>height[j]) j--;
-            else i++;
+        for(int i=0;i<height.size();i++){
+            if(st.empty()){
+                st.push(i);
+                left.push_back(i);
+            }
+            else{
+                while(!st.empty() && height[st.top()] < height[i]){
+                    st.pop();
+                }
+                if(!st.empty()) left.push_back(st.top());
+                else{ left.push_back(0);} 
+                st.push(i);
+            }
+            
         }
 
-        return area;
+    }
+    void SolveRight(vector<int>& height, vector<int>& right){
+        stack<int> st;
 
+        for(int i=height.size()-1;i>=0;i--){
+            if(st.empty()){
+                st.push(i);
+                right.push_back(i);
+            }
+            else{
+                while(!st.empty() && height[st.top()] < height[i]){
+                    st.pop();
+                }
+                if(!st.empty()) right.push_back(st.top());
+                else right.push_back(height.size()-1);
+                st.push(i);
+            }
+            
+        }
+        reverse(right.begin(),right.end());
+        
+    }
+    int maxArea(vector<int>& height) {
+       int ans =0;
+       int i=0,j=height.size()-1;
+       while(i<j){
+            ans = max(ans,min(height[i],height[j])*(j-i));
+            if(height[i]<height[j]) i++;
+            else j--;
+       }
+       return ans;
     }
 };
