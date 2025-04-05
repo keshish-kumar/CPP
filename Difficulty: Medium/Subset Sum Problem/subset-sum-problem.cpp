@@ -5,27 +5,20 @@ using namespace std;
 
 
 // } Driver Code Ends
-// User function template for C++
 
 class Solution {
   public:
-    bool solve(vector<int>& arr, int target, int i,vector<vector<int>>& dp){
-        if(target==0) return true;
-        if(i>=arr.size()) return false;
-        if(dp[target][i]!=-1) return dp[target][i];
-        bool l = false;
-        if(target>=arr[i]){
-            l = solve(arr,target-arr[i],i+1,dp);
-        }
-        bool r = solve(arr,target,i+1,dp);
-        return dp[target][i] = l||r;
-    }
-    bool isSubsetSum(vector<int>& arr, int target) {
+  bool solve(vector<int>& arr, int i, int sum){
+      if(sum==0) return true;
+      if(sum<0 || i>=arr.size()) return false;
+      return solve(arr,i+1,sum-arr[i]) || solve(arr,i+1,sum);
+  }
+    bool isSubsetSum(vector<int>& arr, int sum) {
         // code here
-        vector<vector<int>> dp(target+1,vector<int>(arr.size(),-1));
-        return solve(arr,target,0,dp);
+        return solve(arr,0,sum);
     }
 };
+
 
 //{ Driver Code Starts.
 
