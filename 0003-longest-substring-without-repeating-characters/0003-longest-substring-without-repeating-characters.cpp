@@ -13,8 +13,9 @@ public:
             }
 
             st.insert(s[j]);
+             ans = max(ans,(j-i+1));
             j++;
-            ans = max(ans,(j-i));
+           
         }
         return ans;
     }
