@@ -1,25 +1,20 @@
 class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
-        // lets try using sliding window
-        int i=0,j=0,ans=0;
+        
+        int ans =0;
+        int i=0,j=0;
+        unordered_set<char> st;
+        while(i<=j && j<s.size()){
 
-        unordered_map<char,int> mp;
-        while(j<s.size()){
-            cout<<i<<" "<<j<<endl;
-            if(mp.find(s[j])==mp.end()){
-                mp[s[j]]++;
+            while(i<j && st.find(s[j])!=st.end()){
+                st.erase(s[i]);
+                i++; 
             }
-            else{
-                while(i<j && s[i]!=s[j]){
-                    mp[s[i]]--;
-                    if(mp[s[i]]==0) mp.erase(s[i]);
-                    i++;
-                }
-                i++;
-            }
-            ans = max(ans,(int)mp.size());
+
+            st.insert(s[j]);
             j++;
+            ans = max(ans,(j-i));
         }
         return ans;
     }
