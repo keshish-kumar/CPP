@@ -1,29 +1,63 @@
 class Solution {
 public:
-    bool solve(string& s, int i, int j,vector<vector<int>>& dp){
-        if(i>=j) return true;
-        if(dp[i][j]!=-1) return dp[i][j]; 
-        if(s[i] == s[j])
-            return dp[i][j] = solve(s,i+1,j-1,dp);
-        else return dp[i][j] = false;
+    bool check(string s){
+        int i=0,j=s.size()-1;
+        while(i<j){
+            if(s[i]!=s[j]) return false;
+            i++;j--;
+        }
+        return true;
     }
     string longestPalindrome(string s) {
+        int n = s.size();
+        string s2 = s;
+        reverse(s2.begin(),s2.end());
+        vector<vector<int>> dp(n+1,vector<int>(n+1));
         
-        int maxi = INT_MIN;
-        int start = 0;
-        vector<vector<int>> dp(s.size()+1,vector<int>(s.size()+1,-1));
-        for(int i=0;i<s.size();i++){
-            for(int j=i;j<s.size();j++){
-                if( solve(s,i,j,dp) == true ){
-                    if((j-i+1)>maxi){
-                        start = i;
-                        maxi = (j-i+1);
+        int maxi = 0;
+        int row=0,col=0;
+        //cout<<"  0"<<" ";
+        //for(int i=0;i<n;i++) cout<<s2[i]<<" ";
+        //cout<<endl;
+        //cout<<"0"<<" ";
+        for(int i=0;i<=n;i++){
+           // if(i!=0) cout<<s[i-1]<<" ";
+            for(int j=0;j<=n;j++){
+                if(i==0||j==0) dp[i][j] = 0;
+                else{
+                    if(s[i-1] == s2[j-1]){
+                        dp[i][j] = dp[i-1][j-1]+1;
+                        if(maxi < dp[i][j]){
+                            row = i;
+                            col=j;
+                            maxi = dp[i][j];
+                        }
                     }
-                  
+                    else{
+                        dp[i][j] = 0;
+                    }
+                }
+               // cout<<dp[i][j]<<" ";
+            }
+
+           // cout<<endl;
+            
+        }
+        string  ans = "";
+        for(int i=1;i<=n ;i++){
+            for(int j=1;j<=n;j++){
+                string temp ="";
+                int row=i,col=j;
+                if(dp[row][col]>ans.size()){
+                    while(dp[row][col]>0){
+                    temp += s[row-1];
+                    row--;col--;
+                    }
+                    if(check(temp)) ans = temp;
                 }
             }
         }
-
-        return s.substr(start,maxi);
+      
+        return ans;
     }
 };
