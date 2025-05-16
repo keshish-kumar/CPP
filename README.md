@@ -292,6 +292,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0042-trapping-rain-water](https://github.com/keshish-kumar/CPP/tree/master/0042-trapping-rain-water) |
 | [0061-rotate-list](https://github.com/keshish-kumar/CPP/tree/master/0061-rotate-list) |
 | [0075-sort-colors](https://github.com/keshish-kumar/CPP/tree/master/0075-sort-colors) |
+| [0125-valid-palindrome](https://github.com/keshish-kumar/CPP/tree/master/0125-valid-palindrome) |
 | [0141-linked-list-cycle](https://github.com/keshish-kumar/CPP/tree/master/0141-linked-list-cycle) |
 | [0148-sort-list](https://github.com/keshish-kumar/CPP/tree/master/0148-sort-list) |
 | [0160-intersection-of-two-linked-lists](https://github.com/keshish-kumar/CPP/tree/master/0160-intersection-of-two-linked-lists) |
@@ -389,6 +390,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0072-edit-distance](https://github.com/keshish-kumar/CPP/tree/master/0072-edit-distance) |
 | [0076-minimum-window-substring](https://github.com/keshish-kumar/CPP/tree/master/0076-minimum-window-substring) |
 | [0079-word-search](https://github.com/keshish-kumar/CPP/tree/master/0079-word-search) |
+| [0125-valid-palindrome](https://github.com/keshish-kumar/CPP/tree/master/0125-valid-palindrome) |
 | [0127-word-ladder](https://github.com/keshish-kumar/CPP/tree/master/0127-word-ladder) |
 | [0131-palindrome-partitioning](https://github.com/keshish-kumar/CPP/tree/master/0131-palindrome-partitioning) |
 | [0132-palindrome-partitioning-ii](https://github.com/keshish-kumar/CPP/tree/master/0132-palindrome-partitioning-ii) |
