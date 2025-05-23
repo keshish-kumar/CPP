@@ -303,6 +303,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0344-reverse-string](https://github.com/keshish-kumar/CPP/tree/master/0344-reverse-string) |
 | [0443-string-compression](https://github.com/keshish-kumar/CPP/tree/master/0443-string-compression) |
 | [0455-assign-cookies](https://github.com/keshish-kumar/CPP/tree/master/0455-assign-cookies) |
+| [0567-permutation-in-string](https://github.com/keshish-kumar/CPP/tree/master/0567-permutation-in-string) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/keshish-kumar/CPP/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0658-find-k-closest-elements](https://github.com/keshish-kumar/CPP/tree/master/0658-find-k-closest-elements) |
 | [0908-middle-of-the-linked-list](https://github.com/keshish-kumar/CPP/tree/master/0908-middle-of-the-linked-list) |
@@ -354,6 +355,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0438-find-all-anagrams-in-a-string](https://github.com/keshish-kumar/CPP/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0496-next-greater-element-i](https://github.com/keshish-kumar/CPP/tree/master/0496-next-greater-element-i) |
 | [0560-subarray-sum-equals-k](https://github.com/keshish-kumar/CPP/tree/master/0560-subarray-sum-equals-k) |
+| [0567-permutation-in-string](https://github.com/keshish-kumar/CPP/tree/master/0567-permutation-in-string) |
 | [0621-task-scheduler](https://github.com/keshish-kumar/CPP/tree/master/0621-task-scheduler) |
 | [0648-replace-words](https://github.com/keshish-kumar/CPP/tree/master/0648-replace-words) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/keshish-kumar/CPP/tree/master/0653-two-sum-iv-input-is-a-bst) |
@@ -405,6 +407,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0438-find-all-anagrams-in-a-string](https://github.com/keshish-kumar/CPP/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0443-string-compression](https://github.com/keshish-kumar/CPP/tree/master/0443-string-compression) |
 | [0516-longest-palindromic-subsequence](https://github.com/keshish-kumar/CPP/tree/master/0516-longest-palindromic-subsequence) |
+| [0567-permutation-in-string](https://github.com/keshish-kumar/CPP/tree/master/0567-permutation-in-string) |
 | [0648-replace-words](https://github.com/keshish-kumar/CPP/tree/master/0648-replace-words) |
 | [0678-valid-parenthesis-string](https://github.com/keshish-kumar/CPP/tree/master/0678-valid-parenthesis-string) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/keshish-kumar/CPP/tree/master/0957-minimum-add-to-make-parentheses-valid) |
@@ -714,6 +717,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0076-minimum-window-substring](https://github.com/keshish-kumar/CPP/tree/master/0076-minimum-window-substring) |
 | [0239-sliding-window-maximum](https://github.com/keshish-kumar/CPP/tree/master/0239-sliding-window-maximum) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/keshish-kumar/CPP/tree/master/0438-find-all-anagrams-in-a-string) |
+| [0567-permutation-in-string](https://github.com/keshish-kumar/CPP/tree/master/0567-permutation-in-string) |
 | [0658-find-k-closest-elements](https://github.com/keshish-kumar/CPP/tree/master/0658-find-k-closest-elements) |
 | [0940-fruit-into-baskets](https://github.com/keshish-kumar/CPP/tree/master/0940-fruit-into-baskets) |
 | [0966-binary-subarrays-with-sum](https://github.com/keshish-kumar/CPP/tree/master/0966-binary-subarrays-with-sum) |
