@@ -57,6 +57,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0136-single-number](https://github.com/keshish-kumar/CPP/tree/master/0136-single-number) |
 | [0139-word-break](https://github.com/keshish-kumar/CPP/tree/master/0139-word-break) |
 | [0140-word-break-ii](https://github.com/keshish-kumar/CPP/tree/master/0140-word-break-ii) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/keshish-kumar/CPP/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0152-maximum-product-subarray](https://github.com/keshish-kumar/CPP/tree/master/0152-maximum-product-subarray) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/keshish-kumar/CPP/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/keshish-kumar/CPP/tree/master/0162-find-peak-element) |
@@ -221,6 +222,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0066-plus-one](https://github.com/keshish-kumar/CPP/tree/master/0066-plus-one) |
 | [0069-sqrtx](https://github.com/keshish-kumar/CPP/tree/master/0069-sqrtx) |
 | [0070-climbing-stairs](https://github.com/keshish-kumar/CPP/tree/master/0070-climbing-stairs) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/keshish-kumar/CPP/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0189-rotate-array](https://github.com/keshish-kumar/CPP/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/keshish-kumar/CPP/tree/master/0268-missing-number) |
 | [0368-largest-divisible-subset](https://github.com/keshish-kumar/CPP/tree/master/0368-largest-divisible-subset) |
@@ -481,6 +483,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0085-maximal-rectangle](https://github.com/keshish-kumar/CPP/tree/master/0085-maximal-rectangle) |
 | [0094-binary-tree-inorder-traversal](https://github.com/keshish-kumar/CPP/tree/master/0094-binary-tree-inorder-traversal) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/keshish-kumar/CPP/tree/master/0114-flatten-binary-tree-to-linked-list) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/keshish-kumar/CPP/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/keshish-kumar/CPP/tree/master/0155-min-stack) |
 | [0402-remove-k-digits](https://github.com/keshish-kumar/CPP/tree/master/0402-remove-k-digits) |
 | [0496-next-greater-element-i](https://github.com/keshish-kumar/CPP/tree/master/0496-next-greater-element-i) |
