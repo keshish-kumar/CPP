@@ -21,6 +21,7 @@ public:
         }
         cout<<row<<endl;
         // nOw we got the than we will search in that row
+        if (row == -1) return false;
         left = 0;right = matrix[0].size()-1;
         while(left<=right){
             int mid = (left+right)/2;
