@@ -105,6 +105,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0739-daily-temperatures](https://github.com/keshish-kumar/CPP/tree/master/0739-daily-temperatures) |
 | [0792-binary-search](https://github.com/keshish-kumar/CPP/tree/master/0792-binary-search) |
 | [0876-hand-of-straights](https://github.com/keshish-kumar/CPP/tree/master/0876-hand-of-straights) |
+| [0883-car-fleet](https://github.com/keshish-kumar/CPP/tree/master/0883-car-fleet) |
 | [0907-koko-eating-bananas](https://github.com/keshish-kumar/CPP/tree/master/0907-koko-eating-bananas) |
 | [0940-fruit-into-baskets](https://github.com/keshish-kumar/CPP/tree/master/0940-fruit-into-baskets) |
 | [0943-sum-of-subarray-minimums](https://github.com/keshish-kumar/CPP/tree/master/0943-sum-of-subarray-minimums) |
@@ -253,6 +254,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0621-task-scheduler](https://github.com/keshish-kumar/CPP/tree/master/0621-task-scheduler) |
 | [0658-find-k-closest-elements](https://github.com/keshish-kumar/CPP/tree/master/0658-find-k-closest-elements) |
 | [0876-hand-of-straights](https://github.com/keshish-kumar/CPP/tree/master/0876-hand-of-straights) |
+| [0883-car-fleet](https://github.com/keshish-kumar/CPP/tree/master/0883-car-fleet) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/keshish-kumar/CPP/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1129-longest-string-chain](https://github.com/keshish-kumar/CPP/tree/master/1129-longest-string-chain) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/keshish-kumar/CPP/tree/master/1669-minimum-cost-to-cut-a-stick) |
@@ -492,6 +494,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0678-valid-parenthesis-string](https://github.com/keshish-kumar/CPP/tree/master/0678-valid-parenthesis-string) |
 | [0735-asteroid-collision](https://github.com/keshish-kumar/CPP/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/keshish-kumar/CPP/tree/master/0739-daily-temperatures) |
+| [0883-car-fleet](https://github.com/keshish-kumar/CPP/tree/master/0883-car-fleet) |
 | [0943-sum-of-subarray-minimums](https://github.com/keshish-kumar/CPP/tree/master/0943-sum-of-subarray-minimums) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/keshish-kumar/CPP/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1197-parsing-a-boolean-expression](https://github.com/keshish-kumar/CPP/tree/master/1197-parsing-a-boolean-expression) |
@@ -505,6 +508,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0496-next-greater-element-i](https://github.com/keshish-kumar/CPP/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/keshish-kumar/CPP/tree/master/0503-next-greater-element-ii) |
 | [0739-daily-temperatures](https://github.com/keshish-kumar/CPP/tree/master/0739-daily-temperatures) |
+| [0883-car-fleet](https://github.com/keshish-kumar/CPP/tree/master/0883-car-fleet) |
 | [0943-sum-of-subarray-minimums](https://github.com/keshish-kumar/CPP/tree/master/0943-sum-of-subarray-minimums) |
 ## Matrix
 |  |
