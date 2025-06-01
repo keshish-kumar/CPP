@@ -24,8 +24,9 @@ public:
         ListNode* slow = head;
         ListNode* fast = head;
 
-        while(fast->next != NULL){
+        while(fast != NULL){
             slow = slow->next;
+            if(fast->next == NULL) break;  
             fast =fast->next->next;
             if(slow == fast) return true;
         }
