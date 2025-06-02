@@ -11,88 +11,63 @@
 class Solution {
 public:
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
-            ListNode* temp1=l1;
-            ListNode* temp2=l2;
-            int carry=0;
-            ListNode* prev1=NULL;
-            ListNode* prev2=NULL;
-            while(temp1!=NULL && temp2!=NULL){
-                int n1 = temp1->val;
-                int n2 = temp2->val;
-                if((temp1->val+temp2->val+carry)>9){
-                    
-                    temp1->val= (n1+carry+n2)%10;
-                    temp2->val=(n1+n2+carry)%10;
-                    carry=1;
-                }
-                else{
-                    
-                    temp1->val = n1+n2+carry;
-                    temp2->val = n1+n2+carry;
-                    carry=0;
-                }
-                prev1=temp1;
-                temp1=temp1->next;
-                prev2=temp2;
-                temp2=temp2->next;
-
+        
+        ListNode* t1=l1;
+        ListNode* t2=l2;
+        ListNode* dummy = new ListNode(0);
+        ListNode* head = dummy;
+        int carry = 0;
+        while(t1!=NULL && t2!=NULL){
+            int n1 = t1->val;
+            int n2 = t2->val;
+            int n = n1+n2+carry;
+            if(n>9){
+                carry = 1;
+                n = n-10; // get the digit at ones place
             }
-            bool flag1=false;
-           
-            while(temp1!= NULL){
-                if((temp1->val+carry) >9){
-                    temp1->val= (temp1->val+carry)%10;
-                    carry=1;
-                }
-                else{
-                    temp1->val+=carry;
-                    carry=0;
-                }
-                flag1=true;
-                prev1=temp1;
-                temp1=temp1->next;
+            else{
+                carry = 0;
             }
-
-            bool flag2=false;
-            
-            while(temp2!= NULL){
-                if((temp2->val+carry) >9){
-                    temp2->val= (temp2->val+carry)%10;
-                    carry=1;
-                }
-                else{
-                    temp2->val+=carry;
-                    carry=0;
-                }
-                flag2=true;
-                prev2=temp2;
-                temp2=temp2->next;
+            ListNode* node = new ListNode(n);
+            head->next = node;
+            head = node;
+            t1=t1->next;
+            t2=t2->next;
+        }
+        while(t1!=NULL){
+            int n = t1->val+carry;
+            if(n>9){
+                carry = 1;
+                n = n-10; // get the digit at ones place
             }
-
-            if(carry==1 && flag1){
-                ListNode* node=new ListNode(carry);
-                prev1->next=node;
+            else{
+                carry = 0;
             }
-            if(carry==1 && flag2){
-                ListNode* node=new ListNode(carry);
-                prev2->next=node;
+            ListNode* node = new ListNode(n);
+            t1 = t1->next;
+            head->next = node;
+            head = node;
+        }
+        while(t2!=NULL){
+            int n = t2->val+carry;
+            if(n>9){
+                carry = 1;
+                n = n-10; // get the digit at ones place
             }
-            if(carry==1){
-                ListNode* node=new ListNode(carry);
-                prev1->next=node;
+            else{
+                carry = 0;
             }
-
-
-            if(flag1==true){
-                return l1;
-            }
-            else if(flag2==true){
-                return l2;
-            }
-            else{ 
-                return l1;
-            }
-
+            ListNode* node = new ListNode(n);
+            t2=t2->next;
+            head->next = node;
+            head = node;
+        }
+        if(carry==1){
+            ListNode* node = new ListNode(1);
+            head->next = node;
+            head = node;
+        }
+        return dummy->next;
 
     }
 };
