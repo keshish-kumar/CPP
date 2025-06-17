@@ -23,10 +23,15 @@ public:
 
     }
     int maxDepth(TreeNode* root) {
+        // if(root == NULL) return 0;
+        // int ans =1;
+        // int count =0;
+        //  solve(root,ans,count);
+        //  return ans;
         if(root == NULL) return 0;
-        int ans =1;
-        int count =0;
-         solve(root,ans,count);
-         return ans;
+
+        int lh = maxDepth(root->left);
+        int rh = maxDepth(root->right);
+        return 1 + max(lh,rh);
     }
 };
