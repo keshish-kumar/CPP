@@ -11,12 +11,15 @@ class Solution {
 public:
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
         if(root==NULL) return NULL;
-        if(root==p || root==q) return root;
-        TreeNode* l = lowestCommonAncestor(root->left ,p,q);
-        TreeNode* r = lowestCommonAncestor(root->right,p,q);
-        if((l==p && r==q) ||(l==q && r==p)) return root;
-        if(l!=NULL) return l;
-        if(r!=NULL) return r;  // these two lines will indicate that if they both are on same side than top most will be retived as other side will get null 
+        if(root == p || root == q) return root;
+        TreeNode* lh = lowestCommonAncestor(root->left,p,q);
+        TreeNode* rh = lowestCommonAncestor(root->right,p,q);
+        if((lh==p && rh==q) || (lh==q && rh == p)){
+            return root;
+        }
+        if(lh!=NULL) return lh;
+        if(rh!=NULL) return rh;
+
         return NULL;
     }
 };
