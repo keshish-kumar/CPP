@@ -7,10 +7,15 @@ public:
     }
     
     void addNum(int num) {
-        p1.push(num);
 
+        p1.push(num); // first push in p1
+
+
+        // Than the maximum value will go to p2
+        
         p2.push(p1.top()) ; p1.pop();
 
+        // if p2 size > p1 than put the top which is minimum of p2 to p1 
         if(p2.size()>p1.size()){
             p1.push(p2.top()); p2.pop();
         }
