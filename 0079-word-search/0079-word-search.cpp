@@ -1,30 +1,44 @@
 class Solution {
 public:
-
-    bool solve(vector<vector<char>>& board, string & word, int i, int j, int index,vector<vector<int>>& visited){
-        if(index==word.size()) return true;
-        vector<int> ii = {1,0,-1,0};
-        vector<int> jj = {0,1,0,-1};
-        for(int k=0;k<4;k++){
-            int r= i+ii[k];
-            int c = j+jj[k];
-            if(r>=0 && c>=0 && r<board.size() && c<board[0].size()&& visited[r][c]==-1 && board[r][c] == word[index]){
-                visited[r][c] = 1;
-                if(solve(board,word,r,c,index+1,visited)) return true;
-                visited[r][c] = -1;
-            }
+    bool solve(vector<vector<char>>& board, int i, int j, string & word, int index,vector<vector<bool>>& flag){
+        if(index >= word.size()) return true;
+        bool up = false;
+        if((i-1)>=0 && board[i-1][j]==word[index] && flag[i-1][j] == false){
+            flag[i-1][j] = true;
+            up = solve(board,i-1,j,word,index+1,flag);
+            flag[i-1][j] = false;
         }
-        return false;
+        bool down = false;
+        if((i+1)<board.size() && board[i+1][j] == word[index] && flag[i+1][j] == false){
+            flag[i+1][j] = true;
+            down = solve(board,i+1,j,word,index+1,flag);
+            flag[i+1][j] = false;
+        }
+
+        bool left = false;
+        if((j-1)>=0 && board[i][j-1] == word[index] && flag[i][j-1] == false){
+            flag[i][j-1] = true;
+            left = solve(board,i,j-1,word,index+1,flag);
+            flag[i][j-1] = false;
+
+        }
+        bool right = false;
+        if((j+1)<board[0].size() && board[i][j+1] == word[index] && flag[i][j+1] == false){
+            flag[i][j+1] = true;
+            right = solve(board,i,j+1,word,index+1,flag);
+            flag[i][j+1] = false;
+        }
+
+        return up||down||left||right;
     }
     bool exist(vector<vector<char>>& board, string word) {
-        int n = board.size();
-        int m = board[0].size();
-        for(int i=0;i<n;i++){
-            for(int j=0;j<m;j++){
+        vector<vector<bool>> flag(board.size() , vector<bool>(board[0].size(),false));
+        for(int i=0;i<board.size();i++){
+            for(int j=0;j<board[0].size();j++){
                 if(board[i][j] == word[0]){
-                    vector<vector<int>> visited(n,vector<int>(m,-1));
-                    visited[i][j] = 1;
-                    if(solve(board,word,i,j,1,visited)) return true;
+                    flag[i][j] = true;
+                    if(solve(board,i,j,word,1,flag)) return true;
+                    flag[i][j] = false;
                 }
             }
         }
