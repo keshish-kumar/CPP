@@ -111,6 +111,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0943-sum-of-subarray-minimums](https://github.com/keshish-kumar/CPP/tree/master/0943-sum-of-subarray-minimums) |
 | [0954-maximum-sum-circular-subarray](https://github.com/keshish-kumar/CPP/tree/master/0954-maximum-sum-circular-subarray) |
 | [0966-binary-subarrays-with-sum](https://github.com/keshish-kumar/CPP/tree/master/0966-binary-subarrays-with-sum) |
+| [1014-k-closest-points-to-origin](https://github.com/keshish-kumar/CPP/tree/master/1014-k-closest-points-to-origin) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/keshish-kumar/CPP/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1028-interval-list-intersections](https://github.com/keshish-kumar/CPP/tree/master/1028-interval-list-intersections) |
 | [1032-satisfiability-of-equality-equations](https://github.com/keshish-kumar/CPP/tree/master/1032-satisfiability-of-equality-equations) |
@@ -229,6 +230,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0189-rotate-array](https://github.com/keshish-kumar/CPP/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/keshish-kumar/CPP/tree/master/0268-missing-number) |
 | [0368-largest-divisible-subset](https://github.com/keshish-kumar/CPP/tree/master/0368-largest-divisible-subset) |
+| [1014-k-closest-points-to-origin](https://github.com/keshish-kumar/CPP/tree/master/1014-k-closest-points-to-origin) |
 | [1635-number-of-good-pairs](https://github.com/keshish-kumar/CPP/tree/master/1635-number-of-good-pairs) |
 | [1925-count-nice-pairs-in-an-array](https://github.com/keshish-kumar/CPP/tree/master/1925-count-nice-pairs-in-an-array) |
 | [3227-find-missing-and-repeated-values](https://github.com/keshish-kumar/CPP/tree/master/3227-find-missing-and-repeated-values) |
@@ -256,6 +258,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0658-find-k-closest-elements](https://github.com/keshish-kumar/CPP/tree/master/0658-find-k-closest-elements) |
 | [0876-hand-of-straights](https://github.com/keshish-kumar/CPP/tree/master/0876-hand-of-straights) |
 | [0883-car-fleet](https://github.com/keshish-kumar/CPP/tree/master/0883-car-fleet) |
+| [1014-k-closest-points-to-origin](https://github.com/keshish-kumar/CPP/tree/master/1014-k-closest-points-to-origin) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/keshish-kumar/CPP/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1129-longest-string-chain](https://github.com/keshish-kumar/CPP/tree/master/1129-longest-string-chain) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/keshish-kumar/CPP/tree/master/1669-minimum-cost-to-cut-a-stick) |
@@ -284,6 +287,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0215-kth-largest-element-in-an-array](https://github.com/keshish-kumar/CPP/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/keshish-kumar/CPP/tree/master/0347-top-k-frequent-elements) |
 | [0954-maximum-sum-circular-subarray](https://github.com/keshish-kumar/CPP/tree/master/0954-maximum-sum-circular-subarray) |
+| [1014-k-closest-points-to-origin](https://github.com/keshish-kumar/CPP/tree/master/1014-k-closest-points-to-origin) |
 ## Two Pointers
 |  |
 | ------- |
@@ -726,6 +730,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0744-network-delay-time](https://github.com/keshish-kumar/CPP/tree/master/0744-network-delay-time) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/keshish-kumar/CPP/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/keshish-kumar/CPP/tree/master/0803-cheapest-flights-within-k-stops) |
+| [1014-k-closest-points-to-origin](https://github.com/keshish-kumar/CPP/tree/master/1014-k-closest-points-to-origin) |
 | [1127-last-stone-weight](https://github.com/keshish-kumar/CPP/tree/master/1127-last-stone-weight) |
 | [1753-path-with-minimum-effort](https://github.com/keshish-kumar/CPP/tree/master/1753-path-with-minimum-effort) |
 ## Quickselect
@@ -733,6 +738,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/keshish-kumar/CPP/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/keshish-kumar/CPP/tree/master/0347-top-k-frequent-elements) |
+| [1014-k-closest-points-to-origin](https://github.com/keshish-kumar/CPP/tree/master/1014-k-closest-points-to-origin) |
 ## Sliding Window
 |  |
 | ------- |
@@ -858,4 +864,8 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 |  |
 | ------- |
 | [1300-critical-connections-in-a-network](https://github.com/keshish-kumar/CPP/tree/master/1300-critical-connections-in-a-network) |
+## Geometry
+|  |
+| ------- |
+| [1014-k-closest-points-to-origin](https://github.com/keshish-kumar/CPP/tree/master/1014-k-closest-points-to-origin) |
 <!---LeetCode Topics End-->
