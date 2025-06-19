@@ -23,7 +23,8 @@ public:
                 int no = p2.top();p2.pop();
                 p1.push(no);
             }
-            if(!p1.empty() ) ans += t;
+            if(!p1.empty() ) ans += t; // only add idle time if task are still left this will protect if lastb have only 2 lement but n is 6 so extra 4 will be claculated .
+            
         }
         return ans;
     }
