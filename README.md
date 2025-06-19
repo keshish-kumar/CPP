@@ -578,6 +578,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 ## Depth-First Search
 |  |
 | ------- |
+| [0079-word-search](https://github.com/keshish-kumar/CPP/tree/master/0079-word-search) |
 | [0094-binary-tree-inorder-traversal](https://github.com/keshish-kumar/CPP/tree/master/0094-binary-tree-inorder-traversal) |
 | [0098-validate-binary-search-tree](https://github.com/keshish-kumar/CPP/tree/master/0098-validate-binary-search-tree) |
 | [0099-recover-binary-search-tree](https://github.com/keshish-kumar/CPP/tree/master/0099-recover-binary-search-tree) |
