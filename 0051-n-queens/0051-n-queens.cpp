@@ -1,48 +1,50 @@
 class Solution {
 public:
-    vector<vector<string>> ans;
-    bool ispossible(int index, int j,vector<string>& temp){
-        int r = index;
-        int c = j;
-        while(r>=0 && c>=0){
-            if(temp[r][c] == 'Q') return false;
-            r--;c--;
-        }
+    bool isSafe(int n,vector<string>& board, int row, int col){
+        // vertical cheking
+        int i = row-1;
+        while(i>=0){ if(board[i][col] == 'Q') return false; i--;}
+        int j = col-1;
+        while(j>=0){ if(board[row][j] == 'Q') return false; j--;}
 
-        r= index;
-        c = j;
-        while(r>=0 && c<temp.size()){
-            if(temp[r][c]=='Q') return false;
-            r--;c++;
-        }
+        // left diagonal
+        i=row-1;
+        j=col-1;
+        while(i>=0 && j>=0){if(board[i][j] == 'Q') return false; j--;i--;}
 
-        // check for the bacj side
-        r = index;
-        while(r>=0){
-            if(temp[r][j]=='Q') return false;
-            r--;
-        }
+        // right upper diagonal
+        i=row-1;
+        j=col+1;
+        while(i>=0 && j<n){if(board[i][j] == 'Q') return false; j++;i--;}
 
         return true;
+
     }
-    void solve(int n , vector<string>& temp , int index){
-        if(index>=n){
-            ans.push_back(temp);
+    void solve(int n, vector<vector<string>>& ans, vector<string>& board, int row){
+        if(row>=n){
+            ans.push_back(board);
             return;
         }
 
-        for(int j=0;j<n;j++){
-            if(ispossible(index,j,temp)){
-                temp[index][j] = 'Q';
-                solve(n,temp,index+1);
-                temp[index][j] = '.';
+            for(int j=0;j<n;j++){
+                if(isSafe(n,board,row,j)){
+                    board[row][j] = 'Q';
+                    solve(n,ans,board,row+1);
+                    board[row][j] = '.';
+                }
             }
-        }
+    
     }
     vector<vector<string>> solveNQueens(int n) {
-         vector<string> temp(n, string(n, '.'));
-        solve(n,temp,0);
-        return ans;
+        // firts we have to make vector of string which have .....
+        vector<vector<string>> ans;
+        vector<string> board;
+        string s ;
+        for(int i=0;i<n;i++) s.push_back('.');
+        for(int i=0;i<n;i++) board.push_back(s);
 
+        solve(n,ans,board,0);
+
+        return ans;
     }
 };
