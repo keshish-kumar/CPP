@@ -101,6 +101,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0648-replace-words](https://github.com/keshish-kumar/CPP/tree/master/0648-replace-words) |
 | [0658-find-k-closest-elements](https://github.com/keshish-kumar/CPP/tree/master/0658-find-k-closest-elements) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/keshish-kumar/CPP/tree/master/0673-number-of-longest-increasing-subsequence) |
+| [0695-max-area-of-island](https://github.com/keshish-kumar/CPP/tree/master/0695-max-area-of-island) |
 | [0735-asteroid-collision](https://github.com/keshish-kumar/CPP/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/keshish-kumar/CPP/tree/master/0739-daily-temperatures) |
 | [0792-binary-search](https://github.com/keshish-kumar/CPP/tree/master/0792-binary-search) |
@@ -537,6 +538,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0212-word-search-ii](https://github.com/keshish-kumar/CPP/tree/master/0212-word-search-ii) |
 | [0221-maximal-square](https://github.com/keshish-kumar/CPP/tree/master/0221-maximal-square) |
 | [0289-game-of-life](https://github.com/keshish-kumar/CPP/tree/master/0289-game-of-life) |
+| [0695-max-area-of-island](https://github.com/keshish-kumar/CPP/tree/master/0695-max-area-of-island) |
 | [1036-rotting-oranges](https://github.com/keshish-kumar/CPP/tree/master/1036-rotting-oranges) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/keshish-kumar/CPP/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/keshish-kumar/CPP/tree/master/1402-count-square-submatrices-with-all-ones) |
@@ -600,6 +602,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0530-minimum-absolute-difference-in-bst](https://github.com/keshish-kumar/CPP/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/keshish-kumar/CPP/tree/master/0543-diameter-of-binary-tree) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/keshish-kumar/CPP/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [0695-max-area-of-island](https://github.com/keshish-kumar/CPP/tree/master/0695-max-area-of-island) |
 | [0744-network-delay-time](https://github.com/keshish-kumar/CPP/tree/master/0744-network-delay-time) |
 | [0799-minimum-distance-between-bst-nodes](https://github.com/keshish-kumar/CPP/tree/master/0799-minimum-distance-between-bst-nodes) |
 | [0801-is-graph-bipartite](https://github.com/keshish-kumar/CPP/tree/master/0801-is-graph-bipartite) |
@@ -631,6 +634,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0322-coin-change](https://github.com/keshish-kumar/CPP/tree/master/0322-coin-change) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/keshish-kumar/CPP/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/keshish-kumar/CPP/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [0695-max-area-of-island](https://github.com/keshish-kumar/CPP/tree/master/0695-max-area-of-island) |
 | [0744-network-delay-time](https://github.com/keshish-kumar/CPP/tree/master/0744-network-delay-time) |
 | [0799-minimum-distance-between-bst-nodes](https://github.com/keshish-kumar/CPP/tree/master/0799-minimum-distance-between-bst-nodes) |
 | [0801-is-graph-bipartite](https://github.com/keshish-kumar/CPP/tree/master/0801-is-graph-bipartite) |
@@ -771,6 +775,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0128-longest-consecutive-sequence](https://github.com/keshish-kumar/CPP/tree/master/0128-longest-consecutive-sequence) |
 | [0130-surrounded-regions](https://github.com/keshish-kumar/CPP/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/keshish-kumar/CPP/tree/master/0200-number-of-islands) |
+| [0695-max-area-of-island](https://github.com/keshish-kumar/CPP/tree/master/0695-max-area-of-island) |
 | [0801-is-graph-bipartite](https://github.com/keshish-kumar/CPP/tree/master/0801-is-graph-bipartite) |
 | [1032-satisfiability-of-equality-equations](https://github.com/keshish-kumar/CPP/tree/master/1032-satisfiability-of-equality-equations) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/keshish-kumar/CPP/tree/master/1442-number-of-operations-to-make-network-connected) |
