@@ -1,29 +1,31 @@
 class Solution {
 public:
-    void dfs(vector<vector<char>>& grid, vector<vector<int>>& visited, int i, int j){
-        visited[i][j]=1;
+    void solve(vector<vector<char>>& grid, vector<vector<bool>>& flag, int row, int col){
+        flag[row][col] = true;
+        vector<int> i = {0,1,0,-1};
+        vector<int> j = {1,0,-1,0};
 
-        // horizontal and vertical means it can go in our direction 
-         
-        if(j<(grid[0].size()-1) && visited[i][j+1]==-1 && grid[i][j+1]=='1') dfs(grid,visited,i,j+1); 
-        if(j>0 && visited[i][j-1] == -1 && grid[i][j-1]=='1') dfs(grid,visited,i,j-1);
-        if(i<(grid.size()-1) && visited[i+1][j]==-1 && grid[i+1][j]=='1') dfs(grid,visited,i+1,j);
-        if(i>0 && visited[i-1][j]==-1 && grid[i-1][j]=='1') dfs(grid,visited,i-1,j); 
-         
+        for(int k=0;k<4;k++){
+            int r = row+i[k];
+            int c = col+j[k];
+            if(r>=0 && c>=0 && r<grid.size() && c<grid[0].size() && grid[r][c] == '1' && flag[r][c] == false){
+                solve(grid,flag,r,c);
+            }
+        }
     }
     int numIslands(vector<vector<char>>& grid) {
-        
-        vector<vector<int>> visited(grid.size(),vector<int>(grid[0].size(),-1));
-        int ans = 0;
+        vector<vector<bool>> flag(grid.size(),vector<bool>(grid[0].size() , false));
+        int ans =0;
         for(int i=0;i<grid.size();i++){
             for(int j=0;j<grid[0].size();j++){
-                if(visited[i][j]==-1 && grid[i][j]=='1'){
-                    //cout<<"1"<<endl;
-                    dfs(grid,visited,i,j);
+                if(grid[i][j] == '1' && flag[i][j] == false){
                     ans++;
+                    solve(grid,flag,i,j);
                 }
             }
         }
+
         return ans;
+
     }
 };
