@@ -17,7 +17,7 @@ public:
                 }
             }
             else{
-                if(nums[mid]>=target && nums[high]>=target){
+                if(nums[mid]<target && nums[high]>=target){
                     low = mid+1;
                 }
                 else{
