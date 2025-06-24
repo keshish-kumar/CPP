@@ -1,15 +1,18 @@
 class Solution {
 public:
     int findMin(vector<int>& nums) {
-        int low=0,high = nums.size()-1;
-        while(low<=high){
+        // fidning minimum in rotated sorted array
+        int low = 0;
+        int high = nums.size()-1;
+
+        while(low<high){
             int mid = low+(high-low)/2;
 
-            if(nums[mid]<nums[high]){
-                high = mid;
+            if(nums[mid] > nums[high]){
+                low = mid+1;
             }
             else{
-                low = mid+1;
+                high = mid;
             }
         }
         return nums[high];
