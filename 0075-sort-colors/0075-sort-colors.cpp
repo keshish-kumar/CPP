@@ -1,20 +1,19 @@
 class Solution {
 public:
     void sortColors(vector<int>& nums) {
-        // first approch is we keep the count of 1's 09's and 2's and modify the array accordingly
-        // second method using three pointers
-        int i=0,j=0,k=nums.size()-1; // i-0,j-1,k-2
-        while(k>=j){
-            if(nums[j]==1) j++;
-            else if(nums[j]==2){
-                swap(nums[j],nums[k]);
-                k--;
+        int low = 0,high = nums.size()-1,mid = 0;
+        while(mid<=high){
+            if(nums[mid]==0){
+                swap(nums[mid],nums[low]);
+                low++;
+                mid++;
             }
-            else{ // nums[j]=0
-                swap(nums[i],nums[j]);
-                i++;j++;
+            else if(nums[mid]==1) mid++;
+            else{
+                swap(nums[mid],nums[high]);
+                high--;
             }
         }
-        //return;
+
     }
 };
