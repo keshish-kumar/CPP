@@ -10,19 +10,18 @@ public:
         // vector<int> dp(nums.size()+1,-1);
         // return max(solve(nums,0,dp),solve(nums,1,dp));
         int n = nums.size();
-        if(n==1) return nums[0];
-        if(n==2) return max(nums[0],nums[1]);
+        // 
+        vector<int> dp(n+1,0);
 
-        int n1 = nums[0];
-        int n2 = nums[1];
-        int n3 = nums[0]+nums[2];
-
-        for(int i=3;i<nums.size();i++){
-            int temp = max(n1+nums[i],n2+nums[i]);
-            n1 = n2;
-            n2 = n3;
-            n3 = temp;
+        dp[0] = 0;
+        dp[1] = nums[0];
+        for(int i=2;i<=n;i++){
+            int steal = nums[i-1]+dp[i-2];
+            int skip = dp[i-1];
+        
+            dp[i] = max(skip,steal);
         }
-        return max({n1,n2,n3});
+
+        return dp[n];
     }
 };
