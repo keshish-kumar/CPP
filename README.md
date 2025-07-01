@@ -105,6 +105,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0695-max-area-of-island](https://github.com/keshish-kumar/CPP/tree/master/0695-max-area-of-island) |
 | [0735-asteroid-collision](https://github.com/keshish-kumar/CPP/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/keshish-kumar/CPP/tree/master/0739-daily-temperatures) |
+| [0747-min-cost-climbing-stairs](https://github.com/keshish-kumar/CPP/tree/master/0747-min-cost-climbing-stairs) |
 | [0792-binary-search](https://github.com/keshish-kumar/CPP/tree/master/0792-binary-search) |
 | [0876-hand-of-straights](https://github.com/keshish-kumar/CPP/tree/master/0876-hand-of-straights) |
 | [0883-car-fleet](https://github.com/keshish-kumar/CPP/tree/master/0883-car-fleet) |
@@ -207,6 +208,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0518-coin-change-ii](https://github.com/keshish-kumar/CPP/tree/master/0518-coin-change-ii) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/keshish-kumar/CPP/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0678-valid-parenthesis-string](https://github.com/keshish-kumar/CPP/tree/master/0678-valid-parenthesis-string) |
+| [0747-min-cost-climbing-stairs](https://github.com/keshish-kumar/CPP/tree/master/0747-min-cost-climbing-stairs) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/keshish-kumar/CPP/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0943-sum-of-subarray-minimums](https://github.com/keshish-kumar/CPP/tree/master/0943-sum-of-subarray-minimums) |
 | [0954-maximum-sum-circular-subarray](https://github.com/keshish-kumar/CPP/tree/master/0954-maximum-sum-circular-subarray) |
