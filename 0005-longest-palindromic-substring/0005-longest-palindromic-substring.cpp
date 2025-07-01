@@ -1,63 +1,52 @@
 class Solution {
 public:
-    bool check(string s){
-        int i=0,j=s.size()-1;
+    bool ispalindrome(string & temp, int i, int j){
         while(i<j){
-            if(s[i]!=s[j]) return false;
+            if(temp[i]!=temp[j]) return false;
             i++;j--;
         }
         return true;
     }
-    string longestPalindrome(string s) {
-        int n = s.size();
-        string s2 = s;
-        reverse(s2.begin(),s2.end());
-        vector<vector<int>> dp(n+1,vector<int>(n+1));
-        
-        int maxi = 0;
-        int row=0,col=0;
-        //cout<<"  0"<<" ";
-        //for(int i=0;i<n;i++) cout<<s2[i]<<" ";
-        //cout<<endl;
-        //cout<<"0"<<" ";
-        for(int i=0;i<=n;i++){
-           // if(i!=0) cout<<s[i-1]<<" ";
-            for(int j=0;j<=n;j++){
-                if(i==0||j==0) dp[i][j] = 0;
-                else{
-                    if(s[i-1] == s2[j-1]){
-                        dp[i][j] = dp[i-1][j-1]+1;
-                        if(maxi < dp[i][j]){
-                            row = i;
-                            col=j;
-                            maxi = dp[i][j];
-                        }
-                    }
-                    else{
-                        dp[i][j] = 0;
-                    }
-                }
-               // cout<<dp[i][j]<<" ";
-            }
+    // void solve(string & s1, string & s2, int i, int j,string temp,string & ans){
 
-           // cout<<endl;
-            
-        }
-        string  ans = "";
-        for(int i=1;i<=n ;i++){
-            for(int j=1;j<=n;j++){
-                string temp ="";
-                int row=i,col=j;
-                if(dp[row][col]>ans.size()){
-                    while(dp[row][col]>0){
-                    temp += s[row-1];
-                    row--;col--;
+    //     if(i>=s1.size() || j>=s2.size()){
+    //         if(temp.size()>ans.size() && ispalindrome(temp)) ans=temp;
+    //         return;
+    //     }
+
+    //     if(s1[i] == s2[j]){
+    //         temp.push_back(s1[i]);
+    //         solve(s1,s2,i+1,j+1,temp,ans);
+    //         temp.pop_back();
+    //     }
+    //         if(temp.size() > ans.size() && ispalindrome(temp)) ans = temp;
+    //         temp="";
+    //         solve(s1,s2,i+1,j,temp,ans);
+    //         solve(s1,s2,i,j+1,temp,ans);
+
+        
+    // }
+    string longestPalindrome(string s) {
+        // string matching
+        // string s1 = s2;
+        // reverse(s2.begin(),s2.end());
+        // // now check for longest common substring
+        // string temp = "";
+        // string ans;
+        // solve(s1,s2,0,0,temp,ans);
+        // return ans;
+        int sp = 0;
+        int len = 0;
+        for(int i=0;i<s.size();i++){
+            for(int j=i;j<s.size();j++){
+                if(ispalindrome(s,i,j)){
+                    if((j-i+1)>len){
+                        sp = i;
+                        len = j-i+1;
                     }
-                    if(check(temp)) ans = temp;
                 }
             }
         }
-      
-        return ans;
+        return s.substr(sp,len);
     }
 };
