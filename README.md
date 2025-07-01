@@ -180,6 +180,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0070-climbing-stairs](https://github.com/keshish-kumar/CPP/tree/master/0070-climbing-stairs) |
 | [0072-edit-distance](https://github.com/keshish-kumar/CPP/tree/master/0072-edit-distance) |
 | [0085-maximal-rectangle](https://github.com/keshish-kumar/CPP/tree/master/0085-maximal-rectangle) |
+| [0091-decode-ways](https://github.com/keshish-kumar/CPP/tree/master/0091-decode-ways) |
 | [0120-triangle](https://github.com/keshish-kumar/CPP/tree/master/0120-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/keshish-kumar/CPP/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/keshish-kumar/CPP/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
@@ -409,6 +410,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0072-edit-distance](https://github.com/keshish-kumar/CPP/tree/master/0072-edit-distance) |
 | [0076-minimum-window-substring](https://github.com/keshish-kumar/CPP/tree/master/0076-minimum-window-substring) |
 | [0079-word-search](https://github.com/keshish-kumar/CPP/tree/master/0079-word-search) |
+| [0091-decode-ways](https://github.com/keshish-kumar/CPP/tree/master/0091-decode-ways) |
 | [0125-valid-palindrome](https://github.com/keshish-kumar/CPP/tree/master/0125-valid-palindrome) |
 | [0127-word-ladder](https://github.com/keshish-kumar/CPP/tree/master/0127-word-ladder) |
 | [0131-palindrome-partitioning](https://github.com/keshish-kumar/CPP/tree/master/0131-palindrome-partitioning) |
