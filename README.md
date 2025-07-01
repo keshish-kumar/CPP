@@ -206,6 +206,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0435-non-overlapping-intervals](https://github.com/keshish-kumar/CPP/tree/master/0435-non-overlapping-intervals) |
 | [0516-longest-palindromic-subsequence](https://github.com/keshish-kumar/CPP/tree/master/0516-longest-palindromic-subsequence) |
 | [0518-coin-change-ii](https://github.com/keshish-kumar/CPP/tree/master/0518-coin-change-ii) |
+| [0647-palindromic-substrings](https://github.com/keshish-kumar/CPP/tree/master/0647-palindromic-substrings) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/keshish-kumar/CPP/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0678-valid-parenthesis-string](https://github.com/keshish-kumar/CPP/tree/master/0678-valid-parenthesis-string) |
 | [0747-min-cost-climbing-stairs](https://github.com/keshish-kumar/CPP/tree/master/0747-min-cost-climbing-stairs) |
@@ -319,6 +320,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0443-string-compression](https://github.com/keshish-kumar/CPP/tree/master/0443-string-compression) |
 | [0455-assign-cookies](https://github.com/keshish-kumar/CPP/tree/master/0455-assign-cookies) |
 | [0567-permutation-in-string](https://github.com/keshish-kumar/CPP/tree/master/0567-permutation-in-string) |
+| [0647-palindromic-substrings](https://github.com/keshish-kumar/CPP/tree/master/0647-palindromic-substrings) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/keshish-kumar/CPP/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0658-find-k-closest-elements](https://github.com/keshish-kumar/CPP/tree/master/0658-find-k-closest-elements) |
 | [0908-middle-of-the-linked-list](https://github.com/keshish-kumar/CPP/tree/master/0908-middle-of-the-linked-list) |
@@ -423,6 +425,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0443-string-compression](https://github.com/keshish-kumar/CPP/tree/master/0443-string-compression) |
 | [0516-longest-palindromic-subsequence](https://github.com/keshish-kumar/CPP/tree/master/0516-longest-palindromic-subsequence) |
 | [0567-permutation-in-string](https://github.com/keshish-kumar/CPP/tree/master/0567-permutation-in-string) |
+| [0647-palindromic-substrings](https://github.com/keshish-kumar/CPP/tree/master/0647-palindromic-substrings) |
 | [0648-replace-words](https://github.com/keshish-kumar/CPP/tree/master/0648-replace-words) |
 | [0678-valid-parenthesis-string](https://github.com/keshish-kumar/CPP/tree/master/0678-valid-parenthesis-string) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/keshish-kumar/CPP/tree/master/0957-minimum-add-to-make-parentheses-valid) |
