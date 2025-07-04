@@ -162,6 +162,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0658-find-k-closest-elements](https://github.com/keshish-kumar/CPP/tree/master/0658-find-k-closest-elements) |
 | [0792-binary-search](https://github.com/keshish-kumar/CPP/tree/master/0792-binary-search) |
 | [0907-koko-eating-bananas](https://github.com/keshish-kumar/CPP/tree/master/0907-koko-eating-bananas) |
+| [1023-time-based-key-value-store](https://github.com/keshish-kumar/CPP/tree/master/1023-time-based-key-value-store) |
 | [1046-max-consecutive-ones-iii](https://github.com/keshish-kumar/CPP/tree/master/1046-max-consecutive-ones-iii) |
 | [1646-kth-missing-positive-number](https://github.com/keshish-kumar/CPP/tree/master/1646-kth-missing-positive-number) |
 | [1753-path-with-minimum-effort](https://github.com/keshish-kumar/CPP/tree/master/1753-path-with-minimum-effort) |
@@ -384,6 +385,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0940-fruit-into-baskets](https://github.com/keshish-kumar/CPP/tree/master/0940-fruit-into-baskets) |
 | [0966-binary-subarrays-with-sum](https://github.com/keshish-kumar/CPP/tree/master/0966-binary-subarrays-with-sum) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/keshish-kumar/CPP/tree/master/1016-subarray-sums-divisible-by-k) |
+| [1023-time-based-key-value-store](https://github.com/keshish-kumar/CPP/tree/master/1023-time-based-key-value-store) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/keshish-kumar/CPP/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1034-subarrays-with-k-different-integers](https://github.com/keshish-kumar/CPP/tree/master/1034-subarrays-with-k-different-integers) |
 | [1129-longest-string-chain](https://github.com/keshish-kumar/CPP/tree/master/1129-longest-string-chain) |
@@ -435,6 +437,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0648-replace-words](https://github.com/keshish-kumar/CPP/tree/master/0648-replace-words) |
 | [0678-valid-parenthesis-string](https://github.com/keshish-kumar/CPP/tree/master/0678-valid-parenthesis-string) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/keshish-kumar/CPP/tree/master/0957-minimum-add-to-make-parentheses-valid) |
+| [1023-time-based-key-value-store](https://github.com/keshish-kumar/CPP/tree/master/1023-time-based-key-value-store) |
 | [1032-satisfiability-of-equality-equations](https://github.com/keshish-kumar/CPP/tree/master/1032-satisfiability-of-equality-equations) |
 | [1129-longest-string-chain](https://github.com/keshish-kumar/CPP/tree/master/1129-longest-string-chain) |
 | [1197-parsing-a-boolean-expression](https://github.com/keshish-kumar/CPP/tree/master/1197-parsing-a-boolean-expression) |
@@ -730,6 +733,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0155-min-stack](https://github.com/keshish-kumar/CPP/tree/master/0155-min-stack) |
 | [0295-find-median-from-data-stream](https://github.com/keshish-kumar/CPP/tree/master/0295-find-median-from-data-stream) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/keshish-kumar/CPP/tree/master/0789-kth-largest-element-in-a-stream) |
+| [1023-time-based-key-value-store](https://github.com/keshish-kumar/CPP/tree/master/1023-time-based-key-value-store) |
 ## Simulation
 |  |
 | ------- |
