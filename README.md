@@ -345,6 +345,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0268-missing-number](https://github.com/keshish-kumar/CPP/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/keshish-kumar/CPP/tree/master/0287-find-the-duplicate-number) |
 | [0338-counting-bits](https://github.com/keshish-kumar/CPP/tree/master/0338-counting-bits) |
+| [1441-minimum-flips-to-make-a-or-b-equal-to-c](https://github.com/keshish-kumar/CPP/tree/master/1441-minimum-flips-to-make-a-or-b-equal-to-c) |
 ## Hash Table
 |  |
 | ------- |
