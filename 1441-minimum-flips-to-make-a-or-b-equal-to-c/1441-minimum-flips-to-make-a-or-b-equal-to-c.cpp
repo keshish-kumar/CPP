@@ -5,11 +5,8 @@ public:
         int i=0;
         while(a>0 || b>0 || c>0){
             // a|b == c
-            if((c&1)!=0){
-                if(a&1 != 0 || b&1 != 0) flip+=0;
-                else{
-                    flip++;
-                }
+            if((c&1) == 1){
+                if((a&1) == 0 && (b&1) == 0) flip++;
             }
             else{
                 if(a&1 !=0 && b&1 != 0) flip+=2;
