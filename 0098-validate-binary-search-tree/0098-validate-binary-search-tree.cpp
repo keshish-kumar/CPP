@@ -12,17 +12,13 @@
 class Solution {
 public:
     bool solve(TreeNode* root, long long mini, long long maxi){
-        if(root==NULL) return true;
-        if(root->val<=mini || root->val>=maxi) return false;
-        return solve(root->left,mini,root->val)&&solve(root->right,root->val,maxi);
+        if(root == NULL) return true;
+        if(root->val <= mini || root->val >= maxi) return false;
+        return solve(root->left,mini,root->val) && solve(root->right,root->val,maxi);
+
     }
     bool isValidBST(TreeNode* root) {
-        // we have to pass ranges and check wether that element belonng to that range or not
         
-        long long mini = LLONG_MIN;
-        long long maxi = LLONG_MAX;
-        return solve(root,mini,maxi);
-
-
+        return solve(root,LLONG_MIN,LLONG_MAX);
     }
 };
