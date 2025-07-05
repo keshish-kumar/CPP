@@ -11,7 +11,7 @@ public:
         return dp[i] = ans;
     }
     int jump(vector<int>& nums) {
-        vector<int> dp(nums.size()+1,-1);
+        vector<int> dp(nums.size(),-1);
         return solve(nums,0,dp);
     }
 };
