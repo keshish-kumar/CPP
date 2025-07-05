@@ -123,6 +123,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [1034-subarrays-with-k-different-integers](https://github.com/keshish-kumar/CPP/tree/master/1034-subarrays-with-k-different-integers) |
 | [1036-rotting-oranges](https://github.com/keshish-kumar/CPP/tree/master/1036-rotting-oranges) |
 | [1046-max-consecutive-ones-iii](https://github.com/keshish-kumar/CPP/tree/master/1046-max-consecutive-ones-iii) |
+| [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/keshish-kumar/CPP/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1121-partition-array-for-maximum-sum](https://github.com/keshish-kumar/CPP/tree/master/1121-partition-array-for-maximum-sum) |
 | [1127-last-stone-weight](https://github.com/keshish-kumar/CPP/tree/master/1127-last-stone-weight) |
 | [1129-longest-string-chain](https://github.com/keshish-kumar/CPP/tree/master/1129-longest-string-chain) |
@@ -526,6 +527,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0883-car-fleet](https://github.com/keshish-kumar/CPP/tree/master/0883-car-fleet) |
 | [0943-sum-of-subarray-minimums](https://github.com/keshish-kumar/CPP/tree/master/0943-sum-of-subarray-minimums) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/keshish-kumar/CPP/tree/master/0957-minimum-add-to-make-parentheses-valid) |
+| [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/keshish-kumar/CPP/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1197-parsing-a-boolean-expression](https://github.com/keshish-kumar/CPP/tree/master/1197-parsing-a-boolean-expression) |
 ## Monotonic Stack
 |  |
@@ -539,6 +541,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0739-daily-temperatures](https://github.com/keshish-kumar/CPP/tree/master/0739-daily-temperatures) |
 | [0883-car-fleet](https://github.com/keshish-kumar/CPP/tree/master/0883-car-fleet) |
 | [0943-sum-of-subarray-minimums](https://github.com/keshish-kumar/CPP/tree/master/0943-sum-of-subarray-minimums) |
+| [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/keshish-kumar/CPP/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 ## Matrix
 |  |
 | ------- |
@@ -598,6 +601,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0789-kth-largest-element-in-a-stream](https://github.com/keshish-kumar/CPP/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0799-minimum-distance-between-bst-nodes](https://github.com/keshish-kumar/CPP/tree/master/0799-minimum-distance-between-bst-nodes) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/keshish-kumar/CPP/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/keshish-kumar/CPP/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [2568-minimum-fuel-cost-to-report-to-the-capital](https://github.com/keshish-kumar/CPP/tree/master/2568-minimum-fuel-cost-to-report-to-the-capital) |
 ## Depth-First Search
 |  |
@@ -704,6 +708,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0789-kth-largest-element-in-a-stream](https://github.com/keshish-kumar/CPP/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0799-minimum-distance-between-bst-nodes](https://github.com/keshish-kumar/CPP/tree/master/0799-minimum-distance-between-bst-nodes) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/keshish-kumar/CPP/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/keshish-kumar/CPP/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 ## Counting
 |  |
 | ------- |
@@ -731,6 +736,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0784-insert-into-a-binary-search-tree](https://github.com/keshish-kumar/CPP/tree/master/0784-insert-into-a-binary-search-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/keshish-kumar/CPP/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0799-minimum-distance-between-bst-nodes](https://github.com/keshish-kumar/CPP/tree/master/0799-minimum-distance-between-bst-nodes) |
+| [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/keshish-kumar/CPP/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 ## Memoization
 |  |
 | ------- |
