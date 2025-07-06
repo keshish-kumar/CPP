@@ -11,25 +11,32 @@
  */
 class Solution {
 public:
-    void solve(TreeNode* root, int dist, int level, map<int,map<int,vector<int>>>& mp){
-        if(root==NULL) return;
-        mp[dist][level].push_back(root->val);
-        solve(root->left,dist-1,level+1,mp);
-        solve(root->right,dist+1,level+1,mp); 
-    }
     vector<vector<int>> verticalTraversal(TreeNode* root) {
-        // we have to consider both level and distance 
-        map<int,map<int,vector<int>>> mp; // one is to store the distacne and other is to store the level and other is to store the lemenet
-        solve(root,0,0,mp);
         vector<vector<int>> ans;
-        for(auto it: mp){
+        queue<pair<TreeNode*,pair<int,int>>>  q;
+        map<int,map<int,vector<int>>> mp; // first is vertical length than horizontal length
+        q.push({root,{0,0}});
+        while(!q.empty()){
+            int n = q.size();
+            while(n--){
+                TreeNode* node = q.front().first;
+                int length = q.front().second.first;
+                int level = q.front().second.second;
+                q.pop();
+                mp[length][level].push_back(node->val);
+                if(node->left!=NULL)  q.push({node->left,{length-1,level+1}});
+                if(node->right!=NULL) q.push({node->right,{length+1,level+1}});
+            }
+        }
+        for(auto it:mp){
             vector<int> temp;
-            for(auto t:it.second){
-                sort(t.second.begin(),t.second.end());
-                for(int i=0;i<t.second.size();i++) temp.push_back(t.second[i]);
+            for(auto i:it.second){
+                sort(i.second.begin(),i.second.end()); // each level should be sorted
+                temp.insert(temp.end(),i.second.begin(),i.second.end());
             }
             ans.push_back(temp);
         }
+        
         return ans;
     }
 };
