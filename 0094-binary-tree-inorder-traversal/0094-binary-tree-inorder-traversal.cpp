@@ -18,8 +18,31 @@ public:
         solve(root->right,ans);
     }
     vector<int> inorderTraversal(TreeNode* root) {
-        vector<int > ans;
-        solve(root,ans);
+         vector<int > ans;
+        // solve(root,ans);
+        // return ans;
+
+        // we will do by morris tarversal
+        TreeNode* curr = root;
+        while(curr){
+            if(curr->left == NULL){
+                ans.push_back(curr->val);
+                curr=curr->right;
+            }
+            else{
+                TreeNode* leftnode = curr->left;
+                while(leftnode->right != NULL){
+                    leftnode=leftnode->right;
+                }
+
+                // Now we have attach leftmost node to curr;
+                leftnode->right=curr;
+
+                TreeNode* temp = curr;
+                curr=curr->left;
+                temp->left=nullptr;
+            }
+        }
         return ans;
     }
 };
