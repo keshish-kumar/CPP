@@ -1,15 +1,16 @@
 class Solution {
   public:
-    bool solve(vector<vector<int>>& adj, vector<int>& flag , int i,int parent){
+    bool solve(vector<vector<int>>& adj, int i, int parent,vector<bool>& flag){
         
         flag[i] = true;
-        
-        for(auto it: adj[i]){
-            if(!flag[it])
-                {if(solve(adj,flag,it,i)) return true;}
-            else if(it != parent) {return true;}
+        for(auto it:adj[i]){
+            if(!flag[it] ){
+                if(solve(adj,it,i,flag)) return true;
+            }
+            else if(it != parent){
+                return true;
+            }
         }
-        
         return false;
     }
     bool isCycle(int V, vector<vector<int>>& edges) {
@@ -18,19 +19,14 @@ class Solution {
         for(int i=0;i<edges.size();i++){
             int u = edges[i][0];
             int v = edges[i][1];
-            
             adj[u].push_back(v);
             adj[v].push_back(u);
         }
-        vector<int> flag(V,false);
-        
+        vector<bool> flag(V,false);
         for(int i=0;i<V;i++){
-            if(!flag[i]){
-                if(solve(adj,flag,i,-1)) return true;
-            }
+            if(!flag[i])
+                if(solve(adj,i,-1,flag)) return true;
         }
-        
         return false;
-        
     }
 };
