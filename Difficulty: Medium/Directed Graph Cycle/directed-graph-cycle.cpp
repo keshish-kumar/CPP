@@ -1,64 +1,31 @@
-//{ Driver Code Starts
-#include <bits/stdc++.h>
-using namespace std;
-
-// } Driver Code Ends
 class Solution {
   public:
-    // Function to detect cycle in a directed graph.
-    
-    bool dfs(vector<int> adj[], vector<int> &visited,int i,set<int>& st){
-        visited[i]=1;
-        st.insert(i);
+    bool solve(vector<vector<int>>& adj, vector<bool>& flag, int i,vector<int>& path){
+        
+        flag[i] = true;
+        path[i] = 1;
         for(auto it:adj[i]){
-            if(!visited[it]){
-                if(dfs(adj,visited,it,st)) return true;
-            }
-            else if(st.find(it)!=st.end())
-                    return true;
+            if(!flag[it] && solve(adj,flag,it,path)) return true;
+            else if(path[it]==1) return true;
         }
-        st.erase(i);
+        
+        path[i] = 0;
         return false;
+        
     }
-    bool isCyclic(int V, vector<int> adj[]) {
+    bool isCyclic(int V, vector<vector<int>> &edges) {
         // code here
-       
-       vector<int> visited(V,0);
-       set<int> st;
-        for(int i=0;i<V;i++){
-             
-            if(!visited[i]){
-                if(dfs(adj,visited,i,st)) return true;
-            }
-        }
-       return false;
-    }
-     
-};
-
-//{ Driver Code Starts.
-
-int main() {
-
-    int t;
-    cin >> t;
-    while (t--) {
-        int V, E;
-        cin >> V >> E;
-
-        vector<int> adj[V];
-
-        for (int i = 0; i < E; i++) {
-            int u, v;
-            cin >> u >> v;
+        vector<vector<int>> adj(V);
+        for(int i=0;i<edges.size();i++){
+            int u = edges[i][0];
+            int v = edges[i][1];
             adj[u].push_back(v);
         }
-
-        Solution obj;
-        cout << obj.isCyclic(V, adj) << "\n";
+        // first using DFS
+        vector<bool> flag(V,false);
+        vector<int> path(V,0);
+        for(int i=0;i<V;i++)
+            if(!flag[i] && solve(adj,flag,i,path)) return true;
+        return false;
     }
-
-    return 0;
-}
-
-// } Driver Code Ends
+};
