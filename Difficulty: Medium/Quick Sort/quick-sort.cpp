@@ -4,10 +4,10 @@ class Solution {
     void quickSort(vector<int>& arr, int low, int high) {
         // code here
         if(low<high){
-        int pivot = partition(arr,low,high);
-        
-        quickSort(arr,low,pivot-1);
-        quickSort(arr,pivot+1,high);
+            int pivot = partition(arr,low,high);
+            
+            quickSort(arr,low,pivot-1);
+            quickSort(arr,pivot+1,high);
         }
     }
 
@@ -19,18 +19,16 @@ class Solution {
         
         // code here
         int pivot = high;
-        int pi = low; 
-        int j=low;
-        while(j<high){
-            if(arr[j]<=arr[pivot]){
-                swap(arr[pi],arr[j]);
+        int pi = low;
+        int i = low;
+        while(i<high){
+            if(arr[i] < arr[pivot]){
+                swap(arr[i],arr[pi]);
                 pi++;
             }
-            j++;
+            i++;
         }
-        
         swap(arr[pi],arr[pivot]);
         return pi;
-        
     }
 };
