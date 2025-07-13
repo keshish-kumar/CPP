@@ -912,4 +912,8 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 |  |
 | ------- |
 | [1014-k-closest-points-to-origin](https://github.com/keshish-kumar/CPP/tree/master/1014-k-closest-points-to-origin) |
+## Database
+|  |
+| ------- |
+| [1908-recyclable-and-low-fat-products](https://github.com/keshish-kumar/CPP/tree/master/1908-recyclable-and-low-fat-products) |
 <!---LeetCode Topics End-->
