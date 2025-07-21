@@ -1,10 +1,12 @@
 class Solution(object):
     def rotate(self, nums, k):
-        l = len(nums)
-        my_list = [0]*l
-        for i in range(0,len(nums)):
-            j = (i+k)%l
-            my_list[j] = nums[i]
-        nums[:] =  my_list
-
+        """
+        :type nums: List[int]
+        :type k: int
+        :rtype: None Do not return anything, modify nums in-place instead.
+        """
+        k=k%len(nums)
+        nums[:] = nums[::-1]
+        nums[:k] = nums[:k][::-1]
+        nums[k:] = nums[k:][::-1]
         
