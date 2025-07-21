@@ -139,6 +139,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [1694-make-sum-divisible-by-p](https://github.com/keshish-kumar/CPP/tree/master/1694-make-sum-divisible-by-p) |
 | [1753-path-with-minimum-effort](https://github.com/keshish-kumar/CPP/tree/master/1753-path-with-minimum-effort) |
 | [1866-restore-the-array-from-adjacent-pairs](https://github.com/keshish-kumar/CPP/tree/master/1866-restore-the-array-from-adjacent-pairs) |
+| [1878-check-if-array-is-sorted-and-rotated](https://github.com/keshish-kumar/CPP/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1925-count-nice-pairs-in-an-array](https://github.com/keshish-kumar/CPP/tree/master/1925-count-nice-pairs-in-an-array) |
 | [2428-equal-row-and-column-pairs](https://github.com/keshish-kumar/CPP/tree/master/2428-equal-row-and-column-pairs) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/keshish-kumar/CPP/tree/master/2497-maximum-matching-of-players-with-trainers) |
