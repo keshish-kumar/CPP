@@ -95,6 +95,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0417-pacific-atlantic-water-flow](https://github.com/keshish-kumar/CPP/tree/master/0417-pacific-atlantic-water-flow) |
 | [0435-non-overlapping-intervals](https://github.com/keshish-kumar/CPP/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/keshish-kumar/CPP/tree/master/0455-assign-cookies) |
+| [0485-max-consecutive-ones](https://github.com/keshish-kumar/CPP/tree/master/0485-max-consecutive-ones) |
 | [0494-target-sum](https://github.com/keshish-kumar/CPP/tree/master/0494-target-sum) |
 | [0496-next-greater-element-i](https://github.com/keshish-kumar/CPP/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/keshish-kumar/CPP/tree/master/0503-next-greater-element-ii) |
