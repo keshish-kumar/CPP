@@ -79,6 +79,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0239-sliding-window-maximum](https://github.com/keshish-kumar/CPP/tree/master/0239-sliding-window-maximum) |
 | [0260-single-number-iii](https://github.com/keshish-kumar/CPP/tree/master/0260-single-number-iii) |
 | [0268-missing-number](https://github.com/keshish-kumar/CPP/tree/master/0268-missing-number) |
+| [0283-move-zeroes](https://github.com/keshish-kumar/CPP/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/keshish-kumar/CPP/tree/master/0287-find-the-duplicate-number) |
 | [0289-game-of-life](https://github.com/keshish-kumar/CPP/tree/master/0289-game-of-life) |
 | [0300-longest-increasing-subsequence](https://github.com/keshish-kumar/CPP/tree/master/0300-longest-increasing-subsequence) |
@@ -323,6 +324,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0160-intersection-of-two-linked-lists](https://github.com/keshish-kumar/CPP/tree/master/0160-intersection-of-two-linked-lists) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/keshish-kumar/CPP/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0189-rotate-array](https://github.com/keshish-kumar/CPP/tree/master/0189-rotate-array) |
+| [0283-move-zeroes](https://github.com/keshish-kumar/CPP/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/keshish-kumar/CPP/tree/master/0287-find-the-duplicate-number) |
 | [0295-find-median-from-data-stream](https://github.com/keshish-kumar/CPP/tree/master/0295-find-median-from-data-stream) |
 | [0344-reverse-string](https://github.com/keshish-kumar/CPP/tree/master/0344-reverse-string) |
