@@ -4,9 +4,10 @@ class Solution(object):
         :type nums: List[int]
         :rtype: bool
         """
-        nums.sort()
-        for i in range(1,len(nums)):
-            if nums[i-1]==nums[i]:
+        mp = {}
+        for i in range(0,len(nums)):
+            if nums[i] in mp:
                 return True
+            mp[nums[i]]=1
         return False
         
