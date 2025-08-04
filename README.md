@@ -448,6 +448,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/keshish-kumar/CPP/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1023-time-based-key-value-store](https://github.com/keshish-kumar/CPP/tree/master/1023-time-based-key-value-store) |
 | [1032-satisfiability-of-equality-equations](https://github.com/keshish-kumar/CPP/tree/master/1032-satisfiability-of-equality-equations) |
+| [1078-remove-outermost-parentheses](https://github.com/keshish-kumar/CPP/tree/master/1078-remove-outermost-parentheses) |
 | [1129-longest-string-chain](https://github.com/keshish-kumar/CPP/tree/master/1129-longest-string-chain) |
 | [1197-parsing-a-boolean-expression](https://github.com/keshish-kumar/CPP/tree/master/1197-parsing-a-boolean-expression) |
 | [1250-longest-common-subsequence](https://github.com/keshish-kumar/CPP/tree/master/1250-longest-common-subsequence) |
@@ -533,6 +534,7 @@ This repository serves as a collection of my solutions to various GeeksforGeeks 
 | [0943-sum-of-subarray-minimums](https://github.com/keshish-kumar/CPP/tree/master/0943-sum-of-subarray-minimums) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/keshish-kumar/CPP/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/keshish-kumar/CPP/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
+| [1078-remove-outermost-parentheses](https://github.com/keshish-kumar/CPP/tree/master/1078-remove-outermost-parentheses) |
 | [1197-parsing-a-boolean-expression](https://github.com/keshish-kumar/CPP/tree/master/1197-parsing-a-boolean-expression) |
 ## Monotonic Stack
 |  |
